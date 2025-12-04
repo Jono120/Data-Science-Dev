@@ -10,7 +10,7 @@ We are all data citizens living in a datafied world.
 
 Market trends tell us that by 2022, 1-in-3 large organizations will buy and sell their data through online [Marketplaces and Exchanges](https://www.gartner.com/smarterwithgartner/gartner-top-10-trends-in-data-and-analytics-for-2020/). As **App Developers**, we'll find it easier and cheaper to integrate data-driven insights and algorithm-driven automation into daily user experiences. But as AI becomes pervasive, we'll also need to understand the potential harms caused by the [weaponization](https://www.youtube.com/watch?v=TQHs8SA1qpk) of such algorithms at scale.
 
-Trends also indicate that we will create and consume over [180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/) of data by 2025. As **Data Scientists**, this gives us unprecedented levels of access to personal data. This means we can build behavioral profiles of users and influence decision-making in ways that create an [illusion of free choice](https://www.datasciencecentral.com/profiles/blogs/the-illusion-of-choice) while potentially nudging users towards outcomes we prefer. It also raises broader questions on data privacy and user protections.
+Trends suggest that by 2025, we will generate and consume over [180 zettabytes](https://www.statista.com/statistics/871513/worldwide-data-created/) of data. For **Data Scientists**, this explosion of information provides unprecedented access to personal and behavioral data. With it comes the power to build detailed user profiles and subtly influence decision-making—often in ways that foster an [illusion of free choice](https://www.datasciencecentral.com/the-pareto-set-and-the-paradox-of-choice/). While this can be used to nudge users toward preferred outcomes, it also raises critical questions about data privacy, autonomy, and the ethical boundaries of algorithmic influence.
 
 Data ethics are now _necessary guardrails_ for data science and engineering, helping us minimize potential harms and unintended consequences from our data-driven actions. The [Gartner Hype Cycle for AI](https://www.gartner.com/smarterwithgartner/2-megatrends-dominate-the-gartner-hype-cycle-for-artificial-intelligence-2020/) identifies relevant trends in digital ethics, responsible AI, and AI governance as key drivers for larger megatrends around _democratization_ and _industrialization_ of AI.
 
@@ -21,7 +21,7 @@ In this lesson, we'll explore the fascinating area of data ethics - from core co
 
 
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/2) 🎯
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/2) 🎯
 
 ## Basic Definitions
 
@@ -32,7 +32,7 @@ The word "ethics" comes from the [Greek word "ethikos"](https://en.wikipedia.org
 **Ethics** is about the shared values and moral principles that govern our behavior in society. Ethics is based not on laws but on
 widely accepted norms of what is "right vs. wrong". However, ethical considerations can influence corporate governance initiatives and government regulations that create more incentives for compliance.
 
-**Data Ethics** is a [new branch of ethics](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0360#sec-1) that "studies and evaluates moral problems related to _data, algorithms and corresponding practices_". Here, **"data"** focuses on actions related to generation, recording, curation, processing dissemination, sharing ,and usage, **"algorithms"** focuses on AI, agents, machine learning ,and robots, and **"practices"** focuses on topics like responsible innovation, programming, hacking and ethics codes.
+**Data Ethics** is a [new branch of ethics](https://royalsocietypublishing.org/doi/full/10.1098/rsta.2016.0360#sec-1) that "studies and evaluates moral problems related to _data, algorithms and corresponding practices_". Here, **"data"** focuses on actions related to generation, recording, curation, processing, dissemination, sharing, and usage, **"algorithms"** focuses on AI, agents, machine learning, and robots, and **"practices"** focuses on topics like responsible innovation, programming, hacking, and ethics codes.
 
 **Applied Ethics** is the [practical application of moral considerations](https://en.wikipedia.org/wiki/Applied_ethics). It's the process of actively investigating ethical issues in the context of _real-world actions, products and processes_, and taking corrective measures to make that these remain aligned with our defined ethical values.
 
@@ -60,7 +60,7 @@ Let's briefly explore these principles. _Transparency_ and _accountability_ are 
 * [**Privacy & Security**](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1:primaryr6) - is about understanding data lineage, and providing _data privacy and related protections_ to users.
 * [**Inclusiveness**](https://www.microsoft.com/en-us/ai/responsible-ai?activetab=pivot1:primaryr6) - is about designing AI solutions with intention, adapting them to meet a _broad range of human needs_ & capabilities.
 
-> 🚨 Think about what your data ethics mission statement could be. Explore ethical AI frameworks from other organizations - here are examples from [IBM](https://www.ibm.com/cloud/learn/ai-ethics), [Google](https://ai.google/principles) ,and [Facebook](https://ai.facebook.com/blog/facebooks-five-pillars-of-responsible-ai/). What shared values do they have in common? How do these principles relate to the AI product or industry they operate in?
+> 🚨 Think about what your data ethics mission statement could be. Explore ethical AI frameworks from other organizations - here are examples from [IBM](https://www.ibm.com/cloud/learn/ai-ethics), [Google](https://ai.google/principles), and [Facebook](https://ai.facebook.com/blog/facebooks-five-pillars-of-responsible-ai/). What shared values do they have in common? How do these principles relate to the AI product or industry they operate in?
 
 ### 2. Ethics Challenges
 
@@ -247,7 +247,7 @@ Note that there remains an intangible gap between _compliance_ (doing enough to 
 The latter requires [collaborative approaches to defining ethics cultures](https://towardsdatascience.com/why-ai-ethics-requires-a-culture-driven-approach-26f451afa29f) that build emotional connections and consistent shared values _across organizations_ in the industry. This calls for more [formalized data ethics cultures](https://www.codeforamerica.org/news/formalizing-an-ethical-data-culture/) in organizations - allowing _anyone_ to [pull the Andon cord](https://en.wikipedia.org/wiki/Andon_(manufacturing)) (to raise ethics concerns early in the process) and making _ethical assessments_ (e.g., in hiring) a core criteria team formation in AI projects.
 
 ---
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/3) 🎯
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/3) 🎯
 ## Review & Self Study 
 
 Courses and books help with understanding core ethics concepts and challenges, while case studies and tools help with applied ethics practices in real-world contexts. Here are a few resources to start with.

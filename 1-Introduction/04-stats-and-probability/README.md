@@ -9,7 +9,7 @@ Statistics and Probability Theory are two highly related areas of Mathematics th
 [![Intro Video](images/video-prob-and-stats.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 
-## [Pre-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/6)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
 ## Probability and Random Variables
 
@@ -56,7 +56,7 @@ To help us understand the distribution of data, it is helpful to talk about **qu
 
 Graphically we can represent relationship between median and quartiles in a diagram called the **box plot**:
 
-<img src="images/boxplot_explanation.png" width="50%"/>
+<img src="images/boxplot_explanation.png" alt="Box Plot Explanation" width="50%">
 
 Here we also compute **inter-quartile range** IQR=Q3-Q1, and so-called **outliers** - values, that lie outside the boundaries [Q1-1.5*IQR,Q3+1.5*IQR].
 
@@ -244,7 +244,7 @@ Use the sample code in the notebook to test other hypothesis that:
 2. First basemen are taller than third basemen
 3. Shortstops are taller than second basemen
 
-## [Post-lecture quiz](https://purple-hill-04aebfb03.1.azurestaticapps.net/quiz/7)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ds/quiz/7)
 
 ## Review & Self Study
 
