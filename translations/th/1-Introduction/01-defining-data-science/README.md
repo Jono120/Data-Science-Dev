@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
-  "translation_date": "2025-10-25T18:53:55+00:00",
-  "source_file": "1-Introduction/01-defining-data-science/README.md",
-  "language_code": "th"
-}
--->
 # การนิยามวิทยาศาสตร์ข้อมูล
 
 | ![ สเก็ตโน้ตโดย [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![วิดีโอการนิยามวิทยาศาสตร์ข้อมูล](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.th.png)](https://youtu.be/beZ7Mb_oz9I)
+[![วิดีโอการนิยามวิทยาศาสตร์ข้อมูล](../../../../translated_images/th/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [แบบทดสอบก่อนการบรรยาย](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -154,7 +145,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ในความท้าทายนี้ เราจะพยายามค้นหาแนวคิดที่เกี่ยวข้องกับสาขาวิทยาศาสตร์ข้อมูลโดยการดูจากข้อความ เราจะนำบทความ Wikipedia เกี่ยวกับวิทยาศาสตร์ข้อมูลมาดาวน์โหลดและประมวลผลข้อความ จากนั้นสร้าง Word Cloud แบบนี้:
 
-![Word Cloud for Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.th.png)
+![Word Cloud for Data Science](../../../../translated_images/th/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 เยี่ยมชม [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') เพื่ออ่านโค้ด คุณยังสามารถรันโค้ดและดูว่ามันทำการแปลงข้อมูลแบบเรียลไทม์อย่างไร 
 

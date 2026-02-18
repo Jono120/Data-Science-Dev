@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:19:44+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "id"
-}
--->
 # Berkontribusi pada Data Science untuk Pemula
 
 Terima kasih atas minat Anda untuk berkontribusi pada kurikulum Data Science untuk Pemula! Kami menyambut kontribusi dari komunitas.
@@ -315,7 +306,7 @@ Sertakan dalam deskripsi PR Anda:
   ```
   ````
   
-- Tambahkan teks alternatif ke gambar: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.id.png)`  
+- Tambahkan teks alternatif ke gambar: `![Alt text](../../translated_images/id/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Pertahankan panjang baris yang wajar (sekitar 80-100 karakter)  
 
 ### Python

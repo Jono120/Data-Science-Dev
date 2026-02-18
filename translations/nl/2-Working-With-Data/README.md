@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "abc3309ab41bc5a7846f70ee1a055838",
-  "translation_date": "2025-08-28T15:12:25+00:00",
-  "source_file": "2-Working-With-Data/README.md",
-  "language_code": "nl"
-}
--->
 # Werken met Data
 
-![data liefde](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.nl.jpg)
+![data liefde](../../../translated_images/nl/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto door <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> op <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In deze lessen leer je enkele manieren waarop data kan worden beheerd, gemanipuleerd en gebruikt in applicaties. Je leert over relationele en niet-relationele databases en hoe data daarin kan worden opgeslagen. Je leert de basisprincipes van werken met Python om data te beheren, en je ontdekt enkele van de vele manieren waarop je met Python data kunt beheren en analyseren.

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-26T21:56:37+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "fi"
-}
--->
 # Tutustu Planetary Computer -tietoaineistoon
 
 ## Ohjeet
@@ -22,7 +13,7 @@ Explorer-käyttöliittymä (näkyy alla olevassa kuvakaappauksessa) antaa mahdol
  2. Tutustu tietoaineistojen [luetteloon](https://planetarycomputer.microsoft.com/catalog) - opi kunkin tarkoitus.
  3. Käytä Exploreria - valitse kiinnostava tietoaineisto, valitse relevantti kysely ja visualisointivaihtoehto.
 
-![Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.fi.png)
+![Planetary Computer Explorer](../../../../translated_images/fi/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Tehtäväsi:`
 Tutki nyt selaimessa luotua visualisointia ja vastaa seuraaviin kysymyksiin:

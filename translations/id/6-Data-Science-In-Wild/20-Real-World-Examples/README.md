@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:37:37+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "id"
-}
--->
 # Ilmu Data di Dunia Nyata
 
 | ![ Sketchnote oleh [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Berkat demokratisasi AI, pengembang kini lebih mudah merancang dan mengintegrasi
 
  * [Ilmu Data di Kesehatan](https://data-flair.training/blogs/data-science-in-healthcare/) - menyoroti aplikasi seperti pencitraan medis (misalnya, MRI, X-Ray, CT-Scan), genomik (sekuensing DNA), pengembangan obat (penilaian risiko, prediksi keberhasilan), analitik prediktif (perawatan pasien & logistik pasokan), pelacakan & pencegahan penyakit, dll.
 
-![Aplikasi Ilmu Data di Dunia Nyata](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.id.png) Kredit Gambar: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplikasi Ilmu Data di Dunia Nyata](../../../../translated_images/id/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Kredit Gambar: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Gambar tersebut menunjukkan domain lain dan contoh penerapan teknik ilmu data. Ingin mengeksplorasi aplikasi lainnya? Lihat bagian [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) di bawah ini.
 

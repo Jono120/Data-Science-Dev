@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-24T21:51:48+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "fa"
-}
--->
 # بررسی یک مجموعه داده از کامپیوتر سیاره‌ای
 
 ## دستورالعمل‌ها
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. مجموعه داده‌های [Catalog](https://planetarycomputer.microsoft.com/catalog) را بررسی کنید - هدف هر کدام را یاد بگیرید.
  3. از Explorer استفاده کنید - یک مجموعه داده مورد علاقه انتخاب کنید، یک پرسش مرتبط و گزینه رندر مناسب انتخاب کنید.
 
-![Explorer کامپیوتر سیاره‌ای](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.fa.png)
+![Explorer کامپیوتر سیاره‌ای](../../../../translated_images/fa/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `وظیفه شما:`
 اکنون مصورسازی‌ای که در مرورگر رندر شده است را بررسی کنید و به سوالات زیر پاسخ دهید:

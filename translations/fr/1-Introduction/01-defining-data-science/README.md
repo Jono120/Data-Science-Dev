@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
-  "translation_date": "2025-10-25T18:33:03+00:00",
-  "source_file": "1-Introduction/01-defining-data-science/README.md",
-  "language_code": "fr"
-}
--->
 # Définir la Science des Données
 
 | ![ Sketchnote par [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Vidéo : Définir la Science des Données](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.fr.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Vidéo : Définir la Science des Données](../../../../translated_images/fr/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz avant le cours](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +144,7 @@ Si nous voulons aller encore plus loin, nous pouvons tracer le temps nécessaire
 
 Dans ce défi, nous allons essayer de trouver des concepts pertinents dans le domaine de la Data Science en analysant des textes. Nous prendrons un article de Wikipédia sur la Data Science, téléchargerons et traiterons le texte, puis créerons un nuage de mots comme celui-ci :
 
-![Nuage de mots pour la Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.fr.png)
+![Nuage de mots pour la Data Science](../../../../translated_images/fr/ds_wordcloud.664a7c07dca57de0.webp)
 
 Visitez [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') pour parcourir le code. Vous pouvez également exécuter le code et voir comment il effectue toutes les transformations de données en temps réel.
 

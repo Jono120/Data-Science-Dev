@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:57:46+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "pl"
-}
--->
 # Współtworzenie Data Science dla Początkujących
 
 Dziękujemy za zainteresowanie współtworzeniem programu nauczania Data Science dla Początkujących! Zapraszamy do współpracy całą społeczność.
@@ -315,7 +306,7 @@ W opisie PR uwzględnij:
   ```
   ````
   
-- Dodawaj tekst alternatywny do obrazów: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.pl.png)`  
+- Dodawaj tekst alternatywny do obrazów: `![Alt text](../../translated_images/pl/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Zachowuj rozsądną długość linii (około 80-100 znaków)  
 
 ### Python

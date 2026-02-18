@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-31T06:03:12+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "lt"
-}
--->
 # Tyrinėkite Planetary Computer duomenų rinkinį
 
 ## Instrukcijos
@@ -22,7 +13,7 @@ Explorer sąsaja (pavaizduota žemiau esančiame ekrano vaizde) leidžia pasirin
  2. Išnagrinėti duomenų rinkinių [Katalogą](https://planetarycomputer.microsoft.com/catalog) – sužinoti kiekvieno paskirtį.
  3. Naudoti Explorer – pasirinkti jus dominantį duomenų rinkinį, pasirinkti tinkamą užklausą ir atvaizdavimo parinktį.
 
-![Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.lt.png)
+![Planetary Computer Explorer](../../../../translated_images/lt/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Jūsų užduotis:`
 Dabar išanalizuokite naršyklėje sugeneruotą vizualizaciją ir atsakykite į šiuos klausimus:

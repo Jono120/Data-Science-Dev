@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:06:35+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "sv"
-}
--->
 # Bidra till Data Science för Nybörjare
 
 Tack för ditt intresse av att bidra till Data Science för Nybörjare-kursen! Vi välkomnar bidrag från communityn.
@@ -312,7 +303,7 @@ Inkludera i din PR-beskrivning:
   import pandas as pd
   ```
   ````
-- Lägg till alt-text till bilder: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.sv.png)`
+- Lägg till alt-text till bilder: `![Alt text](../../translated_images/sv/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Håll linjelängder rimliga (runt 80-100 tecken)
 
 ### Python

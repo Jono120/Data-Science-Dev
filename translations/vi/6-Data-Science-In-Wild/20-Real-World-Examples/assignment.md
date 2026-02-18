@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-28T19:09:54+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "vi"
-}
--->
 # Khám phá một bộ dữ liệu từ Planetary Computer
 
 ## Hướng dẫn
@@ -22,7 +13,7 @@ Giao diện Explorer (hiển thị trong ảnh chụp màn hình bên dưới) c
  2. Khám phá [Danh mục bộ dữ liệu](https://planetarycomputer.microsoft.com/catalog) - tìm hiểu mục đích của từng bộ dữ liệu.
  3. Sử dụng Explorer - chọn một bộ dữ liệu bạn quan tâm, chọn một truy vấn và tùy chọn hiển thị phù hợp.
 
-![Giao diện Explorer của Planetary Computer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.vi.png)
+![Giao diện Explorer của Planetary Computer](../../../../translated_images/vi/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Nhiệm vụ của bạn:`
 Bây giờ hãy nghiên cứu trực quan hóa được hiển thị trong trình duyệt và trả lời các câu hỏi sau:

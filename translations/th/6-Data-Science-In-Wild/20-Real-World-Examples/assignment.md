@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-26T21:55:44+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "th"
-}
--->
 # สำรวจชุดข้อมูล Planetary Computer
 
 ## คำแนะนำ
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. สำรวจ [แคตตาล็อกชุดข้อมูล](https://planetarycomputer.microsoft.com/catalog) - เพื่อเรียนรู้วัตถุประสงค์ของแต่ละชุดข้อมูล
  3. ใช้ Explorer - เลือกชุดข้อมูลที่คุณสนใจ เลือกคำสั่งค้นหาที่เกี่ยวข้อง และตัวเลือกการแสดงผล
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.th.png)
+![The Planetary Computer Explorer](../../../../translated_images/th/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `งานของคุณ:`
 ศึกษาการแสดงผลที่ปรากฏในเบราว์เซอร์และตอบคำถามต่อไปนี้:

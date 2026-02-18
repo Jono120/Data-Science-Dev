@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:43:35+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "ro"
-}
--->
 # Știința Datelor în Lumea Reală
 
 | ![ Sketchnote de [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Datorită democratizării AI, dezvoltatorii găsesc acum mai ușor să proiectez
 
  * [Știința datelor în sănătate](https://data-flair.training/blogs/data-science-in-healthcare/) - evidențiază aplicații precum imagistica medicală (de exemplu, RMN, radiografie, tomografie), genomica (secvențierea ADN-ului), dezvoltarea medicamentelor (evaluarea riscurilor, predicția succesului), analitica predictivă (îngrijirea pacienților și logistica aprovizionării), urmărirea și prevenirea bolilor etc.
 
-![Aplicații ale Științei Datelor în Lumea Reală](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.ro.png) Credit imagine: [Data Flair: 6 Aplicații Uimitoare ale Științei Datelor ](https://data-flair.training/blogs/data-science-applications/)
+![Aplicații ale Științei Datelor în Lumea Reală](../../../../translated_images/ro/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Credit imagine: [Data Flair: 6 Aplicații Uimitoare ale Științei Datelor ](https://data-flair.training/blogs/data-science-applications/)
 
 Figura arată alte domenii și exemple de aplicare a tehnicilor de știința datelor. Vrei să explorezi alte aplicații? Consultă secțiunea [Revizuire & Studiu Individual](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) de mai jos.
 

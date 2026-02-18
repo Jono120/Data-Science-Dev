@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "abc3309ab41bc5a7846f70ee1a055838",
-  "translation_date": "2025-10-11T15:17:29+00:00",
-  "source_file": "2-Working-With-Data/README.md",
-  "language_code": "et"
-}
--->
 # Andmetega töötamine
 
-![andmete armastus](../../../translated_images/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.et.jpg)
+![andmete armastus](../../../translated_images/et/data-love.a22ef29e6742c852505ada062920956d3d7604870b281a8ca7c7ac6f37381d5a.jpg)
 > Foto autorilt <a href="https://unsplash.com/@swimstaralex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander Sinn</a> lehel <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Nendes tundides õpid erinevaid viise, kuidas andmeid hallata, manipuleerida ja rakendustes kasutada. Saad teada relatsiooniliste ja mitte-relatsiooniliste andmebaaside kohta ning kuidas andmeid nendes salvestada. Õpid Pythoniga töötamise põhialuseid andmete haldamiseks ning avastad mitmeid viise, kuidas Pythoniga andmeid hallata ja analüüsida.

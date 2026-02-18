@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-30T19:57:07+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "uk"
-}
--->
 # Дослідження набору даних Planetary Computer
 
 ## Інструкції
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. Дослідити [Каталог](https://planetarycomputer.microsoft.com/catalog) наборів даних — дізнатися про їхнє призначення.
  3. Використати Explorer — вибрати цікавий набір даних, обрати відповідний запит і варіант візуалізації.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.uk.png)
+![The Planetary Computer Explorer](../../../../translated_images/uk/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Ваше завдання:`
 Тепер вивчіть візуалізацію, яка з’явиться у браузері, і дайте відповіді на наступні запитання:

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:59:29+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "tr"
-}
--->
 # Veri Bilimine Giriş için Katkıda Bulunma
 
 Veri Bilimine Giriş müfredatına katkıda bulunma ilginiz için teşekkür ederiz! Topluluktan gelen katkıları memnuniyetle karşılıyoruz.
@@ -310,7 +301,7 @@ PR açıklamanıza şunları ekleyin:
   import pandas as pd
   ```
   ````
-- Görseller için alt metin ekleyin: `![Alt metin](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.tr.png)`
+- Görseller için alt metin ekleyin: `![Alt metin](../../translated_images/tr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Satır uzunluklarını makul tutun (yaklaşık 80-100 karakter)
 
 ### Python

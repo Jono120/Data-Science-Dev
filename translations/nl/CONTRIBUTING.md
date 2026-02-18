@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:13:43+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "nl"
-}
--->
 # Bijdragen aan Data Science voor Beginners
 
 Bedankt voor je interesse om bij te dragen aan het curriculum Data Science voor Beginners! We verwelkomen bijdragen van de gemeenschap.
@@ -315,7 +306,7 @@ Neem in je PR-beschrijving op:
   ```
   ````
   
-- Voeg alt-tekst toe aan afbeeldingen: `![Alt-tekst](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.nl.png)`  
+- Voeg alt-tekst toe aan afbeeldingen: `![Alt-tekst](../../translated_images/nl/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Houd de regellengte redelijk (ongeveer 80-100 tekens)  
 
 ### Python

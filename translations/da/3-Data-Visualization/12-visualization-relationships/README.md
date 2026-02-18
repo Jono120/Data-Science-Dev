@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0764fd4077f3f04a1d968ec371227744",
-  "translation_date": "2025-09-06T11:39:47+00:00",
-  "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
-  "language_code": "da"
-}
--->
 # Visualisering af relationer: Alt om honning 🍯
 
 |![ Sketchnote af [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ Lav et grundlæggende scatterplot for at vise forholdet mellem prisen pr. pund h
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.da.png)
+![scatterplot 1](../../../../translated_images/da/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Vis nu de samme data med en honningfarveskala for at vise, hvordan prisen udvikler sig over årene. Dette kan gøres ved at tilføje en 'hue'-parameter for at vise ændringen år for år:
 
@@ -60,7 +51,7 @@ Vis nu de samme data med en honningfarveskala for at vise, hvordan prisen udvikl
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.da.png)
+![scatterplot 2](../../../../translated_images/da/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 Med denne farveskalaændring kan du tydeligt se en stærk progression over årene i forhold til prisen på honning pr. pund. Hvis du ser på et eksempel i datasættet for at verificere (vælg for eksempel Arizona), kan du se et mønster af prisstigninger år for år med få undtagelser:
 
@@ -89,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Du kan se, at prikkerne gradvist bliver større.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.da.png)
+![scatterplot 3](../../../../translated_images/da/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Er dette et simpelt tilfælde af udbud og efterspørgsel? På grund af faktorer som klimaforandringer og kolonikollaps, er der mindre honning til rådighed år for år, og derfor stiger prisen?
 
@@ -104,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Svar: Ja, med nogle undtagelser omkring året 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.da.png)
+![line chart 1](../../../../translated_images/da/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Fordi Seaborn aggregerer data omkring én linje, viser den "de multiple målinger ved hver x-værdi ved at plotte gennemsnittet og det 95% konfidensinterval omkring gennemsnittet". [Kilde](https://seaborn.pydata.org/tutorial/relational.html). Denne tidskrævende adfærd kan deaktiveres ved at tilføje `ci=None`.
 
@@ -114,7 +105,7 @@ Spørgsmål: Nå, men i 2003, kan vi også se en stigning i honningforsyningen? 
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.da.png)
+![line chart 2](../../../../translated_images/da/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Svar: Ikke rigtigt. Hvis du ser på den samlede produktion, ser det faktisk ud til at være steget i det pågældende år, selvom mængden af produceret honning generelt er faldende i disse år.
 
@@ -139,7 +130,7 @@ sns.relplot(
 ```
 I denne visualisering kan du sammenligne udbytte pr. koloni og antal kolonier år for år, side om side med en wrap sat til 3 for kolonnerne:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.da.png)
+![facet grid](../../../../translated_images/da/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 For dette datasæt skiller intet sig særligt ud med hensyn til antallet af kolonier og deres udbytte, år for år og stat for stat. Er der en anden måde at finde en sammenhæng mellem disse to variabler?
 
@@ -162,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.da.png)
+![superimposed plots](../../../../translated_images/da/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Selvom intet springer i øjnene omkring året 2003, giver det os mulighed for at afslutte denne lektion på en lidt gladere note: Selvom antallet af kolonier generelt er faldende, stabiliserer antallet sig, selvom deres udbytte pr. koloni falder.
 

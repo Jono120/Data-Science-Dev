@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-28T16:01:13+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "he"
-}
--->
 # חקור מערך נתונים של מחשב פלנטרי
 
 ## הוראות
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. לחקור את [הקטלוג](https://planetarycomputer.microsoft.com/catalog) של מערכי הנתונים - ללמוד את מטרת כל אחד מהם.
  3. להשתמש ב-Explorer - לבחור מערך נתונים שמעניין אותך, לבחור שאילתה רלוונטית ואפשרות הצגה מתאימה.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.he.png)
+![The Planetary Computer Explorer](../../../../translated_images/he/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `המשימה שלך:`
 כעת למד את הוויזואליזציה שמוצגת בדפדפן וענה על השאלות הבאות:

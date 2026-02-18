@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-27T17:36:17+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "pa"
-}
--->
 # ਗ੍ਰਹਿ ਕੰਪਿਊਟਰ ਡਾਟਾਸੈੱਟ ਦੀ ਪੜਚੋਲ ਕਰੋ
 
 ## ਨਿਰਦੇਸ਼
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. ਡਾਟਾਸੈੱਟ [ਕੈਟਾਲੌਗ](https://planetarycomputer.microsoft.com/catalog) ਦੀ ਪੜਚੋਲ ਕਰੋ - ਹਰ ਇੱਕ ਦਾ ਉਦੇਸ਼ ਸਿੱਖੋ।
  3. ਐਕਸਪਲੋਰਰ ਵਰਤੋ - ਇੱਕ ਰੁਚੀਕਰ ਡਾਟਾਸੈੱਟ ਚੁਣੋ, ਇੱਕ ਸੰਬੰਧਿਤ ਕਵੈਰੀ ਅਤੇ ਰੈਂਡਰਿੰਗ ਵਿਕਲਪ ਚੁਣੋ।
 
-![ਗ੍ਰਹਿ ਕੰਪਿਊਟਰ ਐਕਸਪਲੋਰਰ](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.pa.png)
+![ਗ੍ਰਹਿ ਕੰਪਿਊਟਰ ਐਕਸਪਲੋਰਰ](../../../../translated_images/pa/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `ਤੁਹਾਡਾ ਕੰਮ:`
 ਹੁਣ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਰੈਂਡਰ ਕੀਤੇ ਗਏ ਵਿਜੁਅਲਾਈਜ਼ੇਸ਼ਨ ਦਾ ਅਧਿਐਨ ਕਰੋ ਅਤੇ ਹੇਠਾਂ ਦਿੱਤੇ ਸਵਾਲਾਂ ਦੇ ਜਵਾਬ ਦਿਓ:

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
-  "translation_date": "2025-10-25T19:16:08+00:00",
-  "source_file": "1-Introduction/01-defining-data-science/README.md",
-  "language_code": "et"
-}
--->
 # Andmeteaduse määratlemine
 
 | ![ Sketchnote autorilt [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Andmeteaduse määratlemise video](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.et.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Andmeteaduse määratlemise video](../../../../translated_images/et/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Loengu-eelne viktoriin](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +144,7 @@ Kui soovime asja veelgi keerulisemaks teha, saame joonistada graafiku, kus on n�
 
 Selles väljakutses püüame leida andmeteadusega seotud kontseptsioone, uurides tekste. Võtame Wikipedia artikli andmeteaduse kohta, laadime alla ja töötleme teksti ning loome sõnapilve, mis näeb välja selline:
 
-![Sõnapilv andmeteaduse kohta](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.et.png)
+![Sõnapilv andmeteaduse kohta](../../../../translated_images/et/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Külastage [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), et koodi läbi vaadata. Samuti saate koodi käivitada ja näha, kuidas see reaalajas kõiki andmetransformatsioone teostab.
 

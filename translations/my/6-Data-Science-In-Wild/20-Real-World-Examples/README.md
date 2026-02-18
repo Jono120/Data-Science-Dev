@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:47:57+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "my"
-}
--->
 # အမှန်တကယ်ကမ္ဘာကြီးထဲက ဒေတာသိပ္ပံ
 
 | ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ AI ကို လူတိုင်းအသုံးပြုနိုင်အ�
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - medical imaging (ဥပမာ MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care & supply logistics), disease tracking & prevention စသည်တို့ကဲ့သို့သော applications များကို ဖော်ပြထားပါတယ်။
 
-![Data Science Applications in The Real World](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.my.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Data Science Applications in The Real World](../../../../translated_images/my/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 ဤပုံသည် ဒေတာသိပ္ပံနည်းလမ်းများကို အသုံးချနိုင်သော အခြား domains နှင့် နမူနာများကို ဖော်ပြထားသည်။ အခြား applications များကို လေ့လာလိုပါသလား? [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) အပိုင်းကို ကြည့်ပါ။
 

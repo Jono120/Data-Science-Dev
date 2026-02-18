@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "696a8474a01054281704cbfb09148949",
-  "translation_date": "2025-08-26T14:59:56+00:00",
-  "source_file": "1-Introduction/README.md",
-  "language_code": "sk"
-}
--->
 # Úvod do dátovej vedy
 
-![dáta v akcii](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.sk.jpg)
+![dáta v akcii](../../../translated_images/sk/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Fotografia od <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephena Dawsona</a> na <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 V týchto lekciách objavíte, ako je definovaná dátová veda, a oboznámite sa s etickými otázkami, ktoré musí dátový vedec zohľadniť. Taktiež sa dozviete, ako sú definované dáta, a získate základné poznatky o štatistike a pravdepodobnosti, ktoré sú jadrom akademických oblastí dátovej vedy.

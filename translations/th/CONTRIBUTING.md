@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:04:32+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "th"
-}
--->
 # การมีส่วนร่วมใน Data Science for Beginners
 
 ขอบคุณสำหรับความสนใจในการมีส่วนร่วมในหลักสูตร Data Science for Beginners! เรายินดีต้อนรับการมีส่วนร่วมจากชุมชน
@@ -312,7 +303,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- เพิ่มข้อความ alt ให้กับภาพ: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.th.png)`
+- เพิ่มข้อความ alt ให้กับภาพ: `![Alt text](../../translated_images/th/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - รักษาความยาวบรรทัดให้อยู่ในช่วงที่เหมาะสม (ประมาณ 80-100 ตัวอักษร)
 
 ### Python

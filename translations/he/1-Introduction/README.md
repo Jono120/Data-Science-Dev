@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "696a8474a01054281704cbfb09148949",
-  "translation_date": "2025-08-28T15:45:30+00:00",
-  "source_file": "1-Introduction/README.md",
-  "language_code": "he"
-}
--->
 # מבוא למדעי הנתונים
 
-![נתונים בפעולה](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.he.jpg)  
+![נתונים בפעולה](../../../translated_images/he/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > צילום על ידי <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> ב-<a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 בשיעורים אלו תגלו כיצד מוגדרים מדעי הנתונים ותלמדו על שיקולים אתיים שעל מדען נתונים לקחת בחשבון. בנוסף, תלמדו מהי ההגדרה של נתונים ותכירו מעט את תחומי הסטטיסטיקה וההסתברות, שהם הבסיס האקדמי של מדעי הנתונים.

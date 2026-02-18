@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-11-18T18:38:10+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "pcm"
-}
--->
 # Data Science for Real World
 
 | ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Because AI don dey more accessible, developers don dey find am easy to design an
 
  * [Data Science in Healthcare](https://data-flair.training/blogs/data-science-in-healthcare/) - dey show things like medical imaging (e.g., MRI, X-Ray, CT-Scan), genomics (DNA sequencing), drug development (risk assessment, success prediction), predictive analytics (patient care & supply logistics), disease tracking & prevention etc.
 
-![Data Science Applications in The Real World](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.pcm.png) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Data Science Applications in The Real World](../../../../translated_images/pcm/data-science-applications.4e5019cd8790ebac.webp) Image Credit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Di figure dey show other areas and examples of how data science techniques dey work. You wan check other applications? Look di [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) section below.
 

@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "dd173fd30fc039a7a299898920680723",
-  "translation_date": "2025-08-28T18:19:11+00:00",
-  "source_file": "4-Data-Science-Lifecycle/README.md",
-  "language_code": "id"
-}
--->
 # Siklus Data Science
 
-![communication](../../../translated_images/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.id.jpg)
+![communication](../../../translated_images/id/communication.06d8e2a88d30d168d661ad9f9f0a4f947ebff3719719cfdaf9ed00a406a01ead.jpg)
 > Foto oleh <a href="https://unsplash.com/@headwayio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Headway</a> di <a href="https://unsplash.com/s/photos/communication?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Dalam pelajaran ini, Anda akan menjelajahi beberapa aspek dari siklus Data Science, termasuk analisis dan komunikasi seputar data.

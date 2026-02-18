@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:35:59+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "ja"
-}
--->
 # 初心者向けデータサイエンスへの貢献
 
 初心者向けデータサイエンスカリキュラムへの貢献に興味を持っていただきありがとうございます！コミュニティからの貢献を歓迎します。
@@ -311,7 +302,7 @@ PR説明には以下を含めてください：
   import pandas as pd
   ```
   ````
-- 画像に代替テキストを追加：`![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ja.png)`
+- 画像に代替テキストを追加：`![Alt text](../../translated_images/ja/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - 行の長さを適度に保つ（約80〜100文字）
 
 ### Python

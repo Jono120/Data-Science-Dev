@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-26T15:51:19+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "sw"
-}
--->
 # Chunguza Dataset ya Kompyuta ya Sayari
 
 ## Maelekezo
@@ -22,7 +13,7 @@ Kiolesura cha Explorer (kinachoonyeshwa kwenye picha hapa chini) kinakuruhusu ku
  2. Chunguza [Catalog ya dataset](https://planetarycomputer.microsoft.com/catalog) - elewa madhumuni ya kila moja.
  3. Tumia Explorer - chagua dataset inayokuvutia, chagua swali linalofaa na chaguo la uwasilishaji.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.sw.png)
+![The Planetary Computer Explorer](../../../../translated_images/sw/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Jukumu Lako:`
 Sasa chunguza taswira inayotolewa kwenye kivinjari na jibu yafuatayo:

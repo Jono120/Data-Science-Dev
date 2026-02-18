@@ -1,19 +1,10 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "3a848466cb63aff1a93411affb152c2a",
-  "translation_date": "2025-08-28T19:10:31+00:00",
-  "source_file": "sketchnotes/README.md",
-  "language_code": "vi"
-}
--->
 Tìm tất cả các bản vẽ phác thảo tại đây!
 
 ## Ghi nhận
 
 Nitya Narasimhan, nghệ sĩ
 
-![bản vẽ phác thảo lộ trình](../../../translated_images/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.vi.png)
+![bản vẽ phác thảo lộ trình](../../../translated_images/vi/00-Roadmap.4905d6567dff47532b9bfb8e0b8980fc6b0b1292eebb24181c1a9753b33bc0f5.png)
 
 ---
 

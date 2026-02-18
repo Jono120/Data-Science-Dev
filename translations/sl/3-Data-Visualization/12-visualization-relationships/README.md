@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0764fd4077f3f04a1d968ec371227744",
-  "translation_date": "2025-09-06T11:49:12+00:00",
-  "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
-  "language_code": "sl"
-}
--->
 # Vizualizacija odnosov: Vse o medu 🍯
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ Ustvarite osnovni razpršeni graf za prikaz odnosa med ceno na funt medu in njeg
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![razpršeni graf 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.sl.png)
+![razpršeni graf 1](../../../../translated_images/sl/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Sedaj prikažite iste podatke z barvno shemo medu, da pokažete, kako se cena spreminja skozi leta. To lahko storite z dodajanjem parametra 'hue', ki prikazuje spremembe iz leta v leto:
 
@@ -60,7 +51,7 @@ Sedaj prikažite iste podatke z barvno shemo medu, da pokažete, kako se cena sp
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![razpršeni graf 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.sl.png)
+![razpršeni graf 2](../../../../translated_images/sl/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 S to spremembo barvne sheme lahko jasno vidite močan napredek skozi leta glede cene medu na funt. Če pogledate vzorec podatkov (na primer za določeno državo, recimo Arizono), lahko opazite vzorec naraščanja cen iz leta v leto, z nekaj izjemami:
 
@@ -89,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Vidite lahko, da se velikost točk postopoma povečuje.
 
-![razpršeni graf 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.sl.png)
+![razpršeni graf 3](../../../../translated_images/sl/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Je to preprost primer ponudbe in povpraševanja? Zaradi dejavnikov, kot so podnebne spremembe in propad kolonij, je na voljo manj medu za nakup iz leta v leto, zato se cena povečuje?
 
@@ -104,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Odgovor: Da, z nekaj izjemami okoli leta 2003:
 
-![linijski graf 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.sl.png)
+![linijski graf 1](../../../../translated_images/sl/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Ker Seaborn združuje podatke okoli ene črte, prikazuje "več meritev pri vsaki vrednosti x z izrisom povprečja in 95% intervala zaupanja okoli povprečja". [Vir](https://seaborn.pydata.org/tutorial/relational.html). To časovno zahtevno vedenje lahko onemogočite z dodajanjem `ci=None`.
 
@@ -114,7 +105,7 @@ Vprašanje: No, ali lahko leta 2003 opazimo tudi porast zaloge medu? Kaj pa, če
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![linijski graf 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.sl.png)
+![linijski graf 2](../../../../translated_images/sl/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Odgovor: Ne ravno. Če pogledate skupno proizvodnjo, se zdi, da se je v tem letu dejansko povečala, čeprav na splošno količina proizvedenega medu v teh letih upada.
 
@@ -139,7 +130,7 @@ sns.relplot(
 ```
 V tej vizualizaciji lahko primerjate donos na kolonijo in število kolonij iz leta v leto, ena ob drugi, z nastavitvijo razporeditve na 3 za stolpce:
 
-![mreža faset](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.sl.png)
+![mreža faset](../../../../translated_images/sl/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Za to podatkovno zbirko nič posebej ne izstopa glede števila kolonij in njihovega donosa, iz leta v leto in iz države v državo. Ali obstaja drugačen način za iskanje korelacije med tema dvema spremenljivkama?
 
@@ -162,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![nadgrajeni grafi](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.sl.png)
+![nadgrajeni grafi](../../../../translated_images/sl/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Čeprav nič ne izstopa okoli leta 2003, nam to omogoča, da zaključimo to lekcijo na nekoliko bolj pozitivni noti: čeprav se število kolonij na splošno zmanjšuje, se število kolonij stabilizira, tudi če njihov donos na kolonijo upada.
 

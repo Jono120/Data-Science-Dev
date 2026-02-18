@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
-  "translation_date": "2025-10-25T18:33:46+00:00",
-  "source_file": "1-Introduction/01-defining-data-science/README.md",
-  "language_code": "es"
-}
--->
 # Definiendo Ciencia de Datos
 
 | ![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video sobre Definición de Ciencia de Datos](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.es.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video sobre Definición de Ciencia de Datos](../../../../translated_images/es/video-def-ds.6623ee2392ef1abf.webp)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Cuestionario previo a la clase](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +144,7 @@ Si queremos complicarlo aún más, podemos graficar el tiempo que toma cada mód
 
 En este desafío, intentaremos encontrar conceptos relevantes para el campo de la Ciencia de Datos analizando textos. Tomaremos un artículo de Wikipedia sobre Ciencia de Datos, descargaremos y procesaremos el texto, y luego construiremos una nube de palabras como esta:
 
-![Nube de palabras para Ciencia de Datos](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.es.png)
+![Nube de palabras para Ciencia de Datos](../../../../translated_images/es/ds_wordcloud.664a7c07dca57de0.webp)
 
 Visita [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') para leer el código. También puedes ejecutar el código y ver cómo realiza todas las transformaciones de datos en tiempo real.
 

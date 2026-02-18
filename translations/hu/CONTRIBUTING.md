@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:28:37+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "hu"
-}
--->
 # Hozzájárulás az Adattudomány Kezdőknek programhoz
 
 Köszönjük, hogy érdeklődsz az Adattudomány Kezdőknek tananyaghoz való hozzájárulás iránt! Örömmel fogadjuk a közösség hozzájárulásait.
@@ -315,7 +306,7 @@ A PR leírásában szerepeljen:
   ```
   ````
   
-- Adj alternatív szöveget a képekhez: `![Alt szöveg](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.hu.png)`  
+- Adj alternatív szöveget a képekhez: `![Alt szöveg](../../translated_images/hu/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Tartsd a sorhosszokat ésszerű határok között (kb. 80-100 karakter)  
 
 ### Python

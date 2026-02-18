@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "47028abaaafa2bcb1079702d20569066",
-  "translation_date": "2025-08-26T17:19:47+00:00",
-  "source_file": "3-Data-Visualization/R/11-visualization-proportions/README.md",
-  "language_code": "cs"
-}
--->
 # Vizualizace proporcí
 
 |![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/11-Visualizing-Proportions.png)|
@@ -93,7 +84,7 @@ pie(grouped$count,grouped$class, main="Edible?")
 ```
 Voila, koláčový graf zobrazující proporce těchto dat podle těchto dvou tříd hub. Je velmi důležité správně nastavit pořadí štítků, zejména zde, takže si ověřte pořadí, ve kterém je pole štítků vytvořeno!
 
-![koláčový graf](../../../../../translated_images/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.cs.png)
+![koláčový graf](../../../../../translated_images/cs/pie1-wb.685df063673751f4b0b82127f7a52c7f9a920192f22ae61ad28412ba9ace97bf.png)
 
 ## Prstence!
 
@@ -127,7 +118,7 @@ library(webr)
 PieDonut(habitat, aes(habitat, count=count))
 ```
 
-![prstencový graf](../../../../../translated_images/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.cs.png)
+![prstencový graf](../../../../../translated_images/cs/donut-wb.34e6fb275da9d834c2205145e39a3de9b6878191dcdba6f7a9e85f4b520449bc.png)
 
 Tento kód používá dvě knihovny - ggplot2 a webr. Pomocí funkce PieDonut z knihovny webr můžeme snadno vytvořit prstencový graf!
 
@@ -165,7 +156,7 @@ waffle((cap_color$count/10), rows = 7, title = "Waffle Chart")+scale_fill_manual
 
 Pomocí waflového grafu můžete jasně vidět proporce barev klobouků v této datové sadě hub. Zajímavé je, že existuje mnoho hub se zelenými klobouky!
 
-![waflový graf](../../../../../translated_images/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.cs.png)
+![waflový graf](../../../../../translated_images/cs/waffle.aaa75c5337735a6ef32ace0ffb6506ef49e5aefe870ffd72b1bb080f4843c217.png)
 
 V této lekci jste se naučili tři způsoby vizualizace proporcí. Nejprve musíte svá data seskupit do kategorií a poté se rozhodnout, který způsob zobrazení dat je nejlepší - koláč, prstenec nebo wafle. Všechny jsou chutné a uživateli okamžitě poskytují přehled o datové sadě.
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:12:19+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "fi"
-}
--->
 # Osallistuminen Data Science for Beginners -projektiin
 
 Kiitos kiinnostuksestasi osallistua Data Science for Beginners -opetussuunnitelmaan! Otamme mielellämme vastaan yhteisön panoksia.
@@ -312,7 +303,7 @@ Sisällytä PR-kuvaukseesi:
   import pandas as pd
   ```
   ````
-- Lisää alt-tekstiä kuviin: `![Alt-teksti](../../translated_images/kuva.a2a8c9070e65ff3c7c6a6dc945dcd333c7807f900cd4709e93198d0022bd0d3d.fi.png)`
+- Lisää alt-tekstiä kuviin: `![Alt-teksti](../../translated_images/fi/kuva.a2a8c9070e65ff3c7c6a6dc945dcd333c7807f900cd4709e93198d0022bd0d3d.png)`
 - Pidä rivien pituudet kohtuullisina (noin 80-100 merkkiä)
 
 ### Python

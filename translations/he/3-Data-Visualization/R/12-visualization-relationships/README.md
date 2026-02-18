@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a33c5d4b4156a2b41788d8720b6f724c",
-  "translation_date": "2025-08-28T15:32:49+00:00",
-  "source_file": "3-Data-Visualization/R/12-visualization-relationships/README.md",
-  "language_code": "he"
-}
--->
 # חזות קשרים: הכל על דבש 🍯
 
 |![ סקיצה מאת [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![scatterplot 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.he.png)
+![scatterplot 1](../../../../../translated_images/he/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 כעת, הציגו את אותם נתונים עם ערכת צבעים של דבש כדי להראות כיצד המחיר מתפתח לאורך השנים. ניתן לעשות זאת על ידי הוספת פרמטר 'scale_color_gradientn' כדי להציג את השינוי משנה לשנה:
 
@@ -61,7 +52,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![scatterplot 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.he.png)
+![scatterplot 2](../../../../../translated_images/he/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 עם שינוי ערכת הצבעים, ניתן לראות בבירור התקדמות חזקה לאורך השנים מבחינת המחיר לקילוגרם של דבש. למעשה, אם תבחנו דוגמה מתוך הנתונים כדי לאמת (בחרו מדינה מסוימת, למשל אריזונה), תוכלו לראות דפוס של עליית מחירים משנה לשנה, עם מעט יוצאים מן הכלל:
 
@@ -92,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 ניתן לראות שהגודל של הנקודות גדל בהדרגה.
 
-![scatterplot 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.he.png)
+![scatterplot 3](../../../../../translated_images/he/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 האם מדובר במקרה פשוט של היצע וביקוש? בשל גורמים כמו שינויי אקלים וקריסת מושבות, האם יש פחות דבש זמין לרכישה משנה לשנה, ולכן המחיר עולה?
 
@@ -107,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 תשובה: כן, עם כמה יוצאים מן הכלל סביב שנת 2003:
 
-![line chart 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.he.png)
+![line chart 1](../../../../../translated_images/he/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 שאלה: ובכן, בשנת 2003 האם ניתן לראות גם עלייה בהיצע הדבש? מה אם תבחנו את סך הייצור משנה לשנה?
 
@@ -115,7 +106,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![line chart 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.he.png)
+![line chart 2](../../../../../translated_images/he/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 תשובה: לא ממש. אם תבחנו את סך הייצור, נראה שהוא דווקא עלה בשנה הזו, למרות שבאופן כללי כמות הדבש שמיוצרת נמצאת בירידה במהלך השנים הללו.
 
@@ -135,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 בוויזואליזציה הזו, ניתן להשוות את התפוקה לכל כוורת ומספר הכוורות משנה לשנה, זו לצד זו עם פיצול שמוגדר ל-3 עבור העמודות:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.he.png)
+![facet grid](../../../../../translated_images/he/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 עבור מאגר הנתונים הזה, שום דבר לא בולט במיוחד בכל הנוגע למספר הכוורות והתפוקה שלהן, משנה לשנה ומדינה למדינה. האם יש דרך אחרת למצוא קשר בין שני המשתנים הללו?
 
@@ -152,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![superimposed plots](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.he.png)
+![superimposed plots](../../../../../translated_images/he/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 למרות ששום דבר לא בולט לעין סביב שנת 2003, זה מאפשר לנו לסיים את השיעור הזה בנימה מעט שמחה יותר: למרות שיש ירידה כללית במספר הכוורות, מספר הכוורות מתייצב גם אם התפוקה שלהן לכל כוורת יורדת.
 

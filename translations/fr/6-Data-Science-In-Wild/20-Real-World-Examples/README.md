@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:11:16+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "fr"
-}
--->
 # La science des données dans le monde réel
 
 | ![ Sketchnote par [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Grâce à la démocratisation de l'IA, les développeurs trouvent désormais plu
 
  * [Science des données dans la santé](https://data-flair.training/blogs/data-science-in-healthcare/) - met en lumière des applications comme l'imagerie médicale (par exemple, IRM, radiographie, scanner), la génomique (séquençage ADN), le développement de médicaments (évaluation des risques, prédiction de succès), l'analyse prédictive (soins aux patients et logistique d'approvisionnement), le suivi et la prévention des maladies, etc.
 
-![Applications de la science des données dans le monde réel](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.fr.png) Crédit image : [Data Flair : 6 applications étonnantes de la science des données ](https://data-flair.training/blogs/data-science-applications/)
+![Applications de la science des données dans le monde réel](../../../../translated_images/fr/data-science-applications.4e5019cd8790ebac.webp) Crédit image : [Data Flair : 6 applications étonnantes de la science des données ](https://data-flair.training/blogs/data-science-applications/)
 
 La figure montre d'autres domaines et exemples d'application des techniques de science des données. Vous voulez explorer d'autres applications ? Consultez la section [Révision et auto-apprentissage](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) ci-dessous.
 

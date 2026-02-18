@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0764fd4077f3f04a1d968ec371227744",
-  "translation_date": "2025-09-06T11:48:36+00:00",
-  "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
-  "language_code": "hr"
-}
--->
 # Vizualizacija odnosa: Sve o medu 🍯
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ Napravite osnovni scatterplot za prikaz odnosa između cijene po funti meda i dr
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.hr.png)
+![scatterplot 1](../../../../translated_images/hr/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Sada prikažite iste podatke s paletom boja inspiriranom medom kako biste pokazali kako se cijena mijenja tijekom godina. To možete učiniti dodavanjem parametra 'hue' za prikaz promjena iz godine u godinu:
 
@@ -60,7 +51,7 @@ Sada prikažite iste podatke s paletom boja inspiriranom medom kako biste pokaza
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.hr.png)
+![scatterplot 2](../../../../translated_images/hr/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 S ovom promjenom palete boja možete jasno vidjeti snažan napredak tijekom godina u pogledu cijene meda po funti. Ako pogledate uzorak podataka za provjeru (na primjer, odaberite državu Arizonu), možete uočiti obrazac povećanja cijene iz godine u godinu, uz nekoliko iznimaka:
 
@@ -89,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Možete vidjeti kako se veličina točaka postupno povećava.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.hr.png)
+![scatterplot 3](../../../../translated_images/hr/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Je li ovo jednostavan slučaj ponude i potražnje? Zbog čimbenika poput klimatskih promjena i kolapsa kolonija, je li dostupno manje meda za kupnju iz godine u godinu, pa cijena raste?
 
@@ -104,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Odgovor: Da, uz nekoliko iznimaka oko 2003. godine:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.hr.png)
+![line chart 1](../../../../translated_images/hr/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Budući da Seaborn agregira podatke u jednu liniju, prikazuje "više mjerenja za svaku vrijednost x tako što crta srednju vrijednost i interval pouzdanosti od 95% oko srednje vrijednosti". [Izvor](https://seaborn.pydata.org/tutorial/relational.html). Ovo ponašanje koje oduzima vrijeme može se onemogućiti dodavanjem `ci=None`.
 
@@ -114,7 +105,7 @@ Pitanje: Pa, možemo li također vidjeti porast u opskrbi medom oko 2003. godine
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.hr.png)
+![line chart 2](../../../../translated_images/hr/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Odgovor: Ne baš. Ako pogledate ukupnu proizvodnju, čini se da je zapravo porasla te godine, iako općenito količina proizvedenog meda opada tijekom tih godina.
 
@@ -139,7 +130,7 @@ sns.relplot(
 ```
 U ovoj vizualizaciji možete usporediti prinos po koloniji i broj kolonija iz godine u godinu, usporedno s postavkom wrap na 3 za stupce:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.hr.png)
+![facet grid](../../../../translated_images/hr/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Za ovaj skup podataka, ništa posebno ne iskače u vezi s brojem kolonija i njihovim prinosom, iz godine u godinu i iz države u državu. Postoji li drugačiji način za pronalaženje korelacije između ove dvije varijable?
 
@@ -162,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.hr.png)
+![superimposed plots](../../../../translated_images/hr/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Iako ništa posebno ne iskače oko 2003. godine, ovo nam omogućuje da završimo lekciju na malo sretnijoj noti: iako općenito dolazi do smanjenja broja kolonija, broj kolonija se stabilizira čak i ako njihov prinos po koloniji opada.
 

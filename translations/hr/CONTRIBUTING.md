@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:41:49+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "hr"
-}
--->
 # Doprinos Data Science for Beginners
 
 Hvala vam na interesu za doprinos kurikulumu Data Science for Beginners! Pozdravljamo doprinose iz zajednice.
@@ -312,7 +303,7 @@ Uključite u opis PR-a:
   import pandas as pd
   ```
   ````
-- Dodajte alt tekst slikama: `![Alt tekst](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.hr.png)`
+- Dodajte alt tekst slikama: `![Alt tekst](../../translated_images/hr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Održavajte razumnu duljinu linija (oko 80-100 znakova)
 
 ### Python

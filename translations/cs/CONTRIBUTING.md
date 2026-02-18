@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:31:12+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "cs"
-}
--->
 # Přispívání do Data Science pro začátečníky
 
 Děkujeme za váš zájem o přispění do kurikula Data Science pro začátečníky! Uvítáme příspěvky od komunity.
@@ -312,7 +303,7 @@ Do popisu PR zahrňte:
   import pandas as pd
   ```
   ````
-- Přidávejte alt text k obrázkům: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.cs.png)`
+- Přidávejte alt text k obrázkům: `![Alt text](../../translated_images/cs/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Udržujte rozumnou délku řádků (kolem 80-100 znaků)
 
 ### Python

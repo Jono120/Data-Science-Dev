@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-26T15:52:11+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "ro"
-}
--->
 # Explorează un Set de Date din Planetary Computer
 
 ## Instrucțiuni
@@ -22,7 +13,7 @@ Interfața Explorer (prezentată în captura de ecran de mai jos) îți permite 
  2. Explorezi [Catalogul](https://planetarycomputer.microsoft.com/catalog) seturilor de date - află scopul fiecăruia.
  3. Utilizezi Explorer - alegi un set de date de interes, selectezi o interogare și o opțiune de redare relevante.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ro.png)
+![The Planetary Computer Explorer](../../../../translated_images/ro/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Sarcina ta:`
 Acum studiază vizualizarea afișată în browser și răspunde la următoarele întrebări:

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:42:08+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "bn"
-}
--->
 # ডেটা সায়েন্স ফর বিগিনার্স-এ অবদান রাখুন
 
 ডেটা সায়েন্স ফর বিগিনার্স কারিকুলামে অবদান রাখার প্রতি আপনার আগ্রহের জন্য ধন্যবাদ! আমরা কমিউনিটির কাছ থেকে অবদানকে স্বাগত জানাই।
@@ -311,7 +302,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- ছবিতে alt টেক্সট যোগ করুন: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.bn.png)`
+- ছবিতে alt টেক্সট যোগ করুন: `![Alt text](../../translated_images/bn/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - লাইন দৈর্ঘ্য যুক্তিসঙ্গত রাখুন (প্রায় 80-100 অক্ষর)
 
 ### Python

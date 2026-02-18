@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "696a8474a01054281704cbfb09148949",
-  "translation_date": "2025-08-26T21:14:17+00:00",
-  "source_file": "1-Introduction/README.md",
-  "language_code": "fi"
-}
--->
 # Johdatus Data Scienceen
 
-![data käytännössä](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.fi.jpg)
+![data käytännössä](../../../translated_images/fi/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Kuva: <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> palvelussa <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Näissä oppitunneissa opit, miten Data Science määritellään, ja tutustut eettisiin näkökohtiin, jotka data scientistin tulee ottaa huomioon. Lisäksi opit, mitä data tarkoittaa, ja saat perustiedot tilastotieteestä ja todennäköisyyslaskennasta, jotka ovat Data Sciencen keskeisiä akateemisia aloja.

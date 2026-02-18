@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:36:47+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "vi"
-}
--->
 # Khoa học Dữ liệu trong Thế giới Thực
 
 | ![ Sketchnote của [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Nhờ sự phổ biến của AI, các nhà phát triển hiện nay dễ dàng 
 
  * [Khoa học Dữ liệu trong Y tế](https://data-flair.training/blogs/data-science-in-healthcare/) - nhấn mạnh các ứng dụng như hình ảnh y tế (ví dụ: MRI, X-Ray, CT-Scan), genomics (giải trình tự DNA), phát triển thuốc (đánh giá rủi ro, dự đoán thành công), phân tích dự đoán (chăm sóc bệnh nhân & hậu cần cung cấp), theo dõi & phòng ngừa bệnh, v.v.
 
-![Ứng dụng Khoa học Dữ liệu trong Thế giới Thực](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.vi.png) Nguồn hình ảnh: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Ứng dụng Khoa học Dữ liệu trong Thế giới Thực](../../../../translated_images/vi/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Nguồn hình ảnh: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Hình minh họa cho thấy các lĩnh vực và ví dụ khác về việc áp dụng các kỹ thuật khoa học dữ liệu. Muốn khám phá thêm các ứng dụng khác? Hãy xem phần [Ôn tập & Tự học](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) bên dưới.
 

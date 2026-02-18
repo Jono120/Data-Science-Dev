@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
-  "translation_date": "2025-10-25T19:04:00+00:00",
-  "source_file": "1-Introduction/01-defining-data-science/README.md",
-  "language_code": "hu"
-}
--->
 # Az adattudomány meghatározása
 
 | ![ Sketchnote készítette: [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Az adattudomány meghatározása videó](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.hu.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Az adattudomány meghatározása videó](../../../../translated_images/hu/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Előadás előtti kvíz](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -145,7 +136,7 @@ Ha még bonyolultabbá szeretnénk tenni az elemzést, ábrázolhatjuk az egyes 
 
 Ebben a kihívásban megpróbálunk a Data Science területéhez kapcsolódó fogalmakat azonosítani szövegek elemzésével. Egy Wikipedia-cikket fogunk használni a Data Science témájában, letöltjük és feldolgozzuk a szöveget, majd készítünk egy szófelhőt, amely így néz ki:
 
-![Szófelhő a Data Science témában](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.hu.png)
+![Szófelhő a Data Science témában](../../../../translated_images/hu/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Látogass el a [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore') fájlhoz, hogy átnézd a kódot. A kódot futtathatod is, és valós időben láthatod, hogyan hajtja végre az adattranszformációkat.
 

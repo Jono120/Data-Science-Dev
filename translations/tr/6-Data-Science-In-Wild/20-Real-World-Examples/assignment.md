@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-28T11:33:02+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "tr"
-}
--->
 # Bir Gezegen Bilgisayarı Veri Setini Keşfet
 
 ## Talimatlar
@@ -22,7 +13,7 @@ Explorer arayüzü (aşağıdaki ekran görüntüsünde gösterilmiştir), bir v
  2. Veri seti [Kataloğunu](https://planetarycomputer.microsoft.com/catalog) keşfedin - her birinin amacını öğrenin.
  3. Explorer'ı kullanın - ilginizi çeken bir veri seti seçin, ilgili bir sorgu ve görselleştirme seçeneği belirleyin.
 
-![Gezegen Bilgisayarı Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.tr.png)
+![Gezegen Bilgisayarı Explorer](../../../../translated_images/tr/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Göreviniz:`
 Şimdi tarayıcıda oluşturulan görselleştirmeyi inceleyin ve aşağıdaki soruları yanıtlayın:

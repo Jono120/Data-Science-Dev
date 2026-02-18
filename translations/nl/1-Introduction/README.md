@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "696a8474a01054281704cbfb09148949",
-  "translation_date": "2025-08-28T15:45:21+00:00",
-  "source_file": "1-Introduction/README.md",
-  "language_code": "nl"
-}
--->
 # Introductie tot Data Science
 
-![data in actie](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.nl.jpg)
+![data in actie](../../../translated_images/nl/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Foto door <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> op <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 In deze lessen ontdek je hoe Data Science wordt gedefinieerd en leer je over ethische overwegingen waar een datawetenschapper rekening mee moet houden. Je leert ook hoe data wordt gedefinieerd en krijgt een introductie tot statistiek en kansberekening, de kerngebieden van Data Science.

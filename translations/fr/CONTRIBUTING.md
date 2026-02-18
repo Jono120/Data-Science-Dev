@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:17:17+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "fr"
-}
--->
 # Contribuer à Data Science pour les Débutants
 
 Merci de votre intérêt pour contribuer au programme Data Science pour les Débutants ! Nous accueillons les contributions de la communauté.
@@ -313,7 +304,7 @@ Incluez dans la description de votre PR :
   ```
   ````
   
-- Ajoutez du texte alternatif aux images : `![Texte alternatif](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.fr.png)`  
+- Ajoutez du texte alternatif aux images : `![Texte alternatif](../../translated_images/fr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Gardez des longueurs de ligne raisonnables (environ 80-100 caractères)  
 
 ### Python

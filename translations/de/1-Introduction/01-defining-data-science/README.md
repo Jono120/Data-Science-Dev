@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "43212cc1ac137b7bb1dcfb37ca06b0f4",
-  "translation_date": "2025-10-25T18:34:28+00:00",
-  "source_file": "1-Introduction/01-defining-data-science/README.md",
-  "language_code": "de"
-}
--->
 # Definition von Data Science
 
 | ![ Sketchnote von [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/01-Definitions.png) |
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ---
 
-[![Video zur Definition von Data Science](../../../../translated_images/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.de.png)](https://youtu.be/beZ7Mb_oz9I)
+[![Video zur Definition von Data Science](../../../../translated_images/de/video-def-ds.6623ee2392ef1abf6d7faf3fad10a4163642811749da75f44e35a5bb121de15c.png)](https://youtu.be/beZ7Mb_oz9I)
 
 ## [Quiz vor der Vorlesung](https://ff-quizzes.netlify.app/en/ds/quiz/0)
 
@@ -153,7 +144,7 @@ Wenn wir es noch komplizierter machen wollen, können wir die für jedes Modul b
 
 In dieser Herausforderung werden wir versuchen, Konzepte zu finden, die für den Bereich Data Science relevant sind, indem wir Texte analysieren. Wir nehmen einen Wikipedia-Artikel über Data Science, laden und verarbeiten den Text und erstellen dann eine Wortwolke wie diese:
 
-![Wortwolke für Data Science](../../../../translated_images/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.de.png)
+![Wortwolke für Data Science](../../../../translated_images/de/ds_wordcloud.664a7c07dca57de017c22bf0498cb40f898d48aa85b3c36a80620fea12fadd42.png)
 
 Besuche [`notebook.ipynb`](../../../../1-Introduction/01-defining-data-science/notebook.ipynb ':ignore'), um den Code durchzulesen. Du kannst den Code auch ausführen und sehen, wie er alle Datenumwandlungen in Echtzeit durchführt.
 

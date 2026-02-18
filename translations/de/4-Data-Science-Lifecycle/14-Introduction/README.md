@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "07e12a25d20b8f191e3cb651c27fdb2b",
-  "translation_date": "2025-09-06T20:16:33+00:00",
-  "source_file": "4-Data-Science-Lifecycle/14-Introduction/README.md",
-  "language_code": "de"
-}
--->
 # Einführung in den Lebenszyklus der Datenwissenschaft
 
 |![ Sketchnote von [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/14-DataScience-Lifecycle.png)|
@@ -25,7 +16,7 @@ An diesem Punkt haben Sie wahrscheinlich erkannt, dass Datenwissenschaft ein Pro
 
 Diese Lektion konzentriert sich auf drei Teile des Lebenszyklus: Erfassung, Verarbeitung und Wartung.
 
-![Diagramm des Lebenszyklus der Datenwissenschaft](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.de.jpg)  
+![Diagramm des Lebenszyklus der Datenwissenschaft](../../../../translated_images/de/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Foto von [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Erfassung
@@ -101,7 +92,7 @@ Erforschen Sie den [Team Data Science Process Lifecycle](https://docs.microsoft.
 
 |Team Data Science Process (TDSP)|Cross-industry standard process for data mining (CRISP-DM)|
 |--|--|
-|![Team Data Science Lifecycle](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.de.png) | ![Data Science Process Alliance Image](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.de.png) |
+|![Team Data Science Lifecycle](../../../../translated_images/de/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Data Science Process Alliance Image](../../../../translated_images/de/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Bild von [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Bild von [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Quiz nach der Vorlesung](https://ff-quizzes.netlify.app/en/ds/quiz/27)

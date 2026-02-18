@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:39:58+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "sr"
-}
--->
 # Допринос курикулуму "Основе науке о подацима"
 
 Хвала вам на интересовању за допринос курикулуму "Основе науке о подацима"! Добродошли су сви доприноси из заједнице.
@@ -318,7 +309,7 @@ def calculate_mean(data):
   ```
   ````
   
-- Додајте alt текст сликама: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.sr.png)`  
+- Додајте alt текст сликама: `![Alt text](../../translated_images/sr/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Одржавајте разумну дужину линија (око 80-100 карактера)  
 
 ### Python

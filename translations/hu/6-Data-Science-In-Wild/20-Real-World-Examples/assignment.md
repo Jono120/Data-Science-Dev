@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-26T15:51:31+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "hu"
-}
--->
 # Fedezz fel egy Planetary Computer adatállományt
 
 ## Útmutató
@@ -22,7 +13,7 @@ Az Explorer felület (az alábbi képernyőképen látható) lehetővé teszi, h
  2. Fedezd fel az adatállományok [katalógusát](https://planetarycomputer.microsoft.com/catalog) – ismerd meg mindegyik célját.
  3. Használd az Explorert – válassz egy érdekes adatállományt, válassz egy releváns lekérdezést és megjelenítési opciót.
 
-![A Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.hu.png)
+![A Planetary Computer Explorer](../../../../translated_images/hu/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Feladatod:`
 Tanulmányozd a böngészőben megjelenített vizualizációt, és válaszolj az alábbiakra:

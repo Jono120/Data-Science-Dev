@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:15:56+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "en"
-}
--->
 # Contributing to Data Science for Beginners
 
 Thank you for your interest in contributing to the Data Science for Beginners curriculum! We welcome contributions from the community.
@@ -312,7 +303,7 @@ Include in your PR description:
   import pandas as pd
   ```
   ````
-- Add alt text to images: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.en.png)`
+- Add alt text to images: `![Alt text](../../translated_images/en/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Keep line lengths reasonable (around 80-100 characters)
 
 ### Python

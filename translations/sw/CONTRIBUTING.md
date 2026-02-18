@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:26:18+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "sw"
-}
--->
 # Kuchangia Data Science kwa Kompyuta
 
 Asante kwa nia yako ya kuchangia mtaala wa Data Science kwa Kompyuta! Tunakaribisha michango kutoka kwa jamii.
@@ -312,7 +303,7 @@ Jumuisha katika maelezo ya PR yako:
   import pandas as pd
   ```
   ````
-- Ongeza maandishi mbadala kwa picha: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.sw.png)`
+- Ongeza maandishi mbadala kwa picha: `![Alt text](../../translated_images/sw/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Dumisha urefu wa mistari unaofaa (karibu herufi 80-100)
 
 ### Python

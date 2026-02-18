@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-11-18T18:39:02+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "pcm"
-}
--->
 # Explore Planetary Computer Dataset
 
 ## Instructions
@@ -22,7 +13,7 @@ Di Explorer interface (wey dey show for di screenshot below) go allow you choose
 2. Check di dataset [Catalog](https://planetarycomputer.microsoft.com/catalog) - learn wetin each one dey do.  
 3. Use di Explorer - choose one dataset wey you like, pick query wey make sense & rendering option wey go fit am.  
 
-![Di Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.pcm.png)
+![Di Planetary Computer Explorer](../../../../translated_images/pcm/planetary-computer-explorer.c1e95a9b053167d6.webp)
 
 `Your Task:`  
 Now look di visualization wey show for di browser and answer dis questions:  

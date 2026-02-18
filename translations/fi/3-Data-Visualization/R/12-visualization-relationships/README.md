@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a33c5d4b4156a2b41788d8720b6f724c",
-  "translation_date": "2025-08-26T23:02:59+00:00",
-  "source_file": "3-Data-Visualization/R/12-visualization-relationships/README.md",
-  "language_code": "fi"
-}
--->
 # Visualisoi suhteita: Kaikki hunajasta 🍯
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![hajontakaavio 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.fi.png)
+![hajontakaavio 1](../../../../../translated_images/fi/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Näytä nyt sama data hunajan värimaailmalla, joka havainnollistaa hinnan kehitystä vuosien varrella. Voit tehdä tämän lisäämällä 'scale_color_gradientn'-parametrin, joka näyttää muutoksen vuosi vuodelta:
 
@@ -61,7 +52,7 @@ Näytä nyt sama data hunajan värimaailmalla, joka havainnollistaa hinnan kehit
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![hajontakaavio 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.fi.png)
+![hajontakaavio 2](../../../../../translated_images/fi/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Tämän värimaailman avulla näet selvästi, että hunajan hinta per pauna on selvästi noussut vuosien varrella. Jos tarkastelet esimerkiksi Arizonan osavaltiota, voit havaita hintojen nousun vuosi vuodelta, muutamia poikkeuksia lukuun ottamatta:
 
@@ -92,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Näet pisteiden koon kasvavan vähitellen.
 
-![hajontakaavio 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.fi.png)
+![hajontakaavio 3](../../../../../translated_images/fi/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Onko kyseessä yksinkertainen kysynnän ja tarjonnan laki? Ilmastonmuutoksen ja mehiläispesien romahtamisen vuoksi onko hunajaa vuosi vuodelta vähemmän saatavilla, mikä nostaa hintaa?
 
@@ -107,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Vastaus: Kyllä, muutamia poikkeuksia lukuun ottamatta, kuten vuonna 2003:
 
-![viivakaavio 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.fi.png)
+![viivakaavio 1](../../../../../translated_images/fi/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Kysymys: Näkyykö vuonna 2003 myös piikki hunajan tarjonnassa? Entä jos tarkastelet kokonaistuotantoa vuosi vuodelta?
 
@@ -115,7 +106,7 @@ Kysymys: Näkyykö vuonna 2003 myös piikki hunajan tarjonnassa? Entä jos tarka
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![viivakaavio 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.fi.png)
+![viivakaavio 2](../../../../../translated_images/fi/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Vastaus: Ei oikeastaan. Jos tarkastelet kokonaistuotantoa, se näyttää itse asiassa kasvaneen kyseisenä vuonna, vaikka yleisesti ottaen hunajantuotanto on ollut laskussa näinä vuosina.
 
@@ -135,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Tässä visualisoinnissa voit verrata tuottoa per pesä ja pesien määrää vuosi vuodelta rinnakkain, sarakkeiden määrän ollessa 3:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.fi.png)
+![facet grid](../../../../../translated_images/fi/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Tässä datasetissä mikään ei erityisesti erotu pesien määrän ja niiden tuoton osalta vuosi vuodelta ja osavaltioittain. Onko olemassa jokin toinen tapa löytää korrelaatio näiden kahden muuttujan välillä?
 
@@ -152,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![päällekkäiset kaaviot](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.fi.png)
+![päällekkäiset kaaviot](../../../../../translated_images/fi/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Vaikka mikään ei erityisesti erotu vuoden 2003 kohdalla, tämä antaa meille mahdollisuuden päättää oppitunti hieman positiivisemmalla nuotilla: vaikka pesien määrä on yleisesti ottaen laskussa, niiden määrä näyttää vakiintuvan, vaikka tuotto per pesä onkin laskussa.
 

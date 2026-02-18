@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:28:16+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "ur"
-}
--->
 # ڈیٹا سائنس فار بیگنرز میں تعاون کرنا
 
 ڈیٹا سائنس فار بیگنرز کے نصاب میں تعاون کرنے میں دلچسپی لینے کا شکریہ! ہم کمیونٹی سے تعاون کا خیر مقدم کرتے ہیں۔
@@ -312,7 +303,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- تصاویر کے لیے alt متن شامل کریں: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ur.png)`
+- تصاویر کے لیے alt متن شامل کریں: `![Alt text](../../translated_images/ur/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - لائن کی لمبائی معقول رکھیں (تقریباً 80-100 حروف)
 
 ### Python

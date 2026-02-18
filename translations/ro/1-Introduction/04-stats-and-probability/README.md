@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ce95884566a74db72572cd51f0cb25ad",
-  "translation_date": "2025-09-06T14:07:21+00:00",
-  "source_file": "1-Introduction/04-stats-and-probability/README.md",
-  "language_code": "ro"
-}
--->
 # O scurtă introducere în statistică și probabilitate
 
 |![ Sketchnote de [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/04-Statistics-Probability.png)|
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Teoria statisticii și probabilității sunt două domenii strâns legate ale matematicii, extrem de relevante pentru știința datelor. Este posibil să lucrăm cu date fără o cunoaștere profundă a matematicii, dar este totuși mai bine să știm cel puțin câteva concepte de bază. Aici vom prezenta o scurtă introducere care te va ajuta să începi.
 
-[![Video introductiv](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.ro.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![Video introductiv](../../../../translated_images/ro/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [Chestionar înainte de lecție](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +30,7 @@ Este mai dificil să descriem distribuția probabilității unei variabile conti
 
 Putem vorbi doar despre probabilitatea ca o variabilă să se încadreze într-un anumit interval de valori, de exemplu P(t<sub>1</sub>≤X<t<sub>2</sub>). În acest caz, distribuția probabilității este descrisă printr-o **funcție de densitate a probabilității** p(x), astfel încât
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.ro.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/ro/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 Un analog continuu al distribuției uniforme se numește **uniform continuu**, care este definit pe un interval finit. Probabilitatea ca valoarea X să se încadreze într-un interval de lungime l este proporțională cu l și crește până la 1.
 
@@ -64,7 +55,7 @@ Pentru a ne ajuta să înțelegem distribuția datelor, este util să vorbim des
 
 Grafic, putem reprezenta relația dintre mediană și quartile într-un diagramă numită **box plot**:
 
-<img src="images/boxplot_explanation.png" alt="Explicație Box Plot" width="50%">
+<img src="../../../../translated_images/ro/boxplot_explanation.4039b7de08780fd4.webp" alt="Explicație Box Plot" width="50%">
 
 Aici calculăm și **intervalul inter-quartil** IQR=Q3-Q1 și așa-numitele **valori extreme** - valori care se află în afara limitelor [Q1-1.5*IQR,Q3+1.5*IQR].
 
@@ -82,11 +73,11 @@ Când analizăm date din viața reală, acestea nu sunt adesea variabile aleatoa
 
 Iată box plot-ul care arată media, mediana și quartilele pentru datele noastre:
 
-![Box Plot Greutate](../../../../translated_images/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.ro.png)
+![Box Plot Greutate](../../../../translated_images/ro/weight-boxplot.1dbab1c03af26f8a008fff4e17680082c8ab147d6df646cbac440bbf8f5b9c42.png)
 
 Deoarece datele noastre conțin informații despre diferite **roluri** ale jucătorilor, putem face și un box plot pe roluri - acest lucru ne va permite să înțelegem cum diferă valorile parametrilor între roluri. De această dată vom considera înălțimea:
 
-![Box plot pe roluri](../../../../translated_images/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.ro.png)
+![Box plot pe roluri](../../../../translated_images/ro/boxplot_byrole.036b27a1c3f52d42f66fba2324ec5cde0a1bca6a01a619eeb0ce7cd054b2527b.png)
 
 Acest diagramă sugerează că, în medie, înălțimea jucătorilor de primă bază este mai mare decât înălțimea jucătorilor de a doua bază. Mai târziu în această lecție vom învăța cum putem testa această ipoteză mai formal și cum să demonstrăm că datele noastre sunt semnificative din punct de vedere statistic pentru a arăta acest lucru.
 
@@ -94,7 +85,7 @@ Acest diagramă sugerează că, în medie, înălțimea jucătorilor de primă b
 
 Pentru a vedea ce distribuție au datele noastre, putem trasa un grafic numit **histogramă**. Axa X ar conține un număr de intervale de greutate diferite (așa-numitele **bin-uri**), iar axa verticală ar arăta numărul de ori când proba variabilei aleatoare a fost în acel interval.
 
-![Histogramă a datelor din lumea reală](../../../../translated_images/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.ro.png)
+![Histogramă a datelor din lumea reală](../../../../translated_images/ro/weight-histogram.bfd00caf7fc30b145b21e862dba7def41c75635d5280de25d840dd7f0b00545e.png)
 
 Din această histogramă poți vedea că toate valorile sunt centrate în jurul unei anumite greutăți medii, iar cu cât ne îndepărtăm de acea greutate - cu atât mai puține greutăți de acea valoare sunt întâlnite. Adică, este foarte improbabil ca greutatea unui jucător de baseball să fie foarte diferită de greutatea medie. Varianța greutăților arată măsura în care greutățile sunt susceptibile să difere de medie.
 
@@ -111,7 +102,7 @@ samples = np.random.normal(mean,std,1000)
 
 Dacă trasăm histograma probelor generate, vom vedea o imagine foarte similară cu cea prezentată mai sus. Și dacă mărim numărul de probe și numărul de bin-uri, putem genera o imagine a unei distribuții normale care este mai aproape de ideal:
 
-![Distribuție normală cu medie=0 și abatere standard=1](../../../../translated_images/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.ro.png)
+![Distribuție normală cu medie=0 și abatere standard=1](../../../../translated_images/ro/normal-histogram.dfae0d67c202137d552d0015fb87581eca263925e512404f3c12d8885315432e.png)
 
 *Distribuție normală cu medie=0 și abatere standard=1*
 
@@ -233,7 +224,7 @@ array([[1.        , 0.52959196],
 
 În cazul nostru, valoarea 0.53 indică faptul că există o anumită corelație între greutatea și înălțimea unei persoane. Putem, de asemenea, să realizăm un grafic scatter al unei valori în raport cu cealaltă pentru a vedea relația vizual:
 
-![Relația dintre greutate și înălțime](../../../../translated_images/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.ro.png)
+![Relația dintre greutate și înălțime](../../../../translated_images/ro/weight-height-relationship.3f06bde4ca2aba9974182c4ef037ed602acd0fbbbbe2ca91cefd838a9e66bcf9.png)
 
 > Mai multe exemple de corelație și covarianță pot fi găsite în [notebook-ul asociat](notebook.ipynb).
 

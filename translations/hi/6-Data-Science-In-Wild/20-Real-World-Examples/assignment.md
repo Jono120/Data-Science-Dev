@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-24T21:52:10+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "hi"
-}
--->
 # ग्रह कंप्यूटर डेटा सेट का अन्वेषण करें
 
 ## निर्देश
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. डेटा सेट [कैटलॉग](https://planetarycomputer.microsoft.com/catalog) का अन्वेषण करें - प्रत्येक का उद्देश्य जानें।
  3. एक्सप्लोरर का उपयोग करें - अपनी रुचि का डेटा सेट चुनें, एक प्रासंगिक क्वेरी और रेंडरिंग विकल्प चुनें।
 
-![ग्रह कंप्यूटर एक्सप्लोरर](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.hi.png)
+![ग्रह कंप्यूटर एक्सप्लोरर](../../../../translated_images/hi/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `आपका कार्य:`
 अब ब्राउज़र में रेंडर किए गए विज़ुअलाइज़ेशन का अध्ययन करें और निम्नलिखित प्रश्नों का उत्तर दें:

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-30T19:56:55+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "sl"
-}
--->
 # Raziskovanje podatkovne zbirke Planetary Computer
 
 ## Navodila
@@ -22,7 +13,7 @@ Vmesnik Explorer (prikazan na spodnjem posnetku zaslona) vam omogoča izbiro pod
  2. Raziščite [katalog podatkovnih zbirk](https://planetarycomputer.microsoft.com/catalog) – spoznajte namen vsake zbirke.
  3. Uporabite Explorer – izberite podatkovno zbirko, ki vas zanima, izberite ustrezno poizvedbo in možnost upodabljanja.
 
-![Explorer Planetary Computer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.sl.png)
+![Explorer Planetary Computer](../../../../translated_images/sl/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Vaša naloga:`
 Zdaj preučite vizualizacijo, ki je prikazana v brskalniku, in odgovorite na naslednje:

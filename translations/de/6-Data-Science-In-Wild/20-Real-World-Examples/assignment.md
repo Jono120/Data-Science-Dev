@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-24T21:51:39+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "de"
-}
--->
 # Erkunde einen Planetary Computer-Datensatz
 
 ## Anweisungen
@@ -22,7 +13,7 @@ Die Explorer-Oberfläche (im Screenshot unten gezeigt) ermöglicht es dir, einen
  2. Erkunde den Datensatz-[Katalog](https://planetarycomputer.microsoft.com/catalog) – lerne den Zweck jedes Datensatzes kennen.
  3. Nutze den Explorer – wähle einen interessanten Datensatz aus, wähle eine relevante Abfrage und eine Darstellungsoption.
 
-![Der Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.de.png)
+![Der Planetary Computer Explorer](../../../../translated_images/de/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Deine Aufgabe:`
 Untersuche nun die Visualisierung, die im Browser angezeigt wird, und beantworte die folgenden Fragen:

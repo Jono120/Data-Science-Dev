@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "696a8474a01054281704cbfb09148949",
-  "translation_date": "2025-08-30T19:17:39+00:00",
-  "source_file": "1-Introduction/README.md",
-  "language_code": "sr"
-}
--->
 # Увод у науку о подацима
 
-![подаци у акцији](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.sr.jpg)
+![подаци у акцији](../../../translated_images/sr/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)
 > Фотографија од <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Стивена Досона</a> на <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 У овим лекцијама открићете како се наука о подацима дефинише и научићете о етичким аспектима које сваки научник о подацима мора узети у обзир. Такође ћете научити како се подаци дефинишу и добити основно знање о статистици и вероватноћи, кључним академским областима науке о подацима.

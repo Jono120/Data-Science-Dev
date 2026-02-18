@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-28T02:49:29+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "tl"
-}
--->
 # Mag-explore ng Dataset mula sa Planetary Computer
 
 ## Mga Instruksyon
@@ -22,7 +13,7 @@ Ang interface ng Explorer (makikita sa screenshot sa ibaba) ay nagbibigay-daan s
  2. I-explore ang dataset [Catalog](https://planetarycomputer.microsoft.com/catalog) - alamin ang layunin ng bawat isa.
  3. Gamitin ang Explorer - pumili ng dataset na interesado ka, piliin ang kaugnay na query at rendering option.
 
-![Ang Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.tl.png)
+![Ang Planetary Computer Explorer](../../../../translated_images/tl/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Ang Iyong Gawain:`
 Pag-aralan ang visualization na na-render sa browser at sagutin ang mga sumusunod:

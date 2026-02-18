@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "07e12a25d20b8f191e3cb651c27fdb2b",
-  "translation_date": "2025-09-06T21:18:47+00:00",
-  "source_file": "4-Data-Science-Lifecycle/14-Introduction/README.md",
-  "language_code": "vi"
-}
--->
 # Giới thiệu về Vòng đời Khoa học Dữ liệu
 
 |![ Sketchnote của [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/14-DataScience-Lifecycle.png)|
@@ -25,7 +16,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 Bài học này tập trung vào 3 phần của vòng đời: thu thập, xử lý và bảo trì.
 
-![Sơ đồ vòng đời khoa học dữ liệu](../../../../translated_images/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.vi.jpg)  
+![Sơ đồ vòng đời khoa học dữ liệu](../../../../translated_images/vi/data-science-lifecycle.a1e362637503c4fb0cd5e859d7552edcdb4aa629a279727008baa121f2d33f32.jpg)  
 > Ảnh của [Berkeley School of Information](https://ischoolonline.berkeley.edu/data-science/what-is-data-science/)
 
 ## Thu thập
@@ -101,7 +92,7 @@ Khám phá [Vòng đời Quy trình Khoa học Dữ liệu của Nhóm](https://
 
 |Quy trình Khoa học Dữ liệu của Nhóm (TDSP)|Quy trình tiêu chuẩn liên ngành cho khai thác dữ liệu (CRISP-DM)|
 |--|--|
-|![Vòng đời Khoa học Dữ liệu của Nhóm](../../../../translated_images/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.vi.png) | ![Hình ảnh Quy trình Khoa học Dữ liệu](../../../../translated_images/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.vi.png) |
+|![Vòng đời Khoa học Dữ liệu của Nhóm](../../../../translated_images/vi/tdsp-lifecycle2.e19029d598e2e73d5ef8a4b98837d688ec6044fe332c905d4dbb69eb6d5c1d96.png) | ![Hình ảnh Quy trình Khoa học Dữ liệu](../../../../translated_images/vi/CRISP-DM.8bad2b4c66e62aa75278009e38e3e99902c73b0a6f63fd605a67c687a536698c.png) |
 | Hình ảnh của [Microsoft](https://docs.microsoft.comazure/architecture/data-science-process/lifecycle) | Hình ảnh của [Data Science Process Alliance](https://www.datascience-pm.com/crisp-dm-2/) |
 
 ## [Câu hỏi sau bài giảng](https://ff-quizzes.netlify.app/en/ds/quiz/27)

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:17:33+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "vi"
-}
--->
 # Đóng góp cho Data Science for Beginners
 
 Cảm ơn bạn đã quan tâm đến việc đóng góp cho chương trình học Data Science for Beginners! Chúng tôi hoan nghênh sự đóng góp từ cộng đồng.
@@ -312,7 +303,7 @@ Bao gồm trong mô tả PR của bạn:
   import pandas as pd
   ```
   ````
-- Thêm văn bản thay thế cho hình ảnh: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.vi.png)`
+- Thêm văn bản thay thế cho hình ảnh: `![Alt text](../../translated_images/vi/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Giữ độ dài dòng hợp lý (khoảng 80-100 ký tự)
 
 ### Python

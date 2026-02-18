@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:44:27+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "bg"
-}
--->
 # Наука за данни в реалния свят
 
 | ![ Скетч от [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ CO_OP_TRANSLATOR_METADATA:
 
  * [Наука за данни в здравеопазването](https://data-flair.training/blogs/data-science-in-healthcare/) - подчертава приложения като медицинско изображение (напр. MRI, рентген, CT-сканиране), геномика (секвениране на ДНК), разработка на лекарства (оценка на риска, прогноза за успех), предсказателен анализ (грижа за пациенти и логистика на доставки), проследяване и предотвратяване на заболявания и др.
 
-![Приложения на науката за данни в реалния свят](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.bg.png) Кредит за изображението: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Приложения на науката за данни в реалния свят](../../../../translated_images/bg/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Кредит за изображението: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Фигурата показва други области и примери за прилагане на техники за наука за данни. Искате ли да разгледате други приложения? Вижте секцията [Преглед и самостоятелно обучение](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) по-долу.
 

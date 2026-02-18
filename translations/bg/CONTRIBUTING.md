@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:37:25+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "bg"
-}
--->
 # Принос към "Основи на науката за данни"
 
 Благодарим ви за интереса към приноса към учебната програма "Основи на науката за данни"! Приветстваме приноси от общността.
@@ -312,7 +303,7 @@ def calculate_mean(data):
   import pandas as pd
   ```
   ````
-- Добавяйте alt текст към изображения: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.bg.png)`
+- Добавяйте alt текст към изображения: `![Alt text](../../translated_images/bg/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Поддържайте разумна дължина на редовете (около 80-100 символа)
 
 ### Python

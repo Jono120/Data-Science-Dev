@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:46:09+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "hr"
-}
--->
 # Data Science u stvarnom svijetu
 
 | ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Zahvaljujući demokratizaciji AI-a, programerima je sada lakše dizajnirati i in
 
  * [Data Science u zdravstvu](https://data-flair.training/blogs/data-science-in-healthcare/) - ističe primjene poput medicinskog snimanja (npr. MRI, X-Ray, CT-Scan), genomike (sekvenciranje DNA), razvoja lijekova (procjena rizika, predviđanje uspjeha), prediktivne analitike (skrb za pacijente i logistika opskrbe), praćenja i prevencije bolesti itd.
 
-![Primjene Data Sciencea u stvarnom svijetu](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.hr.png) Izvor slike: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Primjene Data Sciencea u stvarnom svijetu](../../../../translated_images/hr/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Izvor slike: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Slika prikazuje druge domene i primjere primjene tehnika data sciencea. Želite istražiti druge primjene? Pogledajte odjeljak [Pregled i samostalno učenje](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) u nastavku.
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:24:07+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "tl"
-}
--->
 # Pag-aambag sa Data Science para sa mga Nagsisimula
 
 Salamat sa iyong interes na mag-ambag sa kurikulum ng Data Science para sa mga Nagsisimula! Bukas kami sa mga kontribusyon mula sa komunidad.
@@ -312,7 +303,7 @@ Isama sa iyong deskripsyon ng PR:
   import pandas as pd
   ```
   ````
-- Magdagdag ng alt text sa mga larawan: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.tl.png)`
+- Magdagdag ng alt text sa mga larawan: `![Alt text](../../translated_images/tl/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`
 - Panatilihin ang makatwirang haba ng linya (mga 80-100 karakter)
 
 ### Python

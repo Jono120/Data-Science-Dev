@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T13:24:14+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "ar"
-}
--->
 # المساهمة في منهج علم البيانات للمبتدئين
 
 شكرًا لاهتمامك بالمساهمة في منهج علم البيانات للمبتدئين! نحن نرحب بمساهمات المجتمع.
@@ -315,7 +306,7 @@ def calculate_mean(data):
   ```
   ````
   
-- أضف نصوص بديلة للصور: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ar.png)`  
+- أضف نصوص بديلة للصور: `![Alt text](../../translated_images/ar/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - حافظ على طول الأسطر معقولًا (حوالي 80-100 حرف)  
 
 ### Python

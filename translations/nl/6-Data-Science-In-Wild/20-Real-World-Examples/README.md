@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:35:17+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "nl"
-}
--->
 # Datawetenschap in de Praktijk
 
 | ![ Sketchnote door [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Dankzij de democratisering van AI vinden ontwikkelaars het nu gemakkelijker om A
 
  * [Datawetenschap in de Gezondheidszorg](https://data-flair.training/blogs/data-science-in-healthcare/) - benadrukt toepassingen zoals medische beeldvorming (bijv. MRI, röntgenfoto, CT-scan), genomica (DNA-sequencing), medicijnontwikkeling (risicobeoordeling, succesvoorspelling), voorspellende analyse (patiëntenzorg en logistiek), ziekteopsporing en -preventie, etc.
 
-![Toepassingen van Datawetenschap in de Praktijk](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.nl.png) Afbeeldingscredit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Toepassingen van Datawetenschap in de Praktijk](../../../../translated_images/nl/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Afbeeldingscredit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 De afbeelding toont andere domeinen en voorbeelden van het toepassen van technieken uit de datawetenschap. Wil je meer toepassingen verkennen? Bekijk de sectie [Review & Zelfstudie](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) hieronder.
 

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-27T09:24:49+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "ur"
-}
--->
 # سیاروی کمپیوٹر ڈیٹا سیٹ کا جائزہ لیں
 
 ## ہدایات
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. ڈیٹا سیٹ [کیٹلاگ](https://planetarycomputer.microsoft.com/catalog) کو دریافت کریں - ہر ایک کا مقصد سیکھیں۔
  3. ایکسپلورر استعمال کریں - دلچسپی کا ایک ڈیٹا سیٹ منتخب کریں، ایک متعلقہ کوئری اور رینڈرنگ آپشن منتخب کریں۔
 
-![سیاروی کمپیوٹر ایکسپلورر](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ur.png)
+![سیاروی کمپیوٹر ایکسپلورر](../../../../translated_images/ur/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `آپ کا کام:`
 اب براؤزر میں رینڈر کی گئی ویژولائزیشن کا مطالعہ کریں اور درج ذیل سوالات کے جواب دیں:

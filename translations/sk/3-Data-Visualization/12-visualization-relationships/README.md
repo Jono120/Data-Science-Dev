@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0764fd4077f3f04a1d968ec371227744",
-  "translation_date": "2025-09-06T11:46:10+00:00",
-  "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
-  "language_code": "sk"
-}
--->
 # Vizualizácia vzťahov: Všetko o mede 🍯
 
 |![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ Vytvorte základný bodový graf na zobrazenie vzťahu medzi cenou za libru medu
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![bodový graf 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.sk.png)
+![bodový graf 1](../../../../translated_images/sk/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.png)
 
 Teraz zobrazte tie isté údaje s farebnou schémou pripomínajúcou med, aby ste ukázali, ako sa cena vyvíja v priebehu rokov. Môžete to dosiahnuť pridaním parametra 'hue', ktorý ukáže zmenu rok čo rok:
 
@@ -60,7 +51,7 @@ Teraz zobrazte tie isté údaje s farebnou schémou pripomínajúcou med, aby st
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![bodový graf 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.sk.png)
+![bodový graf 2](../../../../translated_images/sk/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.png)
 
 S touto zmenou farebnej schémy môžete vidieť, že v priebehu rokov existuje zjavný silný progres v cene medu za libru. Ak sa pozriete na vzorku údajov na overenie (napríklad vyberte štát Arizona), môžete vidieť vzor zvyšovania cien rok čo rok, s niekoľkými výnimkami:
 
@@ -89,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Vidíte, že veľkosť bodov sa postupne zväčšuje.
 
-![bodový graf 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.sk.png)
+![bodový graf 3](../../../../translated_images/sk/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.png)
 
 Je to jednoduchý prípad ponuky a dopytu? Kvôli faktorom, ako je klimatická zmena a kolaps kolónií, je k dispozícii menej medu na predaj rok čo rok, a preto cena rastie?
 
@@ -104,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Odpoveď: Áno, s niekoľkými výnimkami okolo roku 2003:
 
-![čiarový graf 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.sk.png)
+![čiarový graf 1](../../../../translated_images/sk/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.png)
 
 ✅ Pretože Seaborn agreguje údaje okolo jednej čiary, zobrazuje "viacero meraní pri každej hodnote x tým, že vykresľuje priemer a 95% interval spoľahlivosti okolo priemeru". [Zdroj](https://seaborn.pydata.org/tutorial/relational.html). Toto časovo náročné správanie môžete vypnúť pridaním `ci=None`.
 
@@ -114,7 +105,7 @@ Otázka: No, v roku 2003 môžeme tiež vidieť nárast v zásobách medu? Čo a
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![čiarový graf 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.sk.png)
+![čiarový graf 2](../../../../translated_images/sk/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.png)
 
 Odpoveď: Nie celkom. Ak sa pozriete na celkovú produkciu, zdá sa, že v tom konkrétnom roku skutočne vzrástla, aj keď všeobecne množstvo vyprodukovaného medu v týchto rokoch klesá.
 
@@ -139,7 +130,7 @@ sns.relplot(
 ```
 V tejto vizualizácii môžete porovnať výnos na kolóniu a počet kolónií rok čo rok, vedľa seba, s nastavením wrap na 3 pre stĺpce:
 
-![mriežka aspektov](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.sk.png)
+![mriežka aspektov](../../../../translated_images/sk/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.png)
 
 Pre tento dataset nič zvlášť nevyniká, pokiaľ ide o počet kolónií a ich výnos, rok čo rok a štát po štáte. Existuje iný spôsob, ako nájsť koreláciu medzi týmito dvoma premennými?
 
@@ -162,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![prekryté grafy](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.sk.png)
+![prekryté grafy](../../../../translated_images/sk/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.png)
 
 Aj keď okolo roku 2003 nič zvlášť nevyniká, umožňuje nám to ukončiť túto lekciu na trochu pozitívnejšiu nôtu: aj keď počet kolónií celkovo klesá, ich počet sa stabilizuje, aj keď ich výnos na kolóniu klesá.
 

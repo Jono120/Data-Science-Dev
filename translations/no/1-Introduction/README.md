@@ -1,15 +1,6 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "696a8474a01054281704cbfb09148949",
-  "translation_date": "2025-08-26T21:14:08+00:00",
-  "source_file": "1-Introduction/README.md",
-  "language_code": "no"
-}
--->
 # Introduksjon til Data Science
 
-![data i aksjon](../../../translated_images/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.no.jpg)  
+![data i aksjon](../../../translated_images/no/data.48e22bb7617d8d92188afbc4c48effb920ba79f5cebdc0652cd9f34bbbd90c18.jpg)  
 > Foto av <a href="https://unsplash.com/@dawson2406?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Stephen Dawson</a> på <a href="https://unsplash.com/s/photos/data?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 I disse leksjonene vil du oppdage hvordan Data Science defineres og lære om etiske hensyn som en dataforsker må ta i betraktning. Du vil også lære hvordan data defineres og få en introduksjon til statistikk og sannsynlighet, de sentrale akademiske områdene innen Data Science.

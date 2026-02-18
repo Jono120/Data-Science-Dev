@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0764fd4077f3f04a1d968ec371227744",
-  "translation_date": "2025-09-06T11:26:03+00:00",
-  "source_file": "3-Data-Visualization/12-visualization-relationships/README.md",
-  "language_code": "es"
-}
--->
 # Visualizando Relaciones: Todo Sobre la Miel 🍯
 
 |![ Sketchnote por [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ Crea un gráfico de dispersión básico para mostrar la relación entre el preci
 ```python
 sns.relplot(x="priceperlb", y="state", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 1](../../../../translated_images/scatter1.5e1aa5fd6706c5d12b5e503ccb77f8a930f8620f539f524ddf56a16c039a5d2f.es.png)
+![scatterplot 1](../../../../translated_images/es/scatter1.5e1aa5fd6706c5d1.webp)
 
 Ahora, muestra los mismos datos con un esquema de colores de miel para mostrar cómo el precio evoluciona a lo largo de los años. Puedes hacerlo agregando un parámetro 'hue' para mostrar el cambio, año tras año:
 
@@ -60,7 +51,7 @@ Ahora, muestra los mismos datos con un esquema de colores de miel para mostrar c
 ```python
 sns.relplot(x="priceperlb", y="state", hue="year", palette="YlOrBr", data=honey, height=15, aspect=.5);
 ```
-![scatterplot 2](../../../../translated_images/scatter2.c0041a58621ca702990b001aa0b20cd68c1e1814417139af8a7211a2bed51c5f.es.png)
+![scatterplot 2](../../../../translated_images/es/scatter2.c0041a58621ca702.webp)
 
 Con este cambio de esquema de colores, puedes ver que hay obviamente una fuerte progresión a lo largo de los años en términos de precio de la miel por libra. De hecho, si observas un conjunto de muestra en los datos para verificar (elige un estado, Arizona por ejemplo), puedes ver un patrón de aumento de precios año tras año, con pocas excepciones:
 
@@ -89,7 +80,7 @@ sns.relplot(x="priceperlb", y="state", size="year", data=honey, height=15, aspec
 ```
 Puedes ver que el tamaño de los puntos aumenta gradualmente.
 
-![scatterplot 3](../../../../translated_images/scatter3.3c160a3d1dcb36b37900ebb4cf97f34036f28ae2b7b8e6062766c7c1dfc00853.es.png)
+![scatterplot 3](../../../../translated_images/es/scatter3.3c160a3d1dcb36b3.webp)
 
 ¿Es este un caso simple de oferta y demanda? Debido a factores como el cambio climático y el colapso de colonias, ¿hay menos miel disponible para la compra año tras año, y por lo tanto el precio aumenta?
 
@@ -104,7 +95,7 @@ sns.relplot(x="year", y="priceperlb", kind="line", data=honey);
 ```
 Respuesta: Sí, con algunas excepciones alrededor del año 2003:
 
-![line chart 1](../../../../translated_images/line1.f36eb465229a3b1fe385cdc93861aab3939de987d504b05de0b6cd567ef79f43.es.png)
+![line chart 1](../../../../translated_images/es/line1.f36eb465229a3b1f.webp)
 
 ✅ Debido a que Seaborn está agregando datos alrededor de una línea, muestra "las múltiples mediciones en cada valor de x trazando la media y el intervalo de confianza del 95% alrededor de la media". [Fuente](https://seaborn.pydata.org/tutorial/relational.html). Este comportamiento que consume tiempo puede desactivarse agregando `ci=None`.
 
@@ -114,7 +105,7 @@ Pregunta: Bueno, en 2003, ¿también podemos ver un aumento en el suministro de 
 sns.relplot(x="year", y="totalprod", kind="line", data=honey);
 ```
 
-![line chart 2](../../../../translated_images/line2.a5b3493dc01058af6402e657aaa9ae1125fafb5e7d6630c777aa60f900a544e4.es.png)
+![line chart 2](../../../../translated_images/es/line2.a5b3493dc01058af.webp)
 
 Respuesta: No realmente. Si observas la producción total, parece haber aumentado en ese año en particular, aunque en general la cantidad de miel producida está en declive durante estos años.
 
@@ -139,7 +130,7 @@ sns.relplot(
 ```
 En esta visualización, puedes comparar el rendimiento por colonia y el número de colonias año tras año, lado a lado con un ajuste de columnas en 3:
 
-![facet grid](../../../../translated_images/facet.6a34851dcd540050dcc0ead741be35075d776741668dd0e42f482c89b114c217.es.png)
+![facet grid](../../../../translated_images/es/facet.6a34851dcd540050.webp)
 
 Para este conjunto de datos, nada particularmente destaca con respecto al número de colonias y su rendimiento, año tras año y estado tras estado. ¿Hay una forma diferente de buscar una correlación entre estas dos variables?
 
@@ -162,7 +153,7 @@ sns.despine(right=False)
 plt.ylabel('colony yield')
 ax.figure.legend();
 ```
-![superimposed plots](../../../../translated_images/dual-line.a4c28ce659603fab2c003f4df816733df2bf41d1facb7de27989ec9afbf01b33.es.png)
+![superimposed plots](../../../../translated_images/es/dual-line.a4c28ce659603fab.webp)
 
 Aunque nada salta a la vista alrededor del año 2003, esto nos permite terminar esta lección con una nota un poco más feliz: aunque hay un número decreciente de colonias en general, el número de colonias se está estabilizando incluso si su rendimiento por colonia está disminuyendo.
 

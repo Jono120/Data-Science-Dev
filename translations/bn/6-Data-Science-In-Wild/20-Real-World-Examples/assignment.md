@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-27T09:25:15+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "bn"
-}
--->
 # একটি প্ল্যানেটারি কম্পিউটার ডেটাসেট অন্বেষণ করুন
 
 ## নির্দেশনা
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. ডেটাসেট [ক্যাটালগ](https://planetarycomputer.microsoft.com/catalog) অন্বেষণ করুন - প্রতিটির উদ্দেশ্য শিখুন।
  3. এক্সপ্লোরার ব্যবহার করুন - একটি আগ্রহের ডেটাসেট নির্বাচন করুন, একটি প্রাসঙ্গিক কোয়েরি এবং রেন্ডারিং অপশন নির্বাচন করুন।
 
-![প্ল্যানেটারি কম্পিউটার এক্সপ্লোরার](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.bn.png)
+![প্ল্যানেটারি কম্পিউটার এক্সপ্লোরার](../../../../translated_images/bn/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `আপনার কাজ:`
 এখন ব্রাউজারে রেন্ডার করা ভিজ্যুয়ালাইজেশনটি অধ্যয়ন করুন এবং নিম্নলিখিত প্রশ্নগুলির উত্তর দিন:

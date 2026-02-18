@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a33c5d4b4156a2b41788d8720b6f724c",
-  "translation_date": "2025-10-11T16:00:58+00:00",
-  "source_file": "3-Data-Visualization/R/12-visualization-relationships/README.md",
-  "language_code": "et"
-}
--->
 # Suhete visualiseerimine: Kõik mesist 🍯
 
 |![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![hajuvusdiagramm 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.et.png)
+![hajuvusdiagramm 1](../../../../../translated_images/et/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Nüüd näidake samu andmeid mee värviskeemiga, et näidata, kuidas hind aastate jooksul muutub. Seda saate teha, lisades 'scale_color_gradientn' parameetri, et näidata muutust aastate lõikes:
 
@@ -61,7 +52,7 @@ Nüüd näidake samu andmeid mee värviskeemiga, et näidata, kuidas hind aastat
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![hajuvusdiagramm 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.et.png)
+![hajuvusdiagramm 2](../../../../../translated_images/et/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 Selle värviskeemi muutusega näete selgelt tugevat arengut aastate jooksul mee hinna osas naela kohta. Kui vaatate andmestiku näidisosa, näiteks Arizona osariiki, näete aastate lõikes hinnatõusu mustrit, kus on vähe erandeid:
 
@@ -92,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Näete, et punktide suurus suureneb järk-järgult.
 
-![hajuvusdiagramm 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.et.png)
+![hajuvusdiagramm 3](../../../../../translated_images/et/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Kas see on lihtne pakkumise ja nõudluse juhtum? Kas kliimamuutuste ja kolooniate kokkuvarisemise tõttu on aastate jooksul vähem mett saadaval, mistõttu hind tõuseb?
 
@@ -107,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Vastus: Jah, mõningate eranditega umbes 2003. aasta paiku:
 
-![joondiagramm 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.et.png)
+![joondiagramm 1](../../../../../translated_images/et/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Küsimus: Kas 2003. aastal näeme ka mee pakkumise kasvu? Mis juhtub, kui vaatate kogutoodangut aastate lõikes?
 
@@ -115,7 +106,7 @@ Küsimus: Kas 2003. aastal näeme ka mee pakkumise kasvu? Mis juhtub, kui vaatat
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![joondiagramm 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.et.png)
+![joondiagramm 2](../../../../../translated_images/et/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Vastus: Mitte päris. Kui vaatate kogutoodangut, tundub, et see tegelikult suurenes sel konkreetsel aastal, kuigi üldiselt mee tootmise kogus väheneb nendel aastatel.
 
@@ -135,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 Selles visualiseerimises saate võrrelda koloonia saagikust ja kolooniate arvu aastate lõikes kõrvuti, kus veergude wrap on seatud 3-le:
 
-![facet grid](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.et.png)
+![facet grid](../../../../../translated_images/et/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Selle andmestiku puhul ei paista kolooniate arv ja nende saagikus aastate lõikes ja osariikide lõikes millegi erilisega silma. Kas on olemas teine viis, kuidas leida korrelatsiooni nende kahe muutuja vahel?
 
@@ -152,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![kahe joonega graafik](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.et.png)
+![kahe joonega graafik](../../../../../translated_images/et/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Kuigi 2003. aasta paiku ei paista midagi silma, võimaldab see meil lõpetada õppetund veidi rõõmsama noodiga: kuigi kolooniate arv on üldiselt vähenemas, stabiliseerub kolooniate arv isegi siis, kui nende saagikus koloonia kohta väheneb.
 

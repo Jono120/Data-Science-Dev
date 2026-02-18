@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-10-11T15:45:45+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "et"
-}
--->
 # Andmeteadus päriselus
 
 | ![ Sketchnote by [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Tänu tehisintellekti demokratiseerimisele on arendajatel nüüd lihtsam kujunda
 
  * [Andmeteadus tervishoius](https://data-flair.training/blogs/data-science-in-healthcare/) - toob esile rakendusi nagu meditsiiniline pildistamine (nt MRI, röntgen, CT-skaneerimine), genoomika (DNA järjestamine), ravimite arendamine (riskihindamine, edu prognoosimine), ennustav analüütika (patsiendihooldus ja tarne logistika), haiguste jälgimine ja ennetamine jne.
 
-![Andmeteaduse rakendused päriselus](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.et.png) Pildi krediit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Andmeteaduse rakendused päriselus](../../../../translated_images/et/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Pildi krediit: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Joonis näitab teisi valdkondi ja näiteid andmeteaduse tehnikate rakendamiseks. Kas soovite uurida teisi rakendusi? Vaadake [Ülevaade ja iseseisev õpe](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) sektsiooni allpool.
 

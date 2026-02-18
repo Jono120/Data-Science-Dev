@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "ce95884566a74db72572cd51f0cb25ad",
-  "translation_date": "2025-09-06T13:21:58+00:00",
-  "source_file": "1-Introduction/04-stats-and-probability/README.md",
-  "language_code": "pa"
-}
--->
 # ਸਟੈਟਿਸਟਿਕਸ ਅਤੇ ਪ੍ਰੋਬੈਬਿਲਿਟੀ ਦਾ ਸੰਖੇਪ ਪਰੀਚਯ
 
 |![ [(@sketchthedocs)] ਦੁਆਰਾ ਬਣਾਈ ਗਈ ਸਕੈਚਨੋਟ](https://sketchthedocs.dev) ](../../sketchnotes/04-Statistics-Probability.png)|
@@ -15,7 +6,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਸਟੈਟਿਸਟਿਕਸ ਅਤੇ ਪ੍ਰੋਬੈਬਿਲਿਟੀ ਥਿਊਰੀ ਗਣਿਤ ਦੇ ਦੋ ਬਹੁਤ ਹੀ ਜੁੜੇ ਹੋਏ ਖੇਤਰ ਹਨ ਜੋ ਡਾਟਾ ਸਾਇੰਸ ਲਈ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹਨ। ਡਾਟਾ ਨਾਲ ਬਿਨਾ ਗਣਿਤ ਦੀ ਗਹਿਰਾਈ ਵਾਲੀ ਜਾਣਕਾਰੀ ਦੇ ਕੰਮ ਕਰਨਾ ਸੰਭਵ ਹੈ, ਪਰ ਕੁਝ ਮੂਲ ਧਾਰਨਾਵਾਂ ਜਾਣਨਾ ਫਿਰ ਵੀ ਵਧੀਆ ਹੈ। ਇੱਥੇ ਅਸੀਂ ਇੱਕ ਛੋਟਾ ਪਰੀਚਯ ਪੇਸ਼ ਕਰਾਂਗੇ ਜੋ ਤੁਹਾਨੂੰ ਸ਼ੁਰੂਆਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ।
 
-[![ਇੰਟਰੋ ਵੀਡੀਓ](../../../../translated_images/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.pa.png)](https://youtu.be/Z5Zy85g4Yjw)
+[![ਇੰਟਰੋ ਵੀਡੀਓ](../../../../translated_images/pa/video-prob-and-stats.e4282e5efa2f2543400843ed98b1057065c9600cebfc8a728e8931b5702b2ae4.png)](https://youtu.be/Z5Zy85g4Yjw)
 
 ## [ਪ੍ਰੀ-ਲੈਕਚਰ ਕਵਿਜ਼](https://ff-quizzes.netlify.app/en/ds/quiz/6)
 
@@ -39,7 +30,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਅਸੀਂ ਸਿਰਫ਼ ਕਿਸੇ ਵੈਰੀਏਬਲ ਦੇ ਮੁੱਲਾਂ ਦੇ ਦਿੱਤੇ ਇੰਟਰਵਾਲ ਵਿੱਚ ਪੈਣ ਦੀ ਸੰਭਾਵਨਾ ਬਾਰੇ ਗੱਲ ਕਰ ਸਕਦੇ ਹਾਂ, ਜਿਵੇਂ P(t<sub>1</sub>≤X<t<sub>2</sub>)। ਇਸ ਮਾਮਲੇ ਵਿੱਚ, ਪ੍ਰੋਬੈਬਿਲਿਟੀ ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਨੂੰ **ਪ੍ਰੋਬੈਬਿਲਿਟੀ ਡੈਂਸਿਟੀ ਫੰਕਸ਼ਨ** p(x) ਦੁਆਰਾ ਵਰਣਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਇਸ ਤਰ੍ਹਾਂ ਕਿ
 
-![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.pa.png)
+![P(t_1\le X<t_2)=\int_{t_1}^{t_2}p(x)dx](../../../../translated_images/pa/probability-density.a8aad29f17a14afb519b407c7b6edeb9f3f9aa5f69c9e6d9445f604e5f8a2bf7.png)
 
 ਯੂਨੀਫਾਰਮ ਡਿਸਟ੍ਰੀਬਿਊਸ਼ਨ ਦਾ ਇੱਕ ਕੰਟਿਨਿਊਅਸ ਰੂਪ **ਕੰਟਿਨਿਊਅਸ ਯੂਨੀਫਾਰਮ** ਕਿਹਾ ਜਾਂਦਾ ਹੈ, ਜੋ ਇੱਕ ਸੀਮਿਤ ਇੰਟਰਵਾਲ 'ਤੇ ਪਰਿਭਾਸ਼ਿਤ ਹੁੰਦਾ ਹੈ। ਸੰਭਾਵਨਾ ਕਿ ਮੁੱਲ X ਲੰਬਾਈ l ਦੇ ਇੰਟਰਵਾਲ ਵਿੱਚ ਪੈਂਦਾ ਹੈ, l ਦੇ ਅਨੁਪਾਤ ਵਿੱਚ ਹੁੰਦੀ ਹੈ, ਅਤੇ 1 ਤੱਕ ਵਧਦੀ ਹੈ।
 
@@ -64,7 +55,7 @@ CO_OP_TRANSLATOR_METADATA:
 
 ਗ੍ਰਾਫਿਕਲ ਤੌਰ 'ਤੇ ਅਸੀਂ ਮੀਡਿਅਨ ਅਤੇ ਕਵਾਰਟਾਈਲਜ਼ ਦੇ ਸੰਬੰਧ ਨੂੰ **ਬਾਕਸ ਪਲਾਟ** ਵਿੱਚ ਦਰਸਾ ਸਕਦੇ ਹਾਂ:
 
-<img src="images/boxplot_explanation.png" alt="Box Plot Explanation" width="50%">
+<img src="../../../../translated_images/pa/boxplot_explanation.4039b7de08780fd4.webp" alt="Box Plot Explanation" width="50%">
 
 ਇੱਥੇ ਅਸੀਂ **ਇੰਟਰ-ਕਵਾਰਟਾਈਲ ਰੇਂਜ** IQR=Q3-Q1 ਦੀ ਗਣਨਾ ਕਰਦੇ ਹਾਂ, ਅਤੇ **ਆਊਟਲਾਇਰਜ਼** - ਮੁੱਲ ਜੋ ਸੀਮਾਵਾਂ [Q1-1.5*IQR,Q3+1.5*IQR] ਤੋਂ ਬਾਹਰ ਪੈਂਦੇ ਹਨ।
 

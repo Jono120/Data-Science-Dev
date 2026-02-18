@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "a33c5d4b4156a2b41788d8720b6f724c",
-  "translation_date": "2025-08-26T17:04:34+00:00",
-  "source_file": "3-Data-Visualization/R/12-visualization-relationships/README.md",
-  "language_code": "sk"
-}
--->
 # Vizualizácia vzťahov: Všetko o mede 🍯
 
 |![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../../sketchnotes/12-Visualizing-Relationships.png)|
@@ -51,7 +42,7 @@ library(ggplot2)
 ggplot(honey, aes(x = priceperlb, y = state)) +
   geom_point(colour = "blue")
 ```
-![bodový graf 1](../../../../../translated_images/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.sk.png)
+![bodový graf 1](../../../../../translated_images/sk/scatter1.86b8900674d88b26dd3353a83fe604e9ab3722c4680cc40ee9beb452ff02cdea.png)
 
 Teraz zobrazte tie isté údaje s farebnou schémou medu, aby ste ukázali, ako sa cena vyvíja v priebehu rokov. Môžete to urobiť pridaním parametra 'scale_color_gradientn', ktorý ukazuje zmenu rok po roku:
 
@@ -61,7 +52,7 @@ Teraz zobrazte tie isté údaje s farebnou schémou medu, aby ste ukázali, ako 
 ggplot(honey, aes(x = priceperlb, y = state, color=year)) +
   geom_point()+scale_color_gradientn(colours = colorspace::heat_hcl(7))
 ```
-![bodový graf 2](../../../../../translated_images/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.sk.png)
+![bodový graf 2](../../../../../translated_images/sk/scatter2.4d1cbc693bad20e2b563888747eb6bdf65b73ce449d903f7cd4068a78502dcff.png)
 
 S touto zmenou farebnej schémy môžete vidieť, že v priebehu rokov existuje zjavný silný nárast ceny za libru medu. Ak si overíte vzorku údajov (napríklad pre štát Arizona), môžete vidieť vzor zvyšovania cien rok po roku, s niekoľkými výnimkami:
 
@@ -92,7 +83,7 @@ ggplot(honey, aes(x = priceperlb, y = state)) +
 ```
 Vidíte, že veľkosť bodov sa postupne zväčšuje.
 
-![bodový graf 3](../../../../../translated_images/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.sk.png)
+![bodový graf 3](../../../../../translated_images/sk/scatter3.722d21e6f20b3ea2e18339bb9b10d75906126715eb7d5fdc88fe74dcb6d7066a.png)
 
 Je to jednoduchý prípad ponuky a dopytu? Kvôli faktorom, ako je zmena klímy a kolaps kolónií, je k dispozícii menej medu na predaj rok po roku, a preto cena stúpa?
 
@@ -107,7 +98,7 @@ qplot(honey$year,honey$priceperlb, geom='smooth', span =0.5, xlab = "year",ylab 
 ```
 Odpoveď: Áno, s niektorými výnimkami okolo roku 2003:
 
-![čiarový graf 1](../../../../../translated_images/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.sk.png)
+![čiarový graf 1](../../../../../translated_images/sk/line1.299b576fbb2a59e60a59e7130030f59836891f90302be084e4e8d14da0562e2a.png)
 
 Otázka: No, v roku 2003 môžeme tiež vidieť nárast v zásobách medu? Čo ak sa pozriete na celkovú produkciu rok po roku?
 
@@ -115,7 +106,7 @@ Otázka: No, v roku 2003 môžeme tiež vidieť nárast v zásobách medu? Čo a
 qplot(honey$year,honey$totalprod, geom='smooth', span =0.5, xlab = "year",ylab = "totalprod")
 ```
 
-![čiarový graf 2](../../../../../translated_images/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.sk.png)
+![čiarový graf 2](../../../../../translated_images/sk/line2.3b18fcda7176ceba5b6689eaaabb817d49c965e986f11cac1ae3f424030c34d8.png)
 
 Odpoveď: Nie celkom. Ak sa pozriete na celkovú produkciu, zdá sa, že v tomto konkrétnom roku skutočne vzrástla, aj keď všeobecne produkcia medu v týchto rokoch klesá.
 
@@ -135,7 +126,7 @@ ggplot(honey, aes(x=yieldpercol, y = numcol,group = 1)) +
 ```
 V tejto vizualizácii môžete porovnať výnos na kolóniu a počet kolónií rok po roku, vedľa seba, s nastavením wrap na 3 pre stĺpce:
 
-![mriežka s viacerými grafmi](../../../../../translated_images/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.sk.png)
+![mriežka s viacerými grafmi](../../../../../translated_images/sk/facet.491ad90d61c2a7cc69b50c929f80786c749e38217ccedbf1e22ed8909b65987c.png)
 
 Pre tento dataset nič konkrétne nevyniká, pokiaľ ide o počet kolónií a ich výnos rok po roku a štát po štáte. Existuje iný spôsob, ako nájsť koreláciu medzi týmito dvoma premennými?
 
@@ -152,7 +143,7 @@ plot(honey$year, honey$yieldpercol, pch = 17, col = 3,
 axis(side = 4, at = pretty(range(y2)))      
 mtext("colony yield", side = 4, line = 3)   
 ```
-![prekryté grafy](../../../../../translated_images/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.sk.png)
+![prekryté grafy](../../../../../translated_images/sk/dual-line.fc4665f360a54018d7df9bc6abcc26460112e17dcbda18d3b9ae6109b32b36c3.png)
 
 Aj keď nič výrazné nevyniká okolo roku 2003, umožňuje nám to ukončiť túto lekciu na trochu pozitívnejšiu nôtu: aj keď celkový počet kolónií klesá, počet kolónií sa stabilizuje, aj keď ich výnos na kolóniu klesá.
 

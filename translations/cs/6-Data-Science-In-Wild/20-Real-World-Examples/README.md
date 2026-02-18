@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "0f67a4139454816631526779a456b734",
-  "translation_date": "2025-09-06T18:41:52+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/README.md",
-  "language_code": "cs"
-}
--->
 # Data Science v reálném světě
 
 | ![ Sketchnote od [(@sketchthedocs)](https://sketchthedocs.dev) ](../../sketchnotes/20-DataScience-RealWorld.png) |
@@ -41,7 +32,7 @@ Díky demokratizaci AI je pro vývojáře nyní snazší navrhovat a integrovat 
 
  * [Datová věda ve zdravotnictví](https://data-flair.training/blogs/data-science-in-healthcare/) - zdůrazňuje aplikace jako lékařské zobrazování (např. MRI, rentgen, CT-sken), genomiku (sekvenování DNA), vývoj léků (hodnocení rizik, predikce úspěchu), prediktivní analytiku (péče o pacienty a logistika zásob), sledování a prevence nemocí atd.
 
-![Aplikace datové vědy v reálném světě](../../../../translated_images/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.cs.png) Zdroj obrázku: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
+![Aplikace datové vědy v reálném světě](../../../../translated_images/cs/data-science-applications.4e5019cd8790ebac2277ff5f08af386f8727cac5d30f77727c7090677e6adb9c.png) Zdroj obrázku: [Data Flair: 6 Amazing Data Science Applications ](https://data-flair.training/blogs/data-science-applications/)
 
 Obrázek ukazuje další oblasti a příklady aplikace technik datové vědy. Chcete prozkoumat další aplikace? Podívejte se na sekci [Review & Self Study](../../../../6-Data-Science-In-Wild/20-Real-World-Examples) níže.
 

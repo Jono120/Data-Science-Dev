@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:22:06+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "ms"
-}
--->
 # Menyumbang kepada Data Science untuk Pemula
 
 Terima kasih atas minat anda untuk menyumbang kepada kurikulum Data Science untuk Pemula! Kami mengalu-alukan sumbangan daripada komuniti.
@@ -315,7 +306,7 @@ Sertakan dalam penerangan PR anda:
   ```
   ````
   
-- Tambah teks alt pada imej: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.ms.png)`  
+- Tambah teks alt pada imej: `![Alt text](../../translated_images/ms/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Kekalkan panjang baris yang munasabah (sekitar 80-100 aksara)  
 
 ### Python

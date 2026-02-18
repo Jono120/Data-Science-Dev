@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "10f86fb29b5407088445ac803b3d0ed1",
-  "translation_date": "2025-10-03T14:01:54+00:00",
-  "source_file": "CONTRIBUTING.md",
-  "language_code": "el"
-}
--->
 # Συμμετοχή στο Data Science for Beginners
 
 Ευχαριστούμε για το ενδιαφέρον σας να συμβάλετε στο πρόγραμμα σπουδών του Data Science for Beginners! Καλωσορίζουμε συνεισφορές από την κοινότητα.
@@ -318,7 +309,7 @@ def calculate_mean(data):
   ```
   ````
   
-- Προσθέστε alt text στις εικόνες: `![Alt text](../../translated_images/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.el.png)`  
+- Προσθέστε alt text στις εικόνες: `![Alt text](../../translated_images/el/image.4ee84a82b5e4c9e6651b13fd27dcf615e427ec584929f2cef7167aa99151a77a.png)`  
 - Διατηρήστε λογικά μήκη γραμμών (περίπου 80-100 χαρακτήρες)  
 
 ### Python

@@ -1,12 +1,3 @@
-<!--
-CO_OP_TRANSLATOR_METADATA:
-{
-  "original_hash": "d1e05715f9d97de6c4f1fb0c5a4702c0",
-  "translation_date": "2025-08-27T09:24:24+00:00",
-  "source_file": "6-Data-Science-In-Wild/20-Real-World-Examples/assignment.md",
-  "language_code": "ru"
-}
--->
 # Изучение набора данных Planetary Computer
 
 ## Инструкции
@@ -22,7 +13,7 @@ CO_OP_TRANSLATOR_METADATA:
  2. Изучить [каталог наборов данных](https://planetarycomputer.microsoft.com/catalog) — узнать назначение каждого набора.
  3. Использовать Explorer — выбрать интересующий набор данных, подходящий запрос и вариант визуализации.
 
-![The Planetary Computer Explorer](../../../../translated_images/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.ru.png)
+![The Planetary Computer Explorer](../../../../translated_images/ru/planetary-computer-explorer.c1e95a9b053167d64e2e8e4347cfb689e47e2037c33103fc1bbea1a149d4f85b.png)
 
 `Ваше задание:`
 Теперь изучите визуализацию, которая отображается в браузере, и ответьте на следующие вопросы:
