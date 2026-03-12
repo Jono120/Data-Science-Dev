@@ -1,204 +1,217 @@
-# ਸ਼ੁਰੂਆਤੀ ਲਈ ਡਾਟਾ ਸਾਇੰਸ - ਇੱਕ ਅਧਿਆਪਨ
+# ਡਾਟਾ ਸਾਇੰਸ ਨਵੇਂ ਸਿੱਖਣ ਵਾਲਿਆਂ ਲਈ - ਇਕ ਪਾਠਕ੍ਰਮ
 
-[![GitHub ਕੋਡਸਪੇਸز ਵਿੱਚ ਖੋਲ੍ਹੋ](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-[![GitHub ਲਾਇਸੈਂਸ](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHub ਯੋਗਦਾਨਕਾਰ](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![GitHub ਮੁੱਦੇ](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub ਪੁੱਲ-ਰਿਕਵੇਸਟ](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![ਪ੍ਰੀ-ਰਿਕਵੇਸਟ ਸਵਾਗਤ ਹੈ](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub ਦੇਖਣ ਵਾਲੇ](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub ਫੋਰਕ](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub ਸਿਤਾਰੇ](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-ਮਾਇਕ੍ਰੋਸਾਫਟ ਵਿੱਚ Azure ਕਲਾਉਡ ਵਕੀਲ ਖੁਸ਼ ਹਨ ਕਿ ਉਹ ਡਾਟਾ ਸਾਇੰਸ ਬਾਰੇ 10 ਹਫ਼ਤਿਆਂ, 20 ਪਾਠਾਂ ਦਾ ਅਧਿਆਪਨ ਪੇਸ਼ ਕਰਦੇ ਹਨ। ਹਰ ਪਾਠ ਵਿੱਚ ਪੂਰਵ ਪਾਠ ਅਤੇ ਪੋਸਟ-ਪਾਠ ਕਵਿਜ, ਲੇਖਤ ਹਦਾਇਤਾਂ ਜੋ ਪਾਠ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਹਨ, ਇੱਕ ਹੱਲ ਅਤੇ ਇੱਕ ਅਸਾਈਨਮੈਂਟ ਸ਼ਾਮਲ ਹੁੰਦੇ ਹਨ। ਸਾਡੇ ਪ੍ਰੋਜੈਕਟ-ਆਧਾਰਿਤ ਪਾਠ-ਪੜ੍ਹਾਈ ਦੇ ਤਰੀਕੇ ਨਾਲ ਤੁਸੀਂ ਬਣਾਉਂਦੇ ਹੋਏ ਸਿੱਖਦੇ ਹੋ, ਜੋ ਨਵੀਆਂ ਕੁਸ਼ਲਤਾਵਾਂ ਨੂੰ 'ਠੀਠ' ਬਣਾਉਣ ਦਾ ਸਬੂਤਿਅਦਾਰ ਤਰੀਕਾ ਹੈ।
+ਮਾਈਕ੍ਰੋਸਾਫਟ ਦੇ ਅਜ਼ੂਰ ਕਲਾਉਡ ਅਡਵੋਕੇਟਸ ਖੁਸ਼ ਹਨ ਕਿ ਉਹ 10 ਹਫ਼ਤੇ, 20 ਪਾਠਾਂ ਦਾ ਪਾਠਕ੍ਰਮ ਡਾਟਾ ਸਾਇੰਸ ਬਾਰੇ ਪੇਸ਼ ਕਰ ਰਹੇ ਹਨ। ਹਰ ਪਾਠ ਵਿੱਚ ਪੂਰਵ-ਪਾਠ ਅਤੇ ਪੋਸਟ-ਪਾਠ ਕਵਿਜ਼, ਪਾਠ ਪੂਰਾ ਕਰਨ ਲਈ ਲਿਖਤ ਨਿਰਦੇਸ਼, ਹੱਲ ਅਤੇ ਇੱਕ ਅਸਾਈਨਮੈਂਟ ਸ਼ਾਮਲ ਹੈ। ਸਾਡੀ ਪ੍ਰੋਜੈਕਟ-ਆਧਾਰਿਤ ਪੈਡਾਗੌਗੀ ਤੁਹਾਨੂੰ ਬਣਾਉਂਦਿਆਂ ਸਿੱਖਣ ਦੀ ਆਗਿਆ ਦਿੰਦੀ ਹੈ, ਜੋ ਨਵੇਂ ਹੁਨਰਾਂ ਦੇ ਲਈ ਇੱਕ ਸਾਬਤ ਤਰੀਕਾ ਹੈ ਕਿ ਉਹ 'ਟਿਕੇ' ਰਹਿਣ।
 
-**ਸਾਡੇ ਲੇਖਕਾਂ ਨੂੰ ਦਿਲੋਂ ਧੰਨਵਾਦ:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
+**ਸਾਡੇ ਲੇਖਕਾਂ ਲਈ ਦਿਲੋਂ ਧੰਨਵਾਦ:** [ਜੈਸਮਿਨ ਗ੍ਰੀਨਵੇ](https://www.twitter.com/paladique), [ਦਿਮਿਤਰੀ ਸੋਸ਼ਨਿਕੋਵ](http://soshnikov.com), [ਨਿਤਿਆ ਨਰਸਿੰਘਨ](https://twitter.com/nitya), [ਜੇਲਨ ਮੈਕਗੀ](https://twitter.com/JalenMcG), [ਜੈਨ ਲੂਪਰ](https://twitter.com/jenlooper), [ਮੌਡ ਲੇਵੀ](https://twitter.com/maudstweets), [ਟਿਫ਼ਨੀ ਸੌਤਰਰੇ](https://twitter.com/TiffanySouterre), [ਕ੍ਰਿਸਟੋਫ਼ਰ ਹੈਰਿਸਨ](https://www.twitter.com/geektrainer).
 
-**🙏 ਸਾਡੇ [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) ਲੇਖਕਾਂ, ਸਮੀਖਿਆਕਾਰਾਂ ਅਤੇ ਸਮੱਗਰੀ ਯੋਗਦਾਨਕਾਰਾਂ ਨੂੰ ਖਾਸ ਧੰਨਵਾਦ 🙏,** ਵਿਸ਼ੇਸ਼ ਤੌਰ 'ਤੇ Aaryan Arora, [Aditya Garg](https://github.com/AdityaGarg00), [Alondra Sanchez](https://www.linkedin.com/in/alondra-sanchez-molina/), [Ankita Singh](https://www.linkedin.com/in/ankitasingh007), [Anupam Mishra](https://www.linkedin.com/in/anupam--mishra/), [Arpita Das](https://www.linkedin.com/in/arpitadas01/), ChhailBihari Dubey, [Dibri Nsofor](https://www.linkedin.com/in/dibrinsofor), [Dishita Bhasin](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [Majd Safi](https://www.linkedin.com/in/majd-s/), [Max Blum](https://www.linkedin.com/in/max-blum-6036a1186/), [Miguel Correa](https://www.linkedin.com/in/miguelmque/), [Mohamma Iftekher (Iftu) Ebne Jalal](https://twitter.com/iftu119), [Nawrin Tabassum](https://www.linkedin.com/in/nawrin-tabassum), [Raymond Wangsa Putra](https://www.linkedin.com/in/raymond-wp/), [Rohit Yadav](https://www.linkedin.com/in/rty2423), Samridhi Sharma, [Sanya Sinha](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[Sheena Narula](https://www.linkedin.com/in/sheena-narua-n/), [Tauqeer Ahmad](https://www.linkedin.com/in/tauqeerahmad5201/), Yogendrasingh Pawar , [Vidushi Gupta](https://www.linkedin.com/in/vidushi-gupta07/), [Jasleen Sondhi](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 ਸਾਡੇ [ਮਾਈਕ੍ਰੋਸਾਫਟ ਸਟੂਡੈਂਟ ਐਮਬੈਸਡਰ](https://studentambassadors.microsoft.com/) ਲੇਖਕਾਂ, ਸਮੀਖਿਆਕਾਰਾਂ ਅਤੇ ਸਮੱਗਰੀ ਯੋਗਦਾਨਕਾਰਾਂ ਦਾ ਵਿਸ਼ੇਸ਼ ਧੰਨਵਾਦ,** ਖਾਸ ਕਰਕੇ ਆਰਯਨ ਅਰੋੜਾ, [ਆਦਿਤਿਆ ਗਰਗ](https://github.com/AdityaGarg00), [ਅਲੋਂਦਰਾ ਸਾਂਚੇਜ਼](https://www.linkedin.com/in/alondra-sanchez-molina/), [ਅంకਿਤਾ ਸਿੰਘ](https://www.linkedin.com/in/ankitasingh007), [ਅਨੁਪਮ ਮਿਸ਼ਰਾ](https://www.linkedin.com/in/anupam--mishra/), [ਅਰਪੀਤਾ ਦਾਸ](https://www.linkedin.com/in/arpitadas01/), ਛੈਲਬਿਹਾਰੀ ਦੁਬੇ, [ਦਿਬਰੀ ਨਸੋਫੋਰ](https://www.linkedin.com/in/dibrinsofor), [ਦਿਸ਼ਿਤਾ ਭਾਸਿਨ](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [ਮਜਦ ਸਾਫ਼ੀ](https://www.linkedin.com/in/majd-s/), [ਮੈਕਸ ਬਲਮ](https://www.linkedin.com/in/max-blum-6036a1186/), [ਮਿਗੁਐਲ ਕੋਰੇਆ](https://www.linkedin.com/in/miguelmque/), [ਮੋਹੰਮਾ ਇਫ਼ਤਖ਼ਰ (ਇਫ਼ਤੂ) ਏਬਨੇ ਜਲਾਲ](https://twitter.com/iftu119), [ਨਵਰੀਨ ਤਬਾਸ਼ਸਮ](https://www.linkedin.com/in/nawrin-tabassum), [ਰੇਮੰਡ ਵਾਂਗਸਾ ਪੁਤਰਾ](https://www.linkedin.com/in/raymond-wp/), [ਰੋਹਿਤ ਯਾਦਵ](https://www.linkedin.com/in/rty2423), ਸਮ੍ਰਿਧੀ ਸ਼ਰਮਾ, [ਸੰਯਾ ਸਿੰਹਾ](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[ਸ਼ੀਨਾ ਨਰੂਲਾ](https://www.linkedin.com/in/sheena-narua-n/), [ਤੌਕੀਰ ਅਹਿਮਦ](https://www.linkedin.com/in/tauqeerahmad5201/), ਯੋਗੇੰਦਰ ਸਿੰਘ ਪਾਵਰ , [ਵਿਦੂਸ਼ੀ ਗੁਪਤਾ](https://www.linkedin.com/in/vidushi-gupta07/), [ਜਸਲੀਨ ਸੋਂਧੀ](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![@sketchthedocs ਵੱਲੋਂ ਸਕੈਚਨੋਟ https://sketchthedocs.dev](../../translated_images/pa/00-Title.8af36cd35da1ac55.webp)|
+|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/pa/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
-| ਸ਼ੁਰੂਆਤੀ ਲਈ ਡਾਟਾ ਸਾਇੰਸ - _ਸਕੈਚਨੋਟ [@nitya](https://twitter.com/nitya) ਵੱਲੋਂ_ |
+| ਡਾਟਾ ਸਾਇੰਸ ਨਵੇਂ ਸਿੱਖਣ ਵਾਲਿਆਂ ਲਈ - _ਸਕੇਚਨੋਟ [@nitya](https://twitter.com/nitya) ਵੱਲੋਂ_ |
 
-### 🌐 ਬਹੁ-ਭਾਸ਼ਾਈ ਸਹਾਇਤਾ
+### 🌐 ਬਹੁ-ਭਾਸ਼ਾ ਸਹਾਇਤਾ
 
-#### GitHub ਐਕਸ਼ਨ ਰਾਹੀਂ ਸਮਰਥਿਤ (ਆਟੋਮੈਟਿਡ ਅਤੇ ਹਮੇਸ਼ਾ ਅਪ-ਟੂ-ਡੇਟ)
+#### ਗਿਟਹੱਬ ਐਕਸ਼ਨ ਰਾਹੀਂ ਸਹਾਇਤਾ (ਆਪਮੈਟਿਕ ਅਤੇ ਹਮੇਸ਼ਾਂ ਅਪ-ਟੂ-ਡੇਟ)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](./README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **ਕੀ ਤੁਸੀਂ ਲੋਕਲ ਕਲੋਨ ਕਰਨਾ ਪਸੰਦ ਕਰੋਗੇ?**
-
-> ਇਸ ਰਿਪੋਜ਼ਿਟਰੀ ਵਿੱਚ 50+ ਭਾਸ਼ਾ ਅਨੁਵਾਦ ਸ਼ਾਮਲ ਹਨ ਜੋ ਡਾਊਨਲੋਡ ਸਾਈਜ਼ ਨੂੰ ਕਾਫ਼ੀ ਵਧਾਉਂਦੇ ਹਨ। ਬਿਨਾਂ ਅਨੁਵਾਦਾਂ ਦੇ ਕਲੋਨ ਕਰਨ ਲਈ, ਸਪਾਰਸ ਚੈਕਆਉਟ ਦੀ ਵਰਤੋਂ ਕਰੋ:
+> **ਲੋਕਲ ਕਲੋਨ ਕਰਨਾ ਪਸੰਦ ਕਰੋ?**
+>
+> ਇਸ ਰਿਪੋ ਵਿੱਚ 50+ ਭਾਸ਼ਾਵਾਂ ਦੇ ਅਨੁਵਾਦ ਸ਼ਾਮਲ ਹਨ ਜੋ ਡਾਊਨਲੋਡ ਸਾਈਜ਼ ਨੂੰ ਕਾਫੀ ਵਧਾ ਦੇਂਦੇ ਹਨ। ਬਿਨਾਂ ਅਨੁਵਾਦਾਂ ਦੇ ਕਲੋਨ ਕਰਨ ਲਈ, ਸਪਾਰਸ ਚੈੱਕਆਉਟ ਵਰਤੋਂ:
+>
+> **ਬੈਸ਼ / ਮੈਕਓਐਸ / ਲਿਨਕਸ:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
 > cd Data-Science-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਸਭ ਕੁਝ ਮਿਲੇਗਾ ਜੋ ਤੁਸੀਂ ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਲਈ ਚਾਹੀਦਾ ਹੈ ਬਹੁਤ ਤੇਜ਼ ਡਾਊਨਲੋਡ ਨਾਲ।
+>
+> **CMD (ਵਿੰਡੋਜ਼):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
+> cd Data-Science-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> ਇਹ ਤੁਹਾਨੂੰ ਕੋਰਸ ਪੂਰਾ ਕਰਨ ਲਈ ਲੋੜੀਂਦਾ ਸਭ ਕੁਝ ਬਹੁਤ ਤੇਜ਼ ਡਾਊਨਲੋਡ ਨਾਲ ਦਿੰਦਾ ਹੈ।
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**ਜੇ ਤੁਸੀਂ ਵਧੇਰੇ ਅਨੁਵਾਦ ਭਾਸ਼ਾਵਾਂ ਦੀ ਮੰਗ ਕਰਦੇ ਹੋ, ਉਹ [ਇੱਥੇ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ਦਿੱਤੀ ਗਈਆਂ ਹਨ**
+**ਜੇ ਤੁਹਾਨੂੰ ਵਾਧੂ ਅਨੁਵਾਦ ਭਾਸ਼ਾਵਾਂ ਚਾਹੀਦੀਆਂ ਹਨ ਤਾਂ ਉਹ [ਇੱਥੇ](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) ਦਿੱਤੇ ਗਏ ਹਨ**
 
-#### ਸਾਡੀ ਕਮਿਊਨਿਟੀ ਨਾਲ ਜੁੜੋ
+#### ਸਾਡੀ ਕਮਿਊਨਿਟੀ ਵਿੱਚ ਸ਼ਾਮਿਲ ਹੋਵੋ
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-ਸਾਡੇ ਕੋਲ ਇੱਕ Discord 'learn with AI' ਸਿਰੀਜ਼ ਚੱਲ ਰਹੀ ਹੈ, ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਅਤੇ ਸਾਡੇ ਨਾਲ ਸ਼ਾਮਲ ਹੋਵੋ [Learn with AI Series](https://aka.ms/learnwithai/discord) 18 - 30 ਸਤੰਬਰ, 2025 ਤੱਕ। ਤੁਹਾਨੂੰ GitHub Copilot ਦੀ ਵਰਤੋਂ ਨਾਲ ਡਾਟਾ ਸਾਇੰਸ ਲਈ ਸੁਝਾਅ ਅਤੇ ਟਿੱਪਣੀਆਂ ਮਿਲਣਗੀਆਂ।
+ਸਾਡੇ ਕੋਲ ਇੱਕ Discord ਵਿੱਚ AI ਸਿੱਖਣ ਦਾ ਸੀਰੀਜ਼ ਚੱਲ ਰਿਹਾ ਹੈ, ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ ਅਤੇ ਸਾਡੇ ਨਾਲ ਜੁੜਨ ਲਈ [Learn with AI Series](https://aka.ms/learnwithai/discord) 'ਤੇ ਜਾਓ 18 - 30 ਸਤੰਬਰ, 2025 ਤੱਕ। ਤੁਸੀਂ ਡਾਟਾ ਸਾਇੰਸ ਲਈ GitHub Copilot ਦੇ ਵਰਤੋਂ ਦਿਓਣ ਵਾਲੀਆਂ ਚਾਲਾਂ ਤੇ ਟਿੱਪਸ ਲਵੋਗੇ।
 
 ![Learn with AI series](../../translated_images/pa/1.2b28cdc6205e26fe.webp)
 
 # ਕੀ ਤੁਸੀਂ ਵਿਦਿਆਰਥੀ ਹੋ?
 
-ਹੇਠਾਂ ਦਿੱਤੇ ਸਰੋਤਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ:
+ਹੇਠ ਲਿਖੇ ਸਰੋਤਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ:
 
-- [Student Hub ਪੇਜ](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) ਇਸ ਪੇਜ 'ਚ, ਤੁਸੀਂ ਸ਼ੁਰੂਆਤੀਆਂ ਲਈ ਸਰੋਤ, ਵਿਦਿਆਰਥੀ ਪੈਕ ਅਤੇ ਮੁਫ਼ਤ ਸਰਟੀਫਿਕੇਟ ਵਾਊਚਰ ਪ੍ਰਾਪਤ ਕਰਨ ਦੇ ਤਰੀਕੇ ਲੱਭੋਗੇ। ਇਹ ਇੱਕ ਐਸਾ ਪੇਜ ਹੈ ਜਿਸਨੂੰ ਤੁਸੀਂ ਬੁੱਕਮਾਰਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ ਅਤੇ ਸਮੇਂ-ਸਮੇਂ ਤੇ ਚੈੱਕ ਕਰਦੇ ਰਹੋ ਕਿਉਂਕਿ ਅਸੀਂ ਥੋੜ੍ਹੇ ਸਮੇਂ 'ਚ ਸਮੱਗਰੀ ਬਦਲਦੇ ਰਹਿੰਦੇ ਹਾਂ।
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) ਵਿਸ਼ਵ ਭਰ ਦੇ ਦੇ ਵਿਦਿਆਰਥੀ ਰਾਜਦੂਤਾਂ ਦੀ ਕਮਿਊਨਿਟੀ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ, ਇਹ ਤੁਹਾਡਾ ਮਾਇਕ੍ਰੋਸਾਫਟ ਵਿੱਚ ਦਾਖਲਾ ਹੋ ਸਕਦਾ ਹੈ।
+- [Student Hub ਪੇਜ਼](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) ਇਸ ਪੇਜ਼ 'ਤੇ ਤੁਹਾਨੂੰ ਸ਼ੁਰੂਆਤੀ ਸਰੋਤ, ਵਿਦਿਆਰਥੀ ਪੈਕ ਅਤੇ ਇੱਥੇ ਤਕ ਦਿੱਤੇ ਗਏ ਫ੍ਰੀ ਸਰਟੀਫਿਕੇਟ ਵਾਊਚਰ ਦੇ ਤਰੀਕੇ ਮਿਲਣਗੇ। ਇਹ ਇੱਕ ਐਸਾ ਪੇਜ਼ ਹੈ ਜੋ ਤੁਸੀਂ ਬੁੱਕਮਾਰਕ ਕਰਨਾ ਚਾਹੋਗੇ ਅਤੇ ਸਮੇਂ-ਸਮੇਂ 'ਤੇ ਜਾਂਚ ਕਰਦੇ ਰਹੋ ਕਿਉਂਕਿ ਅਸੀਂ ਮਹੀਨੇ ਵਿੱਚ ਘੱਟੋ ਘੱਟ ਇੱਕ ਵਾਰੀ ਸਮੱਗਰੀ ਬਦਲਦੇ ਹਾਂ।
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) ਇੱਕ ਗਲੋਬਲ ਵਿਦਿਆਰਥੀ ਐਮਬੈਸਡਰ ਕਮਿਊਨਿਟੀ ਵਿੱਚ ਜੁੜੋ, ਇਹ ਮਾਈਕ੍ਰੋਸਾਫਟ ਵਿਚ ਤੁਹਾਡਾ ਦਰਵਾਜ਼ਾ ਹੋ ਸਕਦਾ ਹੈ।
 
 # ਸ਼ੁਰੂਆਤ ਕਰਨਾ
 
-## 📚 ਦਸਤਾਵੇਜ਼
+## 📚 ਦਸਤਾਵੇਜ਼ات
 
-- **[ਇੰਸਟਾਲੇਸ਼ਨ ਗਾਈਡ](INSTALLATION.md)** - ਸ਼ੁਰੂਆਤੀਆਂ ਲਈ ਕਦਮ-ਦਰ-कਦਮ ਸੈੱਟਅਪ ਹਦਾਇਤਾਂ
-- **[ਵਰਤੋਂ ਗਾਈਡ](USAGE.md)** - ਉਦਾਹਰਨਾਂ ਅਤੇ ਆਮ ਕਾਰਜ ਪ੍ਰਵਾਹ
-- **[ਮੁਸ਼ਕਲਾਂ ਦਾ ਸਮਾਧਾਨ](TROUBLESHOOTING.md)** - ਆਮ ਸਮੱਸਿਆਵਾਂ ਦੇ ਹੱਲ
-- **[ਯੋਗਦਾਨ ਕਿਵੇਂ ਦੇਣਾ](CONTRIBUTING.md)** - ਇਸ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਯੋਗਦਾਨ ਕਿਵੇਂ ਦਿਓ
-- **[ਅਧਿਆਪਕਾਂ ਲਈ](for-teachers.md)** - ਪਾਠ-ਪੜ੍ਹਾਉ ਅਤੇ ਕਲਾਸਰੂਮ ਸਰੋਤ
+- **[ਇੰਸਟਾਲੇਸ਼ਨ ਗਾਈਡ](INSTALLATION.md)** - ਨਵੇਂ ਸਿੱਖਣ ਵਾਲਿਆਂ ਲਈ ਕਦਮ-ਦਰ-ਕਦਮ ਸੈਟਅੱਪ ਹੁਕਮ
+- **[ਇਸਤਮਾਲ ਗਾਈਡ](USAGE.md)** - ਉਦਾਹਰਣਾਂ ਅਤੇ ਆਮ ਕਾਰਜ ਪ੍ਰਵਾਹ
+- **[ਸਮੱਸਿਆ ਸੁਧਾਰ](TROUBLESHOOTING.md)** - ਆਮ ਸਮੱਸਿਆਵਾਂ ਦੇ ਹੱਲ
+- **[ਯੋਗਦਾਨ ਗਾਈਡ](CONTRIBUTING.md)** - ਇਸ ਪ੍ਰੋਜੈਕਟ ਵਿੱਚ ਕਿਵੇਂ ਯੋਗਦਾਨ ਦੇਣਾ ਹੈ
+- **[ਅਧਿਆਪਕਾਂ ਲਈ](for-teachers.md)** - ਸਿੱਖਿਆ ਨਿਰਦੇਸ਼ ਅਤੇ ਕਲਾਸਰੂਮ ਸਰੋਤ
 
 ## 👨‍🎓 ਵਿਦਿਆਰਥੀਆਂ ਲਈ
-> **ਪੂਰੇ ਸ਼ੁਰੂਆਤੀ**: ਡਾਟਾ ਸਾਇੰਸ ਵਿੱਚ ਨਵੇਂ ਹੋ? ਸਾਡੇ [ਆਸਾਨ ਤੇ ਸੁਝਾਈ ਨਾਲ ਭਰਪੂਰ ਉਦਾਹਰਨਾਂ](examples/README.md) ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ! ਇਹ ਸਧਾਰਣ ਅਤੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਟਿੱਪਣੀਆਂ ਵਾਲੀਆਂ ਉਦਾਹਰਨਾਂ ਤੁਹਾਨੂੰ ਮੁਢਲੀ ਸਮਝ ਦਿਲਾਉਣਗੀਆਂ ਅਤੇ ਫਿਰ ਮੁਕੰਮਲ ਅਧਿਆਪਨ ਨੂੰ ਸਿਖਣਗੇ।
-> **[ਵਿਦਿਆਰਥੀ](https://aka.ms/student-page)**: ਇਸ ਅਧਿਆਪਨ ਨੂੰ ਆਪਣੇ ਆਪ ਵਰਤਣ ਲਈ, ਪੂਰੇ ਭੰਡਾਰ ਨੂੰ ਫੋਰਕ ਕਰੋ ਅਤੇ ਖੁਦ ਅਭਿਆਸਾਂ ਪੂਰੇ ਕਰੋ, ਸ਼ੁਰੂਆਤ ਇੱਕ ਪੂਰਵ-ਲੇਕਚਰ ਕਵਿਜ ਨਾਲ ਕਰੋ। ਫਿਰ ਲੇਕਚਰ ਪੜ੍ਹੋ ਅਤੇ ਬਾਕੀ ਗਤੀਵਿਧੀਆਂ ਪੂਰੀਆਂ ਕਰੋ। ਜੁਆਇੰਟ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਪਾਠਾਂ ਨੂੰ ਸਮਝ ਕੇ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਲਈ, ਹੱਲ ਦੀ ਕੋਡ ਨਕਲ ਕਰਨ ਦੀ ਬਜਾਏ; ਹਾਲਾਂਕਿ, ਹੱਲ ਵਾਲਾ ਕੋਡ ਹਰ ਪ੍ਰੋਜੈਕਟ-ਕੇਂਦ੍ਰਿਤ ਪਾਠ ਵਿੱਚ /solutions ਫੋਲਡਰ ਵਿੱਚ ਉਪਲਬਧ ਹੈ। ਦੂਜਾ ਤਰੀਕਾ ਇਹ ਹੈ ਕਿ ਦੋਸਤਾਂ ਨਾਲ ਪੜ੍ਹਾਈ ਦਾ ਗਰੁੱਪ ਬਣਾਓ ਅਤੇ ਸਾਰਥਕ ਤਰੀਕੇ ਨਾਲ ਸਮੱਗਰੀ ਪੜ੍ਹੋ। ਵਧੇਰੇ ਸਿੱਖਣ ਲਈ ਸਾਡਾ ਸਿਫਾਰਸ਼ੀ [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) ਹੈ।
+> **ਪੂਰੇ ਨਵੇਂ:** ਡਾਟਾ ਸਾਇੰਸ ਵਿੱਚ ਨਵੇਂ ਹੋ? ਸਾਡੇ [ਆਸਾਨ ਉਦਾਹਰਣਾਂ](examples/README.md) ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ! ਇਹ ਸਧਾਰਣ, ਚੰਗੀ ਤਰ੍ਹਾਂ ਵਿਆਖਿਆ ਕੀਤੀਆਂ ਉਦਾਹਰਣਾਂ ਤੁਹਾਨੂੰ ਮੁੱਢਲੀ ਗੱਲਾਂ ਸਮਝਣ ਵਿੱਚ ਮਦਦ ਕਰਨਗੀਆਂ ਪੂਰੇ ਪਾਠਕ੍ਰਮ ਵਿੱਚ ਜਮ੍ਹਾ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ।
+> **[ਵਿਦਿਆਰਥੀ](https://aka.ms/student-page)**: ਇਸ ਪਾਠਕ੍ਰਮ ਨੂੰ ਆਪਣੇ ਆਪ ਵਰਤਣ ਲਈ, ਪੂਰੇ ਰੀਪੋ ਨੂੰ ਫੋਰਕ ਕਰੋ ਅਤੇ ਕਸਰਤਾਂ ਆਪਣੇ ਤੌਰ 'ਤੇ ਪੂਰੀਆਂ ਕਰੋ, ਪੂਰਵ-ਲੈਕਚਰ ਕਵਿਜ਼ ਨਾਲ ਸ਼ੁਰੂ ਕਰਦੇ ਹੋਏ। ਫਿਰ ਲੈਕਚਰ ਪੜ੍ਹੋ ਅਤੇ ਬਾਕੀ ਦੀਆਂ ਗਤੀਵਿਧੀਆਂ ਪੂਰੀਆਂ ਕਰੋ। ਹੱਲ ਕੋਡ ਦੀ ਨਕਲ ਕਰਨ ਦੀ ਥਾਂ ਪਾਠਾਂ ਨੂੰ ਸਮਝ ਕੇ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ; ਹਾਲਾਂਕਿ, ਹੱਲ ਕੋਡ ਹਰ ਪ੍ਰੋਜੈਕਟ-ਮੀਲੀ ਪਾਠ ਵਿੱਚ /solutions ਫੋਲਡਰ ਵਿੱਚ ਉਪਲਬਧ ਹੈ। ਦੂਜਾ ਵਿਚਾਰ ਇੱਕ ਅਧਿਐਨ ਗਰੁੱਪ ਬਣਾਉਣਾ ਅਤੇ ਦੋਸਤਾਂ ਨਾਲ ਸਮੱਗਰੀ ਦੇਖਨੀ ਹੋ ਸਕਦੀ ਹੈ। ਹੋਰ ਅਧਿਐਨ ਲਈ, ਅਸੀਂ [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) ਦੀ ਸਿਫਾਰਸ਼ ਕਰਦੇ ਹਾਂ।
 
-**ਤੁਰੰਤ ਸ਼ੁਰੂਆਤ:**
-1. ਆਪਣਾ ਵਾਤਵਰਣ ਸੈੱਟ ਕਰਨ ਲਈ [ਇੰਸਟਾਲੇਸ਼ਨ ਗਾਈਡ](INSTALLATION.md) ਦੇਖੋ
-2. ਅਧਿਆਪਨ ਨਾਲ ਕੰਮ ਕਰਨਾ ਸਿੱਖਣ ਲਈ [ਵਰਤੋਂ ਗਾਈਡ](USAGE.md) ਦੀ ਸਮੀਖਿਆ ਕਰੋ
-3. ਪਹਿਲੇ ਪਾਠ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ ਲੜੀਵਾਰ ਅੱਗੇ ਵਧੋ
-4. ਸਹਾਇਤਾ ਲਈ ਸਾਡੇ [Discord ਕਮਿਊਨਿਟੀ](https://aka.ms/ds4beginners/discord) ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ
+**ਚੁਸਤ ਸ਼ੁਰੂਆਤ:**
+1. ਆਪਣੇ ਮਾਹੌਲ ਦੀ ਸੈਟਅੱਪ ਲਈ [ਇੰਸਟਾਲੇਸ਼ਨ ਗਾਈਡ](INSTALLATION.md) ਦੇਖੋ
+2. ਪਾਠਕ੍ਰਮ ਨਾਲ ਕੰਮ ਕਰਨ ਲਈ [ਇਸਤਮਾਲ ਗਾਈਡ](USAGE.md) ਦੀ ਸਮੀਖਿਆ ਕਰੋ
+3. ਪਾਠ 1 ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ ਅਤੇ ਇੱਕ-ਕੇ-ਬਾਅਦ-ਦੂਜੇ ਕਰਕੇ ਕੰਮ ਕਰੋ
+4. ਸਹਾਇਤਾ ਲਈ ਸਾਡੀ [ਡਿਸਕੋਰਡ ਕਮਿਊਨਿਟੀ](https://aka.ms/ds4beginners/discord) ਵਿੱਚ ਸ਼ਾਮਿਲ ਹੋਵੋ
 
 ## 👩‍🏫 ਅਧਿਆਪਕਾਂ ਲਈ
+> **ਟੀਚਰਜ਼**: ਅਸੀਂ ਇਸ ਕਰਿਕੁਲਮ ਨੂੰ ਵਰਤਣ ਬਾਰੇ ਕੁਝ ਸੁਝਾਵਾਂ [ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਹਨ](for-teachers.md)। ਅਸੀਂ ਤੁਹਾਡੇ ਫੀਡਬੈਕ ਨੂੰ ਸਾਡੇ ਚਰਚਾ ਫੋਰਮ ਵਿੱਚ ਲੈਕੇ ਆਉਣ ਨੂੰ ਪਸੰਦ ਕਰਾਂਗੇ! [ਸਾਡੇ ਚਰਚਾ ਫੋਰਮ](https://github.com/microsoft/Data-Science-For-Beginners/discussions) 'ਚ ਆਪਣਾ ਫੀਡਬੈਕ ਦਿਉ!
 
-> **ਅਧਿਆਪਕਾਂ**: ਅਸੀਂ [ਇਸ ਅਧਿਆਪਨ ਨੂੰ ਵਰਤਣ ਦੇ ਕੁਝ ਸੁਝਾਅ](for-teachers.md) ਸ਼ਾਮਲ ਕੀਤੇ ਹਨ। ਅਸੀਂ ਤੁਹਾਡੇ ਫੀਡਬੈਕ ਦਾ ਉਮੀਦ ਕਰਦੇ ਹਾਂ [ਸਾਡੇ ਚਰਚਾ ਫੋਰਮ ਵਿੱਚ](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 ## ਟੀਮ ਨਾਲ ਮਿਲੋ
 
 [![ਪ੍ਰੋਮੋ ਵੀਡੀਓ](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "ਪ੍ਰੋਮੋ ਵੀਡੀਓ")
 
 **ਗਿਫ** [ਮੋਹਿਤ ਜੈਸਲ](https://www.linkedin.com/in/mohitjaisal) ਵੱਲੋਂ
 
-> 🎥 ਪ੍ਰਾਜੈਕਟ ਅਤੇ ਉਸ ਨੂੰ ਬਣਾਉਣ ਵਾਲੇ ਲੋਕਾਂ ਬਾਰੇ ਵੀਡੀਓ ਲਈ ਉਪਰ ਦਿੱਤੀ ਚਿੱਤਰ 'ਤੇ ਕਲਿੱਕ ਕਰੋ!
+> 🎥 ਪ੍ਰੋਜੈਕਟ ਅਤੇ ਇਸਨੂੰ ਬਣਾਉਣ ਵਾਲੇ ਲੋਕਾਂ ਦੇ ਬਾਰੇ ਵੀਡੀਓ ਦੇਖਣ ਲਈ ਉਪਰ ਦਿੱਤੀ ਤਸਵੀਰ 'ਤੇ ਕਲਿਕ ਕਰੋ!
 
-## ਪੈਡਾਗੋਜੀ
+## ਪੈਡਾਗੌਜੀ
 
-ਅਸੀਂ ਇਸ ਕੋਰਸ ਬਣਾਉਂਦੇ ਸਮੇਂ ਦੋ ਪੈਡਾਗੋਜੀਕਲ ਸਿਧਾਂਤ ਚੁਣੇ ਹਨ: ਯਕੀਨੀ ਬਣਾਉਣਾ ਕਿ ਇਹ ਪ੍ਰੋਜੈਕਟ-ਆਧਾਰਿਤ ਹੈ ਅਤੇ ਇਸ ਵਿੱਚ ਅਕਸਰ ਕੁਇਜ਼ੇ ਸ਼ਾਮਿਲ ਹਨ। ਇਸ ਸੀਰੀਜ਼ ਦੇ ਅੰਤ ਤੱਕ, ਵਿਦਿਆਰਥੀ ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਬੁਨਿਆਦੀ ਪ੍ਰਿੰਸੀਪਲ ਸਿੱਖ ਚੁੱਕੇ ਹੋਣਗੇ, ਜਿਸ ਵਿੱਚ ਨੈਤਿਕ ਧਾਰਣਾ, ਡਾਟਾ ਤਿਆਰੀ, ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨ ਦੇ ਵੱਖ-ਵੱਖ ਤਰੀਕੇ, ਡਾਟਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ, ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ, ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਅਸਲੀ ਦੁਨੀਆ ਦੇ ਉਪਯੋਗ ਮਾਮਲੇ, ਅਤੇ ਹੋਰ ਸ਼ਾਮਿਲ ਹਨ।
+ਅਸੀਂ ਇਸ ਕਰਿਕੁਲਮ ਨੂ ਬਣਾਉਂਦੇ ਹੋਏ ਦੋ ਪੈਡਾਗੌਜਿਕਲ ਸਿਧਾਂਤਾਂ ਨੂੰ ਚੁਣਿਆ ਹੈ: ਇਹ ਪ੍ਰੋਜੈਕਟ-ਆਧਾਰਿਤ ਹੋਵੇ ਅਤੇ ਇਸ ਵਿੱਚ ਬਾਰ-ਬਾਰ ਕੁਇਜ਼ ਸ਼ਾਮਲ ਹੋਣ। ਇਸ ਸੀਰੀਜ਼ ਦੇ ਅੰਤ ਤੱਕ ਵਿਦਿਆਰਥੀਆਂ ਨੂੰ ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਬੁਨਿਆਦੀ ਨਿਯਮਾਂ ਬਾਰੇ ਪਤਾ ਲੱਗ ਜਾਵੇਗਾ, ਜਿਵੇਂ ਕਿ ਨੈਤਿਕ ਸਿਧਾਂਤ, ਡਾਟਾ ਤਿਆਰੀ, ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨ ਦੇ ਵੱਖ-ਵੱਖ ਤਰੀਕੇ, ਡਾਟਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ, ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ, ਡਾਟਾ ਸਾਇੰਸ ਦੀਆਂ ਅਸਲੀ ਜ਼ਿੰਦਗੀ ਦੀਆਂ ਵਰਤੋਂਵਾਲੀਆਂ ਮਿਸਾਲਾਂ ਅਤੇ ਹੋਰ।
 
-ਉਪਰੰਤ, ਕਲਾਸ ਤੋਂ ਪਹਿਲਾਂ ਇਕ ਘੱਟ-ਜਖਮੀ ਕੁਇਜ਼ ਵਿਦਿਆਰਥੀ ਦੇ ਵਿਸ਼ੇ ਸਿੱਖਣ ਦੇ ਇरਾਦੇ ਨੂੰ ਸੈੱਟ ਕਰਦਾ ਹੈ, ਜਦਕਿ ਕਲਾਸ ਤੋਂ ਬਾਅਦ ਦੂਜਾ ਕੁਇਜ਼ ਹੋਰ ਯਾਦ ਰੱਖਣ ਸੰਨિਚਿਤ ਕਰਦਾ ਹੈ। ਇਹ ਕੋਰਿਕੁਲਮ ਲਚਕੀਲਾ ਅਤੇ ਮਨੋਰੰਜਕ ਬਣਾਉਣ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ ਅਤੇ ਸਾਰੇ ਕਰ ਜਾਂ ਹਿੱਸੇ ਵੱਜੋਂ ਲੈਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਪ੍ਰੋਜੈਕਟ ਛੋਟੇ ਤੋਂ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ ਅਤੇ 10 ਹਫਤਿਆਂ ਦੇ ਚੱਕਰ ਦੇ ਅੰਤ ਤੱਕ ਵੱਧ-ਵੱਧ ਜਟਿਲ ਹੋ ਜਾਂਦੇ ਹਨ।
+ਇਸਦੇ ਨਾਲ-ਨਾਲ, ਇੱਕ ਕਮ-ਦਬਾਅ ਵਾਲਾ ਕੁਇਜ਼ ਕਲਾਸ ਜੁੜਨ ਤੋਂ ਪਹਿਲਾਂ ਵਿਦਿਆਰਥੀ ਦੇ ਸਿੱਖਣ ਦੇ ਇਰਾਦੇ ਨੂੰ ਸੈੱਟ ਕਰਦਾ ਹੈ, ਤੇ ਕਲਾਸ ਮਗਰੋਂ ਦੂਜਾ ਕੁਇਜ਼ ਹੋ ਰਿਹਾ ਗਿਆ ਸਮੱਗਰੀ ਨੂੰ ਹੋਰ ਜਾਣਨ ਵਿਚ ਮਦਦ ਕਰਦਾ ਹੈ। ਇਹ ਕਰਿਕੁਲਮ ਲਚਕੀਲਾ ਅਤੇ ਮਨੋਰੰਜਕ ਬਣਾਇਆ ਗਿਆ ਹੈ ਅਤੇ ਸਮੂਹ ਜਾਂ ਹਿੱਸੇ ਵਿੱਚ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ। ਪ੍ਰੋਜੈਕਟ ਛੋਟੇ ਸ਼ੁਰੂ ਹੁੰਦੇ ਹਨ ਅਤੇ 10 ਹਫ਼ਤਿਆਂ ਦੇ ਸਮੇਂ ਵਿੱਚ ਵੱਧ ਜਾਂਦੇ ਹਨ।
 
-> ਸਾਡਾ [ਆਚਰਨ ਕੋਡ](CODE_OF_CONDUCT.md), [ਯੋਗਦਾਨ](CONTRIBUTING.md), [ਅਨੁਵਾਦ](TRANSLATIONS.md) ਗਾਈਡਲਾਈਨਜ਼ ਦੇਖੋ। ਅਸੀਂ ਤੁਹਾਡੇ ਰਚਨਾਤਮਕ ਪ੍ਰਤੀਕਿਰਿਆ ਦਾ ਸਵਾਗਤ ਕਰਦੇ ਹਾਂ!
+> ਸਾਡਾ [ਕੋਡ ਆਫ ਕੰਡਕਟ](CODE_OF_CONDUCT.md), [ਯੋਗਦਾਨ](CONTRIBUTING.md), [ਅਨੁਵਾਦ](TRANSLATIONS.md) ਨਿਯਮਾਂ ਨੂੰ ਵੇਖੋ। ਅਸੀਂ ਤੁਹਾਡੇ ਵਧੀਆ ਫੀਡਬੈਕ ਦਾ ਸਵਾਗਤ ਕਰਦੇ ਹਾਂ!
 
-## ਹਰ ਪਾਠ ਵਿੱਚ ਸ਼ਾਮਿਲ ਹੈ:
+## ਹਰ ਪਾਠ ਵਿੱਚ ਸ਼ਾਮਲ ਹਨ:
 
-- ਵਿਕਲਪਿਕ ਸਕੈਚਨੋਟ
-- ਵਿਕਲਪਿਕ ਸਹਾਇਕ ਵੀਡੀਓ
-- ਪਾਠ ਤੋਂ ਪਹਿਲਾਂ ਵਰਮਅਪ ਕੁਇਜ਼
-- ਲਿਖਤੀ ਪਾਠ
-- ਪ੍ਰੋਜੈਕਟ-ਅਧਾਰਿਤ ਪਾਠਾਂ ਲਈ, ਪ੍ਰੋਜੈਕਟ ਕਿਵੇਂ ਬਣਾਉਣਾ ਹੈ ਉਸ ਦੀ ਕਦਮ-ਦਰ-ਕਦਮ ਮਾਰਗਦਰਸ਼ਨ
-- ਗਿਆਨ ਜਾਂਚ
-- ਇੱਕ ਚੈਲੰਜ
-- ਸਹਾਇਕ ਪਾਠ
-- ਨਿੱਤ ਪਾਠ ਤੋਂ ਬਾਅਦ ਕੁਇਜ਼ ([post-lesson quiz](https://ff-quizzes.netlify.app/en/))
+- ਵਿਕਲਪੀ ਸਕੈਚਨੋਟ  
+- ਵਿਕਲਪੀ ਪੂਰਕ ਵੀਡੀਓ  
+- ਪਾਠ ਤੋਂ ਪਹਿਲਾਂ ਵਾਰਮਅੱਪ ਕੁਇਜ਼  
+- ਲਿਖਤੀ ਪਾਠ  
+- ਪ੍ਰੋਜੈਕਟ-ਆਧਾਰਿਤ ਪਾਠਾਂ ਲਈ ਪ੍ਰੋਜੈਕਟ ਬਣਾਉਣ ਲਈ ਕਦਮ ਦਰ ਕਦਮ ਗਾਈਡ  
+- ਗਿਆਨ ਜਾਂਚ  
+- ਇੱਕ ਚੈਲੈਂਜ  
+- ਪੂਰਕ ਪੜ੍ਹਾਈ  
+- ਅਸਾਈਨਮੈਂਟ  
+- [ਪਾਠ ਮਗਰੋਂ ਕੁਇਜ਼](https://ff-quizzes.netlify.app/en/)
 
-> **ਕੁਇਜ਼ਜ਼ ਬਾਰੇ ਨੋਟ**: ਸਾਰੇ ਕੁਇਜ਼ਜ਼ Quiz-App ਫੋਲਡਰ ਵਿੱਚ ਹਨ, 40 ਕੁੱਲ ਕੁਇਜ਼ਜ਼ ਉਨਾਂ ਵਿੱਚ ਤਿੰਨ-ਤਿੰਨ ਪ੍ਰਸ਼ਨਾਂ ਵਾਲੇ ਹਨ। ਇਹ ਪਾਠਾਂ ਵਿੱਚ ਲਿੰਕ ਕੀਤੇ ਗਏ ਹਨ, ਪਰ ਕੁਇਜ਼ ਐਪ ਨੂੰ ਸਥਾਨਕ ਤੌਰ 'ਤੇ ਚਲਾਇਆ ਜਾ ਸਕਦਾ ਹੈ ਜਾਂ ਏਜ਼ਯੂਰ 'ਤੇ ਪ੍ਰਕਾਸ਼ਿਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ; `quiz-app` ਫੋਲਡਰ ਦੇ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ। ਇਹ ਆਹਿਸਤਾ-ਆਹਿਸਤਾ ਸਥਾਨਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।
+> **ਕੁਇਜ਼ ਬਾਰੇ ਇੱਕ ਨੋਟ**: ਸਾਰੇ ਕੁਇਜ਼ Quiz-App ਫੋਲਡਰ ਵਿੱਚ ਹਨ, ਕੁੱਲ 40 ਕੁਇਜ਼ ਜਿਨ੍ਹਾਂ ਵਿੱਚ ਤਿੰਨ ਪ੍ਰਸ਼ਨ ਹਨ। ਇਹ ਪਾਠਾਂ ਵਿੱਚ ਲਿੰਕ ਕੀਤੇ ਗਏ ਹਨ, ਪਰ ਕੁਇਜ਼ ਐਪ ਨੂੰ ਸਥਾਨਕ ਤੌਰ 'ਤੇ ਚਲਾਇਆ ਜਾ ਸਕਦਾ ਹੈ ਜਾਂ ਐਜ਼ਿਊਰ 'ਤੇ ਡਿਪਲੌਇ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ; ਨਾਲ ਦਿੱਤੇ ਨਿਰਦੇਸ਼ਾਂ ਦੀ ਪਾਲਣਾ ਕਰੋ। ਇਹ ਕੁਇਜ਼ ਧੀਰੇ-ਧੀਰੇ ਪੰਜਾਬੀ ਵਿੱਚ ਬਨਾਏ ਜਾ ਰਹੇ ਹਨ।
 
-## 🎓 ਸ਼ੁਰੂਆਤੀ-ਮਿੱਤਰ ਉਦਾਹਰਣ
+## 🎓 ਸ਼ੁਰੂਆਤੀ-ਅਨੁਕੂਲ ਉਦਾਹਰਨਾਂ
 
-**ਡਾਟਾ ਸਾਇੰਸ ਵਿੱਚ ਨਵਾਂ?** ਅਸੀਂ ਇੱਕ ਵਿਸ਼ੇਸ਼ [ਉਦਾਹਰਣ ਡਾਇਰੈਕਟਰੀ](examples/README.md) ਬਣਾਈ ਹੈ ਜਿਸ ਵਿੱਚ ਸੌਖਾ ਅਤੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਟਿੱਪਣੀਆਂ ਵਾਲਾ ਕੋਡ ਹੈ ਤਾਂ ਜੋ ਤੁਸੀਂ ਸ਼ੁਰੂਆਤ ਕਰ ਸਕੋ:
+**ਡਾਟਾ ਸਾਇੰਸ ਵਿੱਚ ਨਵਾ?** ਅਸੀਂ ਇੱਕ ਖਾਸ [ਉਦਾਹਰਨਾਂ ਫੋਲਡਰ](examples/README.md) ਬਣਾਇਆ ਹੈ ਜਿਸ ਵਿੱਚ ਸਧਾਰਨ ਅਤੇ ਵਧੀਆ ਤਰੀਕੇ ਨਾਲ ਟਿੱਪਣੀਆਂ ਵਾਲਾ ਕੋਡ ਹੈ ਤਾਂ ਕਿ ਤੁਸੀਂ ਸਿੱਖਣਾ ਸ਼ੁਰੂ ਕਰ ਸਕੋ:
 
-- 🌟 **ਹੈਲੋ ਵਰਲਡ** - ਤੁਹਾਡਾ ਪਹਿਲਾ ਡਾਟਾ ਸਾਇੰਸ ਪ੍ਰੋਗਰਾਮ
-- 📂 **ਡਾਟਾ ਲੋਡ ਕਰਨਾ** - ਡੈਟਾਸੈਟ ਪੜ੍ਹਨਾ ਅਤੇ ਖੰਗਾਲਣਾ ਸਿੱਖੋ
-- 📊 **ਸਰਲ ਵਿਸ਼ਲੇਸ਼ਣ** - ਅੰਕੜੇ ਕੱਡੋ ਅਤੇ ਪੈਟਰਨ ਲੱਭੋ
-- 📈 **ਮੁੱਢਲਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ** - ਚਾਰਟ ਅਤੇ ਗ੍ਰਾਫ ਬਣਾਉਣਾ
-- 🔬 **ਅਸਲੀ ਦੁਨੀਆਂ ਦਾ ਪ੍ਰੋਜੈਕਟ** - ਸ਼ੁਰੂ ਤੋਂ ਅੰਤ ਤੱਕ ਪੂਰਾ ਕੰਮ
+- 🌟 **ਹੈਲੋ ਵਰਲਡ** - ਤੁਹਾਡਾ ਪਹਿਲਾ ਡਾਟਾ ਸਾਇੰਸ ਪ੍ਰੋਗਰਾਮ  
+- 📂 **ਡਾਟਾ ਲੋਡ ਕਰਨਾ** - ਡਾਟਾ ਸੈੱਟ ਪੜ੍ਹਨਾ ਅਤੇ ਖੋਜਣਾ ਸਿੱਖੋ  
+- 📊 **ਸਰਲ ਵਿਸ਼ਲੇਸ਼ਣ** - ਅੰਕੜੇ ਗਣਨਾ ਕਰੋ ਅਤੇ ਪੈਟਰਨ ਲੱਭੋ  
+- 📈 **ਬੇਸਿਕ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ** - ਚਾਰਟ ਅਤੇ ਗ੍ਰਾਫ ਬਣਾਓ  
+- 🔬 **ਅਸਲੀ ਦੁਨੀਆ ਦਾ ਪ੍ਰੋਜੈਕਟ** - ਸ਼ੁਰੂ ਤੋਂ ਖਤਮ ਤੱਕ ਪ੍ਰਕਿਰਿਆ
 
-ਹਰ ਉਦਾਹਰਣ ਵਿੱਚ ਹਰ ਕਦਮ ਦੀ ਵਿਆਖਿਆ ਕਰਨ ਵਾਲੀਆਂ ਵਿਚਾਰਧਾਰਾਂ ਵਾਲੀਆਂ ਟਿੱਪਣੀਆਂ ਸ਼ਾਮਲ ਹਨ, ਜਿਸ ਨਾਲ ਇਹ ਬਿਲਕੁਲ ਸ਼ੁਰੂਆਤੀ ਵਿਦਿਆਰਥੀਆਂ ਲਈ ਬਦਲ ਹੀ ਉਚਿਤ ਹੈ!
+ਹਰ ਉਦਾਹਰਣ ਵਿਚ ਵਿਆਖਿਆਅਤਮਿਕ ਟਿੱਪਣੀਆਂ ਹਨ ਜੋ ਹਰ ਕਦਮ ਨੂੰ ਸਮਝਾਉਂਦੀਆਂ ਹਨ, ਜੋ ਬਿਲਕੁਲ ਨਵੇਂ ਸ਼ੁਰੂਆਤੀਆਂ ਲਈ ਬਹੁਤ ਵਧੀਆ ਹੈ!
 
-👉 **[ਉਦਾਹਰਣਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ](examples/README.md)** 👈
+👉 **[ਉਦਾਹਰਨਾਂ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ](examples/README.md)** 👈
 
 ## ਪਾਠ
 
+
 |![ ਸਕੈਚਨੋਟ @sketchthedocs ਵੱਲੋਂ https://sketchthedocs.dev](../../translated_images/pa/00-Roadmap.4905d6567dff4753.webp)|
 |:---:|
-| ਡਾਟਾ ਸਾਇੰਸ ਫੋਰ ਬਿਗਿਨਰਜ਼: ਰੋਡਮੈਪ - _ਸਕੈਚਨੋਟ [@nitya](https://twitter.com/nitya) ਵੱਲੋਂ_ |
+| ਡਾਟਾ ਸਾਇੰਸ ਫਾਰ ਬਿਗਿਨਰਸ: ਰੋਡਮੇਪ - _ਸਕੈਚਨੋਟ [@nitya](https://twitter.com/nitya) ਵੱਲੋਂ_ |
 
-| ਪਾਠ ਨੰਬਰ | ਵਿਸ਼ਾ | ਪਾਠ ਸਮੂਹ | ਸਿੱਖਣ ਦੇ ਉਦੇਸ਼ | ਲਿੰਕ ਕੀਤੇ ਪਾਠ | ਲੇਖਕ |
+
+| ਪਾਠ ਨੰਬਰ | ਵਿਸ਼ਾ | ਪਾਠ ਸਮੂਹ | ਸਿੱਖਣ ਦੇ ਉਦੇਸ਼ | ਲਿੰਕਡ ਪਾਠ | ਲੇਖਕ |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | ਡਾਟਾ ਸਾਇੰਸ ਦੀ ਪਰਿਭਾਸ਼ਾ | [ਪਰਿਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਮੁੱਢਲੇ概念 ਅਤੇ ਇਹ ਕਿਵੇਂ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ, ਮਸ਼ੀਨ ਲਰਨਿੰਗ, ਅਤੇ ਵੱਡੇ ਡਾਟਾ ਨਾਲ ਸੰਬੰਧਿਤ ਹੈ। | [ਪਾਠ](1-Introduction/01-defining-data-science/README.md) [ਵੀਡੀਓ](https://youtu.be/beZ7Mb_oz9I) | [ਦਿਮਿਤਰੀ](http://soshnikov.com) |
-| 02 | ਡਾਟਾ ਸਾਇੰਸ ਦੀ ਨੈਤਿਕਤਾ | [ਪਰਿਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਨੈਤਿਕਤਾ ਸੰਕਲਪ, ਚੁਣੌਤੀਆਂ ਅਤੇ ਢਾਂਚੇ। | [ਪਾਠ](1-Introduction/02-ethics/README.md) | [ਨਿਤਿਆ](https://twitter.com/nitya) |
-| 03 | ਡਾਟਾ ਦੀ ਪਰਿਭਾਸ਼ਾ | [ਪਰਿਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਕਿਵੇਂ ਵਰਗੀਕ੍ਰਿਤ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇਸਦੇ ਆਮ ਸ੍ਰੋਤ। | [ਪਾਠ](1-Introduction/03-defining-data/README.md) | [ਜੈਸਮੀਨ](https://www.twitter.com/paladique) |
-| 04 | ਅੰਕੜੇ ਅਤੇ ਸੰਭਾਵਨਾ ਦਾ ਪਰਿਚਯ | [ਪਰਿਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਨੂੰ ਸਮਝਣ ਲਈ ਸੰਭਾਵਨਾ ਅਤੇ ਅੰਕੜਿਆਂ ਦੀ ਗਣਿਤੀਕ ਤਕਨੀਕਾਂ। | [ਪਾਠ](1-Introduction/04-stats-and-probability/README.md) [ਵੀਡੀਓ](https://youtu.be/Z5Zy85g4Yjw) | [ਦਿਮਿਤਰੀ](http://soshnikov.com) |
-| 05 | ਰਿਲੇਸ਼ਨਲ ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਰਿਲੇਸ਼ਨਲ ਡਾਟਾ ਦਾ ਪਰਿਚਯ ਅਤੇ ਸੰਰਚਿਤ ਕੁਇਰੀ ਭਾਸ਼ਾ (SQL) ਨਾਲ ਡਾਟਾ ਖੰਗਾਲਣ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਦੇ ਮੁੱਢਲੇ ਬੁੱਤਰ। | [ਪਾਠ](2-Working-With-Data/05-relational-databases/README.md) | [ਕ੍ਰਿਸਟੋਫ਼ਰ](https://www.twitter.com/geektrainer) | | |
-| 06 | ਨੋ-ਐਸਕਿਊਐਲ ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਗੈਰ-ਰਿਲੇਸ਼ਨਲ ਡਾਟਾ ਦਾ ਪਰਿਚਯ, ਇਸ ਦੇ ਕਈ ਰੂਪ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਡੇਟਾਬੇਸ ਖੰਗਾਲਣ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਦੇ ਮੁੱਢਲੇ ਬੁੱਤਰ। | [ਪਾਠ](2-Working-With-Data/06-non-relational/README.md) | [ਜੈਸਮੀਨ](https://twitter.com/paladique) |
-| 07 | ਪਾਇਥਨ ਨਾਲ ਕੰਮ ਕਰਨਾ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਡਾਟਾ ਖੰਗਾਲਣ ਲਈ Python ਦਾ ਮੂਲ ਭਾਸ਼ਾ ਵਰਤਣਾ, ਜਿਵੇਂ Pandas ਵਰਗੀਆਂ ਲਾਇਬ੍ਰੇਰੀਜ਼ ਨਾਲ। ਪਾਇਥਨ ਪ੍ਰੋਗ੍ਰਾਮਿੰਗ ਦੀ ਬੁਨਿਆਦੀ ਸਮਝ ਲਾਜ਼ਮੀ ਹੈ। | [ਪਾਠ](2-Working-With-Data/07-python/README.md) [ਵੀਡੀਓ](https://youtu.be/dZjWOGbsN4Y) | [ਦਿਮਿਤਰੀ](http://soshnikov.com) |
-| 08 | ਡਾਟਾ ਤਿਆਰੀ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਡਾਟਾ ਨੂੰ ਸਾਫ ਕਰਨ ਅਤੇ ਬਦਲਣ ਲਈ ਤਕਨੀਕਾਂ, ਗੁੰਮ, ਗਲਤ ਜਾਂ ਅਧੂਰੇ ਡਾਟਾ ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਹੱਲ ਕਰਨ ਲਈ। | [ਪਾਠ](2-Working-With-Data/08-data-preparation/README.md) | [ਜੈਸਮੀਨ](https://www.twitter.com/paladique) |
-| 09 | ਮਾਤਰਾ ਨੂੰ ਵਿਜ਼ੁਅਲਾਈਜ਼ ਕਰਨਾ | [ਡਾਟਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਮੈਟਪਲੌਟਲਿਬ ਵਰਤ ਕੇ ਪੰਛੀਆਂ ਦੇ ਡਾਟਾ ਨੂੰ ਵਿਜ਼ੁਅਲਾਈਜ਼ ਕਰਨਾ 🦆 | [ਪਾਠ](3-Data-Visualization/09-visualization-quantities/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
-| 10 | ਡਾਟਾ ਦੇ ਵੰਡ ਨੂੰ ਵਿਜ਼ੁਅਲਾਈਜ਼ ਕਰਨਾ | [ਡਾਟਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਇੱਕ ਅੰਤਰਾਲ ਵਿਚ ਵੇਖੀਆਂ ਗਈਆਂ ਚੀਜ਼ਾਂ ਅਤੇ ਰੁਝਾਨਾਂ ਦੀ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ। | [ਪਾਠ](3-Data-Visualization/10-visualization-distributions/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
-| 11 | ਅਨੁਪਾਤਾਂ ਨੂੰ ਵਿਜ਼ੁਅਲਾਈਜ਼ ਕਰਨਾ | [ਡਾਟਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਬਿਨਾਂ ਜੁੜੇ ਅਤੇ ਸਮੂਹਬੱਧ ਪ੍ਰਤੀਸ਼ਤਾਂ ਦੀ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ। | [ਪਾਠ](3-Data-Visualization/11-visualization-proportions/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
-| 12 | ਰਿਸ਼ਤੇਦਾਰੀਆਂ ਨੂੰ ਵਿਜ਼ੁਅਲਾਈਜ਼ ਕਰਨਾ | [ਡਾਟਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਡਾਟਾ ਦੇ ਸੈੱਟਾਂ ਅਤੇ ਉਨਾਂ ਦੇ ਵੈਰੀਏਬਲਾਂ ਵਿਚਕਾਰ ਸੰਬੰਧ ਅਤੇ ਕੋਰਲੇਸ਼ਨਾਂ ਦੀ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ। | [ਪਾਠ](3-Data-Visualization/12-visualization-relationships/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
-| 13 | ਮਾਇਨੇਦਾਰ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ | [ਡਾਟਾ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਸਮੱਸਿਆ ਹੱਲ ਅਤੇ ਗਿਆਨ ਲਈ ਤੁਹਾਡੇ ਵਿਜ਼ੁਅਲਾਈਜ਼ੇਸ਼ਨਾਂ ਨੂੰ ਕੀਮਤੀ ਬਣਾਉਣ ਲਈ ਤਕਨੀਕਾਂ ਅਤੇ ਦੀਪਦਰਸ਼ਨ। | [ਪਾਠ](3-Data-Visualization/13-meaningful-visualizations/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
-| 14 | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਪਰਿਚਯ | [ਲਾਈਫਸਾਈਕਲ](4-Data-Science-Lifecycle/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਅਤੇ ਪਹਿਲੇ ਕਦਮ ਡਾਟਾ ਪ੍ਰਾਪਤ ਕਰਨ ਅਤੇ ਕੱਢਣ ਦਾ ਪਰਿਚਯ। | [ਪਾਠ](4-Data-Science-Lifecycle/14-Introduction/README.md) | [ਜੈਸਮੀਨ](https://twitter.com/paladique) |
-| 15 | ਵਿਸ਼ਲੇਸ਼ਣ | [ਲਾਈਫਸਾਈਕਲ](4-Data-Science-Lifecycle/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਇਹ ਪੜਾਅ ਡਾਟਾ ਨੂੰ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਦੀਆਂ ਤਕਨੀਕਾਂ 'ਤੇ ਕੇਂਦ੍ਰਿਤ ਹੈ। | [ਪਾਠ](4-Data-Science-Lifecycle/15-analyzing/README.md) | [ਜੈਸਮੀਨ](https://twitter.com/paladique) | | |
-| 16 | ਸੰਚਾਰ | [ਲਾਈਫਸਾਈਕਲ](4-Data-Science-Lifecycle/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਇਹ ਪੜਾਅ ਡਾਟਾ ਵਿੱਚੋਂ ਮਿਲੇ ਨਤੀਜੇ ਆਪਣੇ ਤਰੀਕੇ ਨਾਲ ਪੇਸ਼ ਕਰਨ 'ਤੇ ਕੇਂਦ੍ਰਿਤ ਹੈ ਕਿ ਜੋ ਫੈਸਲਾ ਲੈਣ ਵਾਲਿਆਂ ਲਈ ਸਮਝਣਾ ਸੁਗਮ ਬਣਾਏ। | [ਪਾਠ](4-Data-Science-Lifecycle/16-communication/README.md) | [ਜੇਲਨ](https://twitter.com/JalenMcG) | | |
-| 17 | ਕਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਕਲਾਉਡ ਡਾਟਾ](5-Data-Science-In-Cloud/README.md) | ਇਹ ਸਿੱਖਿਆ ਪੁੜ੍ਹਾਈਆਂ ਕਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ ਅਤੇ ਇਸਦੇ ਫਾਇਦਿਆਂ ਦਾ ਪਰਿਚਯ ਕਰਵਾਉਂਦੀਆਂ ਹਨ। | [ਪਾਠ](5-Data-Science-In-Cloud/17-Introduction/README.md) | [ਟਿਫ਼ਨੀ](https://twitter.com/TiffanySouterre) ਅਤੇ [ਮੌਡ](https://twitter.com/maudstweets) |
-| 18 | ਕਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਕਲਾਉਡ ਡਾਟਾ](5-Data-Science-In-Cloud/README.md) | ਲੋ ਕੋਡ ਟੂਲਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਮਾਡਲਾਂ ਦੀ ਟਰੇਨਿੰਗ। |[ਪਾਠ](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [ਟਿਫ਼ਨੀ](https://twitter.com/TiffanySouterre) ਅਤੇ [ਮੌਡ](https://twitter.com/maudstweets) |
-| 19 | ਕਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਕਲਾਉਡ ਡਾਟਾ](5-Data-Science-In-Cloud/README.md) | ਏਜ਼ਯੂਰ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਸਟੁਡੀਓ ਨਾਲ ਮਾਡਲਾਂ ਦੀ ਤੈਨਾਤੀ। | [ਪਾਠ](5-Data-Science-In-Cloud/19-Azure/README.md)| [ਟਿਫ਼ਨੀ](https://twitter.com/TiffanySouterre) ਅਤੇ [ਮੌਡ](https://twitter.com/maudstweets) |
-| 20 | ਜੰਗਲ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਇਨ ਦ ਵਾਇਲਡ](6-Data-Science-In-Wild/README.md) | ਅਸਲੀ ਦੁਨੀਆ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ ਚਲਾਉਂਦੇ ਪ੍ਰੋਜੈਕਟ। | [ਪਾਠ](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [ਨਿਤਿਆ](https://twitter.com/nitya) |
+| 01 | ਡਾਟਾ ਸਾਇੰਸ ਦੀ ਪਰਿਭਾਸ਼ਾ | [ਪਰੀਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਦੇ ਮੂਲ ਸਿਧਾਂਤ ਸਿੱਖੋ ਅਤੇ ਇਹ ਕਿਵੇਂ ਕ੍ਰਿਤ੍ਰਿਮ ਬੁੱਧੀ, ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਅਤੇ ਵੱਡੇ ਡਾਟਾ ਨਾਲ ਜੁੜਿਆ ਹੈ। | [ਪਾਠ](1-Introduction/01-defining-data-science/README.md) [ਵੀਡੀਓ](https://youtu.be/beZ7Mb_oz9I) | [ਦਿਮਿਤਰੀ](http://soshnikov.com) |
+| 02 | ਡਾਟਾ ਸਾਇੰਸ ਨੈਤਿਕਤਾ | [ਪਰੀਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਨੈਤਿਕਤਾ ਦੇ ਸਿਧਾਂਤ, ਚੁਣੌਤੀਆਂ ਅਤੇ ਢਾਂਚੇ। | [ਪਾਠ](1-Introduction/02-ethics/README.md) | [ਨਿਤਿਆ](https://twitter.com/nitya) |
+| 03 | ਡਾਟਾ ਦੀ ਪਰਿਭਾਸ਼ਾ | [ਪਰੀਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਕਿਵੇਂ ਵਰਗੀਕ੍ਰਿਤ ਹੁੰਦਾ ਹੈ ਅਤੇ ਇਸਦੇ ਆਮ ਸਰੋਤ। | [ਪਾਠ](1-Introduction/03-defining-data/README.md) | [ਜੇਸਮੀਨ](https://www.twitter.com/paladique) |
+| 04 | ਅੰਕੜਿਆਂ ਅਤੇ ਸੰਭਾਵਨਾ ਦਾ ਪਰੀਚਯ | [ਪਰੀਚਯ](1-Introduction/README.md) | ਡਾਟਾ ਨੂੰ ਸਮਝਣ ਲਈ ਸੰਭਾਵਨਾ ਅਤੇ ਅੰਕੜਿਆਂ ਦੇ ਗਣਿਤੀਕ ਤਰੀਕੇ। | [ਪਾਠ](1-Introduction/04-stats-and-probability/README.md) [ਵੀਡੀਓ](https://youtu.be/Z5Zy85g4Yjw) | [ਦਿਮਿਤਰੀ](http://soshnikov.com) |
+| 05 | ਰਿਲੇਸ਼ਨਲ ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਰਿਲੇਸ਼ਨਲ ਡਾਟਾ ਦਾ ਪਰੀਚਯ ਅਤੇ ਸੂਚੀਬੱਧ ਪੁੱਛ-ਗਿੱਛ ਭਾਸ਼ਾ SQL ਨਾਲ ਡਾਟਾ ਨੂੰ ਖੋਜਣ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਦੇ ਮੂਲ ਤਰੀਕੇ। | [ਪਾਠ](2-Working-With-Data/05-relational-databases/README.md) | [ਕ੍ਰਿਸਟੋਫਰ](https://www.twitter.com/geektrainer) | | |
+| 06 | ਨੌਨ-ਐਸਕਿਊਐਲ ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਗੈਰ-ਰਿਲੇਸ਼ਨਲ ਡਾਟਾ ਦਾ ਪਰੀਚਯ, ਇਸਦੇ ਵੱਖ-ਵੱਖ ਪ੍ਰਕਾਰ ਅਤੇ ਡੌਕਯੂਮੈਂਟ ਡਾਟਾਬੇਸ ਖੋਜਣ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ ਦੇ ਬੁਨਿਆਦੀ ਤਰੀਕੇ। | [ਪਾਠ](2-Working-With-Data/06-non-relational/README.md) | [ਜੇਸਮੀਨ](https://twitter.com/paladique) |
+| 07 | ਪਾਇਥਨ ਨਾਲ ਕੰਮ ਕਰਨਾ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਪੈਂਡਾਸ ਵਰਗੀਆਂ ਲਾਇਬ੍ਰੇਰੀਜ਼ ਨਾਲ ਡਾਟਾ ਖੋਜ ਲਈ ਪਾਇਥਨ ਦੀ ਬੁਨਿਆਦੀ ਵਰਤੋਂ। ਪਾਇਥਨ ਪ੍ਰੋਗ੍ਰਾਮਿੰਗ ਬਾਰੇ ਮੂਲ ਸਮਝ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। | [ਪਾਠ](2-Working-With-Data/07-python/README.md) [ਵੀਡੀਓ](https://youtu.be/dZjWOGbsN4Y) | [ਦਿਮਿਤਰੀ](http://soshnikov.com) |
+| 08 | ਡਾਟਾ ਤਿਆਰੀ | [ਡਾਟਾ ਨਾਲ ਕੰਮ ਕਰਨਾ](2-Working-With-Data/README.md) | ਗੁੰਮ, ਗਲਤ ਜਾਂ ਅਧੂਰੇ ਡਾਟਾ ਦੀ ਸਮੱਸਿਆ ਨਾਲ ਨਜਿੱਠਣ ਲਈ ਡਾਟਾ ਸਾਫ ਕਰਨ ਅਤੇ ਬਦਲਣ ਦੇ ਤਰੀਕਿਆਂ 'ਤੇ ਟਾਪਿਕ। | [ਪਾਠ](2-Working-With-Data/08-data-preparation/README.md) | [ਜੇਸਮੀਨ](https://www.twitter.com/paladique) |
+| 09 | ਮਾਤਰਾਵਾਂ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ | [ਡਾਟਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਮੈਟਪਲੌਟਲਿਬ ਦਾ ਵਰਤੋਂ ਕਰਕੇ ਪੰਛੀ ਡਾਟਾ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ ਸਿੱਖੋ 🦆 | [ਪਾਠ](3-Data-Visualization/09-visualization-quantities/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
+| 10 | ਡਾਟਾ ਦੇ ਵੰਡਾਂ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ | [ਡਾਟਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਇੱਕ ਅੰਤਰਾਲ ਦੇ ਅੰਦਰ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਨਿਰੀਖਣ ਅਤੇ ਰੁਝਾਨਾਂ ਨੂੰ ਵਿਜ਼ੂਅਲਾਈਜ਼ ਕਰਨਾ। | [ਪਾਠ](3-Data-Visualization/10-visualization-distributions/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
+| 11 | ਅਨੁਪਾਤਾਂ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ | [ਡਾਟਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਵਿਸ਼ਲੇਸ਼ਣ ਅਤੇ ਸਮੂਹਿਤ ਪ੍ਰਤੀਸ਼ਤਾਂ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ। | [ਪਾਠ](3-Data-Visualization/11-visualization-proportions/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
+| 12 | ਸਮੰਬੰਧਾਂ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ | [ਡਾਟਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਡਾਟਾ ਅਤੇ ਇਸਦੇ ਵੇਰੀਏਬਲਸ ਵਿਚਕਾਰ ਦੇ ਜੋੜ ਅਤੇ ਸਹਸੰਬੰਧਾਂ ਦਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ। | [ਪਾਠ](3-Data-Visualization/12-visualization-relationships/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
+| 13 | ਅਰਥਪੂਰਨ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ | [ਡਾਟਾ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨ](3-Data-Visualization/README.md) | ਸਮੱਸਿਆ ਹੱਲ ਅਤੇ ਅੰਤਰਦෘਸ਼ਟੀਆਂ ਲਈ ਤੁਹਾਡੇ ਵਿਜ਼ੂਅਲਾਈਜ਼ੇਸ਼ਨਾਂ ਨੂੰ ਮੁੱਲਵਾਨ ਬਣਾਉਣ ਦੇ ਤਰੀਕੇ ਅਤੇ ਦਿਸ਼ਾ-ਨਿਰਦੇਸ਼। | [ਪਾਠ](3-Data-Visualization/13-meaningful-visualizations/README.md) | [ਜੇਨ](https://twitter.com/jenlooper) |
+| 14 | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਪਰੀਚਯ | [ਲਾਈਫਸਾਈਕਲ](4-Data-Science-Lifecycle/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਪਰੀਚਯ ਅਤੇ ਉਸਦਾ ਪਹਿਲਾ ਕਦਮ, ਡਾਟਾ ਪ੍ਰਾਪਤੀ ਅਤੇ ਨਿਕਾਸ। | [ਪਾਠ](4-Data-Science-Lifecycle/14-Introduction/README.md) | [ਜੇਸਮੀਨ](https://twitter.com/paladique) |
+| 15 | ਵਿਸ਼ਲੇਸ਼ਣ | [ਲਾਈਫਸਾਈਕਲ](4-Data-Science-Lifecycle/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਇਹ ਚਰਣ ਡਾਟਾ ਵਿਸ਼ਲੇਸ਼ਣ ਦੀਆਂ ਤਕਨੀਕਾਂ 'ਤੇ ਕੇਂਦ੍ਰਿਤ ਹੈ। | [ਪਾਠ](4-Data-Science-Lifecycle/15-analyzing/README.md) | [ਜੇਸਮੀਨ](https://twitter.com/paladique) | | |
+| 16 | ਸੰਚਾਰ | [ਲਾਈਫਸਾਈਕਲ](4-Data-Science-Lifecycle/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਲਾਈਫਸਾਈਕਲ ਦਾ ਇਹ ਚਰਣ ਡਾਟਾ ਤੋਂ ਪ੍ਰਾਪਤ ਸੂਝ-ਬੂਝ ਨੂੰ ਇੰਝ ਪੇਸ਼ ਕਰਨ 'ਤੇ ਕੇਂਦ੍ਰਿਤ ਹੈ ਕਿ ਨਿਰਣਯ ਕੈਂਦਰ ਬਿਨੈਤਾ ਨੂੰ ਸਮਝਣਾ ਆਸਾਨ ਹੋ ਜਾਵੇ। | [ਪਾਠ](4-Data-Science-Lifecycle/16-communication/README.md) | [ਜੇਲਨ](https://twitter.com/JalenMcG) | | |
+| 17 | ਕੁਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਕੁਲਾਉਡ ਡਾਟਾ](5-Data-Science-In-Cloud/README.md) | ਡਾਟਾ ਸਾਇੰਸ ਨੂੰ ਕੁਲਾਉਡ 'ਚ ਜਾਣੂ ਕਰਵਾਉਂਦਾ ਹੈ ਅਤੇ ਇਸਦੇ ਲਾਭ। | [ਪਾਠ](5-Data-Science-In-Cloud/17-Introduction/README.md) | [ਟਿਫਨੀ](https://twitter.com/TiffanySouterre) ਅਤੇ [ਮੌਡ](https://twitter.com/maudstweets) |
+| 18 | ਕੁਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਕੁਲਾਉਡ ਡਾਟਾ](5-Data-Science-In-Cloud/README.md) | ਕੁਮ ਕੋਡ ਟੂਲਜ਼ ਦੀ ਵਰਤੋਂ ਨਾਲ ਮਾਡਲ ਤਿਆਰ ਕਰਨਾ। |[ਪਾਠ](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [ਟਿਫਨੀ](https://twitter.com/TiffanySouterre) ਅਤੇ [ਮੌਡ](https://twitter.com/maudstweets) |
+| 19 | ਕੁਲਾਉਡ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਕੁਲਾਉਡ ਡਾਟਾ](5-Data-Science-In-Cloud/README.md) | ਐਜ਼ਿਊਰ ਮਸ਼ੀਨ ਲਰਨਿੰਗ ਸਟੂਡੀਓ ਨਾਲ ਮਾਡਲਾਂ ਦਾ ਡਿਪਲੌਇਮੈਂਟ। | [ਪਾਠ](5-Data-Science-In-Cloud/19-Azure/README.md)| [ਟਿਫਨੀ](https://twitter.com/TiffanySouterre) ਅਤੇ [ਮੌਡ](https://twitter.com/maudstweets) |
+| 20 | ਵਾਹਰੀ ਦੁਨੀਆ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ | [ਵਾਹਰੀ ਦੁਨੀਆ](6-Data-Science-In-Wild/README.md) | ਅਸਲੀ ਦੁਨੀਆਂ ਵਿੱਚ ਡਾਟਾ ਸਾਇੰਸ ਨਾਲ ਚੱਲ ਰਹੇ ਪ੍ਰੋਜੈਕਟ। | [ਪਾਠ](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [ਨਿਤਿਆ](https://twitter.com/nitya) |
 
-## GitHub ਕੋਡਸਪੇਸ
+## ਗਿੱਟਹੱਬ ਕੋਡਸਪੇਸ
 
-ਇਸ ਨਮੂਨੇ ਨੂੰ ਇੱਕ ਕੋਡਸਪੇਸ ਵਿੱਚ ਖੋਲ੍ਹਣ ਲਈ ਇਹ ਕਦਮ ਅਨੁਸਰਣ ਕਰੋ:
-1. ਕੋਡ ਡ੍ਰਾਪਡਾਊਨ ਮੈਨੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ Open with Codespaces ਵਿਕਲਪ ਚੁਣੋ।
-2. ਪੈਨੇ ਦੇ ਹੇਠਾਂ + ਨਵਾਂ ਕੋਡਸਪੇਸ ਚੁਣੋ।
-ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ, [GitHub ਦਸਤਾਵੇਜ਼](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) ਵੇਖੋ।
+ਇਸ ਨਮੂਨੇ ਨੂੰ ਕੋਡਸਪੇਸ ਵਿੱਚ ਖੋਲ੍ਹਣ ਲਈ ਇਹ ਕਦਮ ਕਰੋ:  
+1. ਕੋਡ ਡ੍ਰਾਪਡਾਊਨ ਮੇਨੂ 'ਤੇ ਕਲਿੱਕ ਕਰੋ ਅਤੇ "Open with Codespaces" ਵਿਕਲਪ ਚੁਣੋ।  
+2. ਪੈਨਲ ਦੇ ਹੇਠਾਂ + ਨਿਊ ਕੋਡਸਪੇਸ ਚੁਣੋ।  
+ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ, [GitHub ਡੌਕਯੂਮੈਂਟੇਸ਼ਨ](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) ਵੇਖੋ।
 
 ## VSCode ਰਿਮੋਟ - ਕੰਟੇਨਰ
 
-ਆਪਣੇ ਸਥਾਨਕ ਮਸ਼ੀਨ ਅਤੇ VSCode ਦੀ VS Code Remote - Containers ਐਕਸਟੈਂਸ਼ਨ ਵਰਤ ਕੇ ਇਸ ਰਿਪੋ ਨੂੰ ਕੰਟੇਨਰ ਵਿੱਚ ਖੋਲ੍ਹਣ ਲਈ ਇਹ ਕਦਮ ਅਨੁਸਰਣ ਕਰੋ:
+ਆਪਣੇ ਲੋਕਲ ਮਸ਼ੀਨ ਤੇ VSCode ਵਰਤ ਕੇ ਇਸ ਭੰਡਾਰ ਨੂੰ ਕੰਟੇਨਰ ਵਿਚ ਖੋਲ੍ਹਣ ਲਈ VS Code Remote - Containers ਐਕਸਟੈਂਸ਼ਨ ਵਰਤੋਂ:
 
-1. ਜੇ ਇਹ ਤੁਹਾਡੇ ਲਈ ਪਹਿਲੀ ਵਾਰ ਵਿਕਾਸ ਕੰਟੇਨਰ ਲਈ ਹੈ, ਤਾਂ ਸ਼ੁਰੂਆਤੀ ਦਸਤਾਵੇਜ਼ਾਂ ਵਿੱਚ ਦਿੱਤੇ ਗਏ ਪ੍ਰੀ-ਰੀਕੁਆਰਮੈਂਟਸ (ਜਿਵੇਂ ਕਿ ਡਾਕਰ ਦੀ ਸਥਾਪਨਾ) ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ: [ਦਸਤਾਵੇਜ਼](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started)।
+1. ਜੇ ਇਹ ਤੁਹਾਡਾ ਪਹਿਲਾ ਵਿਕਾਸ ਕੰਟੇਨਰ ਹੈ, ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਇਹ ਯਕੀਨੀ ਬਨਾਓ ਕਿ ਤੁਹਾਡਾ ਸਿਸਟਮ ਪਹਿਲਾਂ ਤੋਂ ਲੋੜੀਂਦੇ ਪੂਰਕ (ਜਿਵੇਂ ਕਿ ਡੋਕਰ ਇੰਸਟਾਲ ਹੈ) ਨੂੰ ਪੂਰਾ ਕਰਦਾ ਹੈ, [ਗੈਟਿੰਗ ਸਟਾਰਟੇਡ ਡੌਕਯੂਮੈਂਟੇਸ਼ਨ](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) ਵਿੱਚ।
 
-ਇਸ ਰਿਪੋਜ਼ਿਟਰੀ ਨੂੰ ਵਰਤਣ ਲਈ ਤੁਸੀਂ ਜਾਂ ਤਾਂ ਰਿਪੋ ਨੂੰ ਇੱਕ ਅਲੱਗ ਡਾਕਰ ਵਾਲੀਅਮ ਵਿੱਚ ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ:
+ਇਸ ਰਿਪੋਜ਼ਟਰੀ ਨੂੰ ਵਰਤਣ ਲਈ, ਤੁਸੀਂ ਦੇਖ ਸਕਦੇ ਹੋ ਕਿ ਇਹ ਰਿਪੋਜ਼ ਰਹਿਤ ਡੋਕਰ ਵਾਲੀਮ ਵਿੱਚ ਖੁਲੇ:
 
-**ਨੋਟ**: ਅੰਦਰੋਂ, ਇਹ Remote-Containers: **Clone Repository in Container Volume...** ਕਮਾਂਡ ਦੀ ਵਰਤੋਂ ਕਰੇਗਾ ਜਿਸ ਨਾਲ ਸੌਰਸ ਕੋਡ ਡਾਕਰ ਵਾਲੀਅਮ ਵਿੱਚ ਕਲੋਨ ਕੀਤਾ ਜਾਵੇਗਾ, ਸਥਾਨਕ ਫਾਇਲ ਸਿਸਟਮ ਦੀ ਥਾਂ। [ਵਾਲੀਅਮ](https://docs.docker.com/storage/volumes/) ਕੰਟੇਨਰ ਡਾਟਾ ਨੂੰ ਸਥਿਰ ਰੱਖਣ ਲਈ ਪਸੰਦੀਦਾ ਤਰੀਕਾ ਹਨ।
+**ਨੋਟ**: ਅੰਦਰੂਨੀ ਤੌਰ 'ਤੇ, ਇਹ Remote-Containers: **Clone Repository in Container Volume...** ਕਮਾਂਡ ਦੀ ਵਰਤੋਂ ਕਰੇਗਾ ਤਾਂ ਜੋ ਸਰੋਤ ਕੋਡ ਨੂੰ ਲੋਕਲ ਫਾਇਲ ਸਿਸਟਮ ਦੀ ਬਜਾਏ ਡੋਕਰ ਵਾਲੀਮ ਵਿੱਚ ਕਲੋਨ ਕੀਤਾ ਜਾ ਸਕੇ। [ਵਾਲੀਮ](https://docs.docker.com/storage/volumes/) ਕੰਟੇਨਰ ਡੇਟਾ ਸੰਭਾਲਣ ਲਈ ਪਸੰਦੀਦਾ ਮੈਕੈਨਿਜ਼ਮ ਹਨ।
 
-ਜਾਂ ਰਿਪੋਜ਼ਿਟਰੀ ਦੀ ਸਥਾਨਕ ਕਲੋਨ ਜਾਂ ਡਾਊਨਲੋਡ ਕੀਤੀ ਗਈ ਨਕਲ ਖੋਲ੍ਹੋ:
+ਜਾਂ ਰਿਪੋ ਨੂੰ ਸਥਾਨਕ ਤੌਰ 'ਤੇ ਕਲੋਨ ਕੀਤਾ ਜਾਂ ਡਾਊਨਲੋਡ ਕੀਤਾ ਵਰਜਨ ਖੋਲ੍ਹੋ:
 
-- ਇਸ ਰਿਪੋਜ਼ਿਟਰੀ ਨੂੰ ਆਪਣੀ ਸਥਾਨਕ ਫਾਇਲ ਸਿਸਟਮ ਤੇ ਕਲੋਨ ਕਰੋ।
-- F1 ਦਬਾਓ ਅਤੇ **Remote-Containers: Open Folder in Container...** ਕਮਾਂਡ ਚੁਣੋ।
-- ਇਸ ਫੋਲਡਰ ਦੀ ਕਲੋਨ ਕੀਤੀ ਨਕਲ ਚੁਣੋ, ਕੰਟੇਨਰ ਚਾਲੂ ਹੋਣ ਦੀ ਉਡੀਕ ਕਰੋ ਅਤੇ ਟੈਸਟ ਕਰੋ।
+- ਇਸ ਰਿਪੋ ਨੂੰ ਆਪਣੀ ਲੋਕਲ ਫਾਇਲ ਸਿਸਟਮ 'ਤੇ ਕਲੋਨ ਕਰੋ।  
+- F1 ਦਬਾਓ ਅਤੇ**Remote-Containers: Open Folder in Container...** ਕਮਾਂਡ ਚੁਣੋ।  
+- ਇਸ ਫੋਲਡਰ ਦੀ ਕਲੋਨ ਕੀਤੀ ਕਾਪੀ ਚੁਣੋ, ਕੰਟੇਨਰ ਨੂੰ ਸ਼ੁਰੂ ਹੋਣ ਦਿਓ, ਅਤੇ ਕੋਸ਼ਿਸ ਕਰੋ।  
 
-## ਆਫਲਾਈਨ ਐਕਸੈਸ
+## ਆਫਲਾਈਨ ਐਕਸੇਸ
 
-ਤੁਸੀਂ ਇਸ ਦਸਤਾਵੇਜ਼ ਨੂੰ ਆਫਲਾਈਨ ਚਲਾ ਸਕਦੇ ਹੋ [Docsify](https://docsify.js.org/#/) ਵਰਤ ਕੇ। ਇਸ ਰਿਪੋ ਨੂੰ ਫੋਰਕ ਕਰੋ, [Docsify ਇੰਸਟਾਲ ਕਰੋ](https://docsify.js.org/#/quickstart) ਆਪਣੀ ਸਥਾਨਕ ਮਸ਼ੀਨ ਤੇ, ਫਿਰ ਇਸ ਰਿਪੋ ਦੇ ਰੂਟ ਫੋਲਡਰ ਵਿੱਚ `docsify serve` ਟਾਈਪ ਕਰੋ। ਵੈੱਬਸਾਈਟ ਤੁਹਾਡੇ ਲੋਕਲਹੋਸਟ 'ਤੇ ਪੋਰਟ 3000 'ਤੇ ਚਲਾਈ ਜਾਵੇਗੀ: `localhost:3000`।
+ਤੁਸੀਂ [Docsify](https://docsify.js.org/#/) ਵਰਤ ਕੇ ਇਹ ਡੌਕੂਮੈਂਟੇਸ਼ਨ ਆਫਲਾਈਨ ਚਲਾ ਸਕਦੇ ਹੋ। ਇਸ ਰਿਪੋ ਨੂੰ ਫੋਰਕ ਕਰੋ, [Docsify ਇੰਸਟਾਲ ਕਰੋ](https://docsify.js.org/#/quickstart) ਤੁਹਾਡੇ ਲੋਕਲ ਮਸ਼ੀਨ 'ਤੇ, ਫਿਰ ਇਸ ਰਿਪੋ ਦੇ ਰੂਟ ਫੋਲਡਰ ਵਿੱਚ `docsify serve` ਟਾਈਪ ਕਰੋ। ਵੈੱਬਸਾਈਟ ਤੁਹਾਡੇ ਲੋਕਲਹੋਸਟ 'ਤੇ ਪੋਰਟ 3000 'ਤੇ ਸਰਵ ਕੀਤੀ ਜਾਵੇਗੀ: `localhost:3000`।
 
-> ਧਿਆਨ ਦਿਓ, ਨੋਟਬੁੱਕ Docsify ਰਾਹੀਂ ਰੈਂਡਰ ਨਹੀਂ ਹੋਣਗੇ, ਇਸ ਲਈ ਜੇ ਤੁਹਾਨੂੰ ਨੋਟਬੁੱਕ ਚਲਾਣੀ ਹੈ, ਤਾਂ ਵੱਖਰੇ ਤੌਰ ਤੇ VS Code ਵਿੱਚ ਪਾਇਥਨ ਕਰਨਲ ਚਲਾਉਂਦੇ ਹੋਏ ਕਰੋ।
+> ਨੋਟ, ਨੋਟਬੁੱਕਾਂ Docsify ਨਾਲ ਪ੍ਰਦਰਸ਼ਿਤ ਨਹੀਂ ਕੀਤੀਆਂ ਜਾਣਗੀਆਂ, ਇਸ ਲਈ ਜਦੋਂ ਤੁਹਾਨੂੰ ਨੋਟਬੁੱਕ ਚਲਾਉਣ ਦੀ ਲੋੜ ਹੋਵੇ, ਉਸੇ ਨੂੰ ਵੱਖ-ਵੱਖ VS ਕੋਡ ਵਿਚ ਪਾਇਥਨ ਕਰਨਲ ਚਲਾਕੇ ਚਲਾਓ।
 
-## ਹੋਰ ਕੋਰਿਕੁਲਮ
+## ਹੋਰ ਕਰਿਕੁਲਮ
 
-ਸਾਡੀ ਟੀਮ ਹੋਰ ਕੋਰਿਕੁਲਮ ਵੀ ਤਿਆਰ ਕਰਦੀ ਹੈ! ਵੇਖੋ:
+ਸਾਡੀ ਟੀਮ ਹੋਰ ਕਰਿਕੁਲਮ ਵੀ ਤਿਆਰ ਕਰਦੀ ਹੈ! ਦੇਖੋ:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
 [![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
 [![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
-### Azure / Edge / MCP / ਏਜੰਟ
+### ਐਜ਼ੂਰ / ਏਜ / MCP / ਏਜੰਟਸ
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -206,7 +219,7 @@
 
 ---
  
-### ਜਨਰੇਟਿਵ AI ਸੀਰੀਜ਼
+### ਜਨੇਰੇਟਿਵ AI ਸੀਰੀਜ਼
 [![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -214,7 +227,7 @@
 
 ---
  
-### ਮੂਲ ਸਿੱਖਿਆ
+### ਕੋਰ ਸਿੱਖਿਆ
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -225,7 +238,7 @@
 
 ---
  
-### ਕੋਪਾਇਲਟ ਸੀਰੀਜ਼
+### ਕਾਪਿਲਟ ਸੀਰੀਜ਼
 [![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
@@ -233,19 +246,19 @@
 
 ## ਮਦਦ ਪ੍ਰਾਪਤ ਕਰਨਾ
 
-**ਕੋਈ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ?** ਸਾਡੇ [Troubleshooting Guide](TROUBLESHOOTING.md) ਵਿੱਚ ਆਮ ਸਮੱਸਿਆਵਾਂ ਦੇ ਹੱਲ ਵੇਖੋ।
+**ਮੁਸ਼ਕਲਾਂ ਦਾ ਸਾਹਮਣਾ ਕਰ ਰਹੇ ਹੋ?** ਆਮ ਸਮੱਸਿਆਵਾਂ ਦੇ ਹੱਲ ਲਈ ਸਾਡੀ [ਟ੍ਰਬਲਸ਼ੂਟਿੰਗ ਗਾਈਡ](TROUBLESHOOTING.md) ਚੈੱਕ ਕਰੋ।
 
-ਜੇ ਤੁਸੀਂ atਕ ਜਾਂਦੇ ਹੋ ਜਾਂ AI ਐਪ ਬਣਾਉਣ ਬਾਰੇ ਕੋਈ ਸਵਾਲ ਹੈ, ਤਾਂ MCP ਨੂੰ ਲੈ ਕੇ ਗੱਲਬਾਤ ਵਿੱਚ ਹੋਰ ਸਿੱਖਣ ਵਾਲਿਆਂ ਅਤੇ ਅਨਭਵੀ ਡਿਵੈਲਪਰਾਂ ਨਾਲ ਜੁੜੋ। ਇਹ ਇੱਕ ਮਦਦਗਾਰ ਕਮਿਊਨਿਟੀ ਹੈ ਜਿੱਥੇ ਸਵਾਲਾਂ ਦਾ ਸਵਾਗਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਗਿਆਨ ਖੁੱਲ੍ਹ੍ਹ ਕੇ ਸਾਂਝਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
+ਜੇਕਰ ਤੁਸੀਂ ਫਸ ਜਾਂਦੇ ਹੋ ਜਾਂ AI ਐਪਸ ਬਣਾਉਣ ਬਾਰੇ ਕੋਈ ਸਵਾਲ ਹੋਵੇ। MCP ਬਾਰੇ ਚਰਚਾ ਵਿੱਚ ਹੋਰ ਸਿੱਖਣ ਵਾਲੇ ਅਤੇ ਤਜ਼ਰਬੇਕਾਰ ਵਿਕਾਸਕਾਰਾਂ ਨਾਲ ਜੁੜੋ। ਇਹ ਇੱਕ ਸਮਰਥਕ ਸਮੁਦਾਇ ਹੈ ਜਿੱਥੇ ਸਵਾਲਾਂ ਦਾ ਸਵਾਗਤ ਹੈ ਅਤੇ ਗਿਆਨ ਖੁੱਲ੍ਹ ਕੇ ਸਾਂਝਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਉਤਪਾਦ ਲਈ ਫੀਡਬੈਕ ਹੈ ਜਾਂ ਬਿਲਡਿੰਗ ਦੌਰਾਨ ਕੋਈ ਐਰਰ ਆ ਰਹੇ ਹਨ ਤਾਂ ਇੱਥੇ ਜਾਓ:
+ਜੇ ਤੁਹਾਡੇ ਕੋਲ ਉਤੱਪਾਦ ਫੀਡਬੈਕ ਜਾਂ ਗਲਤੀਆਂ ਹਨ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਡਿਵੈਲਪਮੈਂਟ ਦੌਰਾਨ ਇੱਥੇ ਜਾਓ:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**ਅਸਤੀਹਾਰ**:
-ਇਹ ਦਸਤਾਵੇਜ਼ AI ਅਨੁਵਾਦ ਸੇਵਾ [Co-op Translator](https://github.com/Azure/co-op-translator) ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਅਨੁਵਾਦਿਤ ਕੀਤਾ ਗਿਆ ਹੈ। ਜਦੋਂ ਕਿ ਅਸੀਂ ਸਹੀਅਤਾ ਲਈ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਰੱਖੋ ਕਿ ਆਟੋਮੈਟਿਕ ਅਨੁਵਾਦਾਂ ਵਿੱਚ ਗਲਤੀਆਂ ਜਾਂ ਅਸਹੀਤਾਈਆਂ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਮੂਲ ਦਸਤਾਵੇਜ਼ ਆਪਣੀ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਪ੍ਰਮਾਣਿਕ ਸਰੋਤ ਸਮਝਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਮਹੱਤਵਪੂਰਨ ਜਾਣਕਾਰੀ ਲਈ, ਵਿਦਵਾਨ ਮਨੁੱਖੀ ਅਨੁਵਾਦ ਦੀ ਸਿਫਾਰਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਇਸ ਅਨੁਵਾਦ ਦੀ ਵਰਤੋਂ ਤੋਂ ਉੱਪਜਣ ਵਾਲੀ ਕਿਸੇ ਵੀ ਗਲਤ ਫਹਿਮੀ ਜਾਂ ਗਲਤ ਵਿਆਖਿਆ ਲਈ ਅਸੀਂ ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ ਹੋਵਾਂਗੇ।
+**ਅਸਵੀਕਾਰੋਪੱਤਰ**:  
+ਇਸ ਦਸਤਾਵੇਜ਼ ਦਾ ਅਨੁਵਾਦ AI ਅਨੁਵਾਦ ਸੇਵਾ [Co-op Translator](https://github.com/Azure/co-op-translator) ਦੀ ਵਰਤੋਂ ਨਾਲ ਕੀਤਾ ਗਿਆ ਹੈ। ਜਦੋਂ ਕਿ ਅਸੀਂ ਸਹੀਤਾ ਲਈ ਕੋਸ਼ਿਸ਼ ਕਰਦੇ ਹਾਂ, ਕਿਰਪਾ ਕਰਕੇ ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ ਕਿ ਸਵੈਚਾਲਤ ਅਨੁਵਾਦਾਂ ਵਿੱਚ ਗਲਤੀਆਂ ਜਾਂ ਅਸਹੀਤਾਵਾਂ ਹੋ ਸਕਦੀਆਂ ਹਨ। ਮੂਲ ਦਸਤਾਵੇਜ਼ ਆਪਣੇ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਹੀ ਪ੍ਰਮਾਣਿਕ ਸਰੋਤ ਮੰਨਿਆ ਜਾਣਾ ਚਾਹੀਦਾ ਹੈ। ਆਹਮ ਜਾਣਕਾਰੀ ਲਈ ਪੇਸ਼ੇਵਰ ਮਨੁੱਖੀ ਅਨੁਵਾਦ ਦੀ ਸਿਫ਼ਾਰਿਸ਼ ਕੀਤੀ ਜਾਂਦੀ ਹੈ। ਇਸ ਅਨੁਵਾਦ ਦੀ ਵਰਤੋਂ ਤੋਂ ਉੱਦਮ ਹੋਣ ਵਾਲੀਆਂ ਕਿਸੇ ਵੀ ਗਲਤਫਹਮੀ ਜਾਂ ਗਲਤ ਵਿਆਖਿਆਵਾਂ ਲਈ ਅਸੀਂ ਜ਼ਿੰਮੇਵਾਰ ਨਹੀਂ ਹਾਂ।
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

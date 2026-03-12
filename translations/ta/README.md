@@ -1,203 +1,213 @@
-# தொடக்க நிலை தரவு அறிவியல் - பாடத்திட்டம்
+# துவக்கக்காரர்களுக்கான தரவு அறிவியல் - ஒரு பாடத்திட்டம்
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
+[![GitHub Codespaces-ல் திறக்கவும்](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
-[![GitHub license](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
-[![GitHub issues](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub உரிமை](https://img.shields.io/github/license/microsoft/Data-Science-For-Beginners.svg)](https://github.com/microsoft/Data-Science-For-Beginners/blob/master/LICENSE)
+[![GitHub பங்களிப்பாளர்கள்](https://img.shields.io/github/contributors/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/graphs/contributors/)
+[![GitHub பிரச்சினைகள்](https://img.shields.io/github/issues/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/issues/)
+[![GitHub தள்ளுபடி கோரிக்கைகள்](https://img.shields.io/github/issues-pr/microsoft/Data-Science-For-Beginners.svg)](https://GitHub.com/microsoft/Data-Science-For-Beginners/pulls/)
+[![PRs வரவேற்கப்படுகின்றன](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
-[![GitHub forks](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
-[![GitHub stars](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
+[![GitHub பார்வையிடுவோர்](https://img.shields.io/github/watchers/microsoft/Data-Science-For-Beginners.svg?style=social&label=Watch)](https://GitHub.com/microsoft/Data-Science-For-Beginners/watchers/)
+[![GitHub கிளோன்கள்](https://img.shields.io/github/forks/microsoft/Data-Science-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Data-Science-For-Beginners/network/)
+[![GitHub நட்சத்திரங்கள்](https://img.shields.io/github/stars/microsoft/Data-Science-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Data-Science-For-Beginners/stargazers/)
 
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-மைக்ரோசாஃப்ட்-இல் Azure Cloud Advocates தரவு அறிவியலைப் பற்றி 10 வாரங்கள், 20 பாடங்கள் கொண்ட பாடத்திட்டத்தை வழங்கும்போது மகிழ்ச்சியாக உள்ளனர். ஒவ்வொரு பாடத்திலும் முன்-பாடம் மற்றும் பின்-பாடம் விசைப்பாட்கள், பாடத்தை நிறைவேற்ற எழுத்து விளக்கங்கள், தீர்வு மற்றும் பணியின்கள் ஆகியவை உள்ளடக்கமாக உள்ளன. எங்கள் திட்ட அடிப்படையிலான கற்பித்தல் முறை, புதிய திறன்கள் 'பிடிக்க' சான்றளிக்கப்பட்ட வழி அமைப்பை உருவாக்கிக் கற்றுக்கொள்ள உதவுகிறது.
+Microsoft இல் Azure Cloud ஆதரவாளர்கள் தரவு அறிவியலைக் குறித்து 10 வாரங்கள், 20 பாடங்களைக் கொண்ட ஒரு முழுமையான பாடத்திட்டத்தை வழங்க மனதில் கள்ளும். ஒவ்வொரு பாடத்திலும் முன்-பாட, பின்-பாட க்விச்கள், பாடத்தை முடிக்க எழுதப்பட்ட வழிகாட்டிகள், ஒருங்குறிப்பு மற்றும் பணியிலும் உண்டு. எங்கள் திட்டமேற்பாடும் கற்றல் முறையில், நீங்கள் கட்டுக்கோப்புகளைக் கொண்டு கற்றுக்கொள்வதில், புதிய திறன்கள் சிறந்த முறையில் 'இணைந்து' கற்றுக் கொள்ளக் கூடியது.
 
-**எங்களது ஆசிரியர்களுக்கு உள் உள்ளார்ந்த நன்றி:** [ஜாஸ்மின் க்ரீனவே](https://www.twitter.com/paladique), [ட்மிட்ரி ஸோஷ்னிக்கோவ்](http://soshnikov.com), [நித்யா நரசிமன்](https://twitter.com/nitya), [ஜேலன் மெகீ](https://twitter.com/JalenMcG), [ஜென் லூப்பர்](https://twitter.com/jenlooper), [மாட் லேவி](https://twitter.com/maudstweets), [டிகேனி சௌட்டர்](https://twitter.com/TiffanySouterre), [கிறிஸ்டோபர் ஹாரிசன்](https://www.twitter.com/geektrainer).
+**எங்கள் எழுத்தாளர்களுக்கு இதயப்பூர்வமான நன்றி:** [ஜாஸ்மின் கிரீன்வே](https://www.twitter.com/paladique), [த்மித்ரி சோஷ்னிகோவ்](http://soshnikov.com), [நித்யா நரசிமன்](https://twitter.com/nitya), [ஜாலன் மேகி](https://twitter.com/JalenMcG), [ஜென் லூப்பர்](https://twitter.com/jenlooper), [மாட் லீவி](https://twitter.com/maudstweets), [டிபானி சௌட்டர்](https://twitter.com/TiffanySouterre), [கிரிஸ்தோபர் ஹாரிசன்](https://www.twitter.com/geektrainer).
 
-**🙏 சிறப்பு நன்றி 🙏 எங்களது [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) ஆசிரியர்கள், பரிசீலனையாளர்கள் மற்றும் உள்ளடக்கக் கொடுப்பாளர்களுக்கு,** குறிப்பாக ஆர்யான் அரோறா, [ஆதித்ய கார்](https://github.com/AdityaGarg00), [அலோன்ரா சांचெஸ்](https://www.linkedin.com/in/alondra-sanchez-molina/), [அங்கீதா சிங்](https://www.linkedin.com/in/ankitasingh007), [அநுபம் மிஷ்ரா](https://www.linkedin.com/in/anupam--mishra/), [அர்பிதா தாஸ்](https://www.linkedin.com/in/arpitadas01/), ச்ஹைல் பிஹாரி டுவே, [டிப்ரி ந்ஸோபர்](https://www.linkedin.com/in/dibrinsofor), [டிஷிதா பாஸின்](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [மாஜ்த் சாஃபி](https://www.linkedin.com/in/majd-s/), [மாக்ஸ் புளம்](https://www.linkedin.com/in/max-blum-6036a1186/), [மிகேல் கொர்ரியா](https://www.linkedin.com/in/miguelmque/), [மொஹம்மா இப்தேகர் (இப்டூ) எப்னே ஜலால்](https://twitter.com/iftu119), [நவரின் டபாச்சும்](https://www.linkedin.com/in/nawrin-tabassum), [ரெய்மாண்ட் வாங்க்சா புட்ரா](https://www.linkedin.com/in/raymond-wp/), [ரோஹித்யாதவ்](https://www.linkedin.com/in/rty2423), சம்ரித்தி ஷர்மா, [சன்யா சின்ஹா](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[ஷீனா நருலா](https://www.linkedin.com/in/sheena-narua-n/), [தவ்கீர் அக்மத்](https://www.linkedin.com/in/tauqeerahmad5201/), யோகேந்திரசிங் பவர் , [விடுஷி குப்தா](https://www.linkedin.com/in/vidushi-gupta07/), [ஜஸ்லீன் சோந்தி](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 சிறப்பு நன்றி 🙏 எங்கள் [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) எழுத்தாளர்கள், விமர்சகர்கள் மற்றும் உள்ளடக்க பங்களிப்பாளர்களுக்கு,** குறிப்பாக ஆரியன் அரோரா, [அதித்யா கார்க்](https://github.com/AdityaGarg00), [அலோந்திரா சான்சஸ்](https://www.linkedin.com/in/alondra-sanchez-molina/), [அங்கிதா சிங்](https://www.linkedin.com/in/ankitasingh007), [அனுபம் மிஷ்ரா](https://www.linkedin.com/in/anupam--mishra/), [அர்பிதா தாஸ்](https://www.linkedin.com/in/arpitadas01/), சைல் பிஹாரி டுபே, [டிப்ரின்சோபர்](https://www.linkedin.com/in/dibrinsofor), [திஷிதா பாசின்](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [மஜ்த் ஸாஃபி](https://www.linkedin.com/in/majd-s/), [மெக்ஸ் பிளம்](https://www.linkedin.com/in/max-blum-6036a1186/), [மிகேள் கோரியா](https://www.linkedin.com/in/miguelmque/), [மொஹம்மா இப்தேக்கர் (இப்து) எப்ன ஜலால்](https://twitter.com/iftu119), [நவ்ரின் தபசூம்](https://www.linkedin.com/in/nawrin-tabassum), [ரெய்மொண்ட் வாங்சா புட்ரா](https://www.linkedin.com/in/raymond-wp/), [ரோஹித் யார்தவ்](https://www.linkedin.com/in/rty2423), சம்ரிதி மாதர்மா, [சன்யா சின்ஹா](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[ஷீனா நருலா](https://www.linkedin.com/in/sheena-narua-n/), [தௌகீர் அகமத்](https://www.linkedin.com/in/tauqeerahmad5201/), யோகேந்திரசிங் பவர், [விதுஷி குப்தா](https://www.linkedin.com/in/vidushi-gupta07/), [ஜாஸ்லின் சோண்டி](https://www.linkedin.com/in/jasleen-sondhi/)
 
-|![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/ta/00-Title.8af36cd35da1ac55.webp)|
+|![@sketchthedocs உடைய ஸ்கெட்ச் குறிப்பு https://sketchthedocs.dev](../../translated_images/ta/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
-| தொடக்க நிலை தரவு அறிவியல் - _ஸ்கெட்ச் நோட் [@nitya](https://twitter.com/nitya)_ |
+| துவக்கக்காரர்களுக்கான தரவு அறிவியல் - _ஸ்கெட்ச் குறிப்பு [@nitya](https://twitter.com/nitya) என்பவரால்_ |
 
-### 🌐 பல மொழி ஆதரவு
+### 🌐 பன்மொழி ஆதரவு
 
-#### GitHub அகஷன் மூலம் ஆதரிக்கப்படுகிறது (சுயமெய்யாக்கப்பட்ட மற்றும் எப்போதும் புதுப்பிக்கப்படும்)
+#### GitHub செயல்பாட்டின் மூலம் ஆதரிக்கப்படுகிறது (தானியங்கி மற்றும் எப்போதும் புதுப்பிக்கப்பட்டது)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
-[Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](../mr/README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](./README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
+[அரபிக்](../ar/README.md) | [பெங்கள்](../bn/README.md) | [பல்கேரியன்](../bg/README.md) | [புர்மீஸ் (மியான்மார்)](../my/README.md) | [சீன (எளிமைப்படுத்திய)](../zh-CN/README.md) | [சீன (பாரம்பரிய, ஹோங்காங்)](../zh-HK/README.md) | [சீன (பாரம்பரிய, மாகாவ்)](../zh-MO/README.md) | [சீன (பாரம்பரிய, தைவான்)](../zh-TW/README.md) | [குரோஷியன்](../hr/README.md) | [செக்](../cs/README.md) | [டேனிஷ்](../da/README.md) | [டச்சு](../nl/README.md) | [எஸ்டோனியன்](../et/README.md) | [பின்னிஷ்](../fi/README.md) | [பிரெஞ்சு](../fr/README.md) | [ஜெர்மன்](../de/README.md) | [கிரேக்கு](../el/README.md) | [ஹீப்ரூ](../he/README.md) | [இந்தி](../hi/README.md) | [ஹங்கேரியன்](../hu/README.md) | [இந்தோனேசியன்](../id/README.md) | [இத்தாலியன்](../it/README.md) | [ஜப்பானீஸ்](../ja/README.md) | [கன்னடம்](../kn/README.md) | [கொரியன்](../ko/README.md) | [லித்துவேனியன்](../lt/README.md) | [மலே](../ms/README.md) | [மலையாளம்](../ml/README.md) | [மராத்தி](../mr/README.md) | [நேபாளி](../ne/README.md) | [நைஜீரியன் பிட்கின்](../pcm/README.md) | [நார்வேஜியன்](../no/README.md) | [பெர்ஷியன் (பார்சி)](../fa/README.md) | [போலிஷ்](../pl/README.md) | [போர்ச்சுகீ (பிரேசில்)](../pt-BR/README.md) | [போர்ச்சுகீ (போர்ச்சுகல்)](../pt-PT/README.md) | [பஞ்சாபி (குருமுகி)](../pa/README.md) | [ரோமனியன்](../ro/README.md) | [ரஷ்யன்](../ru/README.md) | [சேர்பியன் (சிரிலிக்)](../sr/README.md) | [ஸ்லோவேக்](../sk/README.md) | [ஸ்லோவீனியன்](../sl/README.md) | [ஸ்பானிஷ்](../es/README.md) | [ஸ்வாஹிலி](../sw/README.md) | [ஸ்வீடிஷ்](../sv/README.md) | [டாகாலாக் (பிலிப்பைனோ)](../tl/README.md) | [தமிழ்](./README.md) | [தெலுங்கு](../te/README.md) | [தாய்](../th/README.md) | [துருக்கி](../tr/README.md) | [உக்ரைனியன்](../uk/README.md) | [உருது](../ur/README.md) | [வியட்நாமீஸ்](../vi/README.md)
 
-> **உடனடியாக கிளோன் செய்ய விரும்புகிறீர்களா?**
-
-> இந்த பதிவகம் 50+ மொழி மொழிபெயர்ப்புகளை கொண்டுள்ளது, இது பதிவிறக்கம் அளவை வலுவாக அதிகரிக்கும். மொழிபெயர்ப்புகள் இல்லாமல் கிளோன் செய்ய sparse checkout பயன்படுத்தவும்:
+> **உள்ளூரில் கிளோன் செய்வதா?**
+>
+> இந்த ரெப்போசிடரி 50+ மொழி மொழிபெயர்ப்புகளைக் கொண்டுள்ளது, இது பதிவிறக்களவை குறிப்பிடத்தக்கவாறு அதிகரிக்கும். மொழிபெயர்ப்புகள் இல்லாமல் கிளோன் செய்ய sparse checkout பயன்படுத்தவும்:
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
 > cd Data-Science-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> இது நீங்கள் பாடத்திட்டத்தை முடிக்க தேவையான அனைத்தை விரைவில் பெற உதவும்.
+>
+> **CMD (விண்டோஸ்):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
+> cd Data-Science-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> இது பாடத்திட்டத்தை முடிக்க தேவையான எல்லாத்தையும் வேகமாக பதிவிறக்கம் செய்ய உதவும்.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**மேலும் மொழி ஆதரவு வேண்டும் என்றால் இங்கு பார்வையிடவும் [here](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**மேலும் மொழி மொழிபெயர்ப்புகளை ஆதரிக்க விரும்பினால், அவை [இங்கே](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) பட்டியலிடப்பட்டுள்ளன**
 
-#### எங்கள் சமூகத்தில் சேருங்கள் 
+#### எங்கள் சமுதாயத்தில் சேருங்கள்  
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-நாம் ஒரு Discord AI கற்பித்தல் தொடரினை நடத்தியிருக்கின்றோம், மேலும் அறிந்து [Learn with AI Series](https://aka.ms/learnwithai/discord) இணையதளத்தில் 2025, செப்டம்பர் 18 - 30 வரை எங்கள் குழுவுடன் இணையுங்கள். தரவு அறிவியலுக்கான GitHub Copilot ஐ பயன்படுத்த சிறந்த குறிப்புகளையும் வழிகாட்டல்களையும் பெறுவீர்கள்.
+எங்களிடம் AI-இன் உதவியுடன் நடைபெறும் ஒரு Discord கற்றல் தொடர் உள்ளது, மேலும் அறிந்து, [Learn with AI Series](https://aka.ms/learnwithai/discord) இணைந்து 18 - 30 செப்டம்பர், 2025 வரை தொடருங்கள். GitHub Copilot-ஐ தரவு அறிவியலுக்காக பயன்படுத்துவதற்கான குறிப்புகள் மற்றும் முறைகளை நீங்கள் பெறுவீர்கள்.
 
 ![Learn with AI series](../../translated_images/ta/1.2b28cdc6205e26fe.webp)
 
-# நீங்கள் ஒரு மாணவரா?
+# நீங்கள் மாணவரா?
 
-பின்வரும் வளங்களுடன் துவங்குங்கள்:
+கீழ்காணும் வளங்களுடன் துவங்குங்கள்:
 
-- [மாணவர் ஹப் பக்கம்](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) இதில் நீங்கள் தொடக்கத்திற்கான வளங்கள், மாணவர் தொகுதிகள் மற்றும் இலவச சான்று வாய்ப்பு பற்றிய தகவல்களை காணலாம். இது ஒரு பக்கம், அதைப்பதிவுசெய்து திட்டத்தின் உள்ளடக்கம் மாதத்திற்கு ஒரு முறையே மாற்றப்படுவதால் அவ்வப்போது சரிபார்க்கவும்.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) உலகளாவிய மாணவர் தூதர்களின் சமூகத்தில் சேர்ந்துகொள்ளுங்கள், இது உங்கள் மைக்ரோசாஃப்ட் புகுபதிகைக்கு வாயிலாக இருக்கலாம்.
+- [மாணவர் ஹப் பக்கம்](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) இந்தப் பக்கத்தில் துவக்கம் செய்யக் கூடிய வளங்கள், மாணவர் தொகுப்புகள் மற்றும் இலவச சான்றிதழ் வௌ்ச்சர் பெறும் வழிகளும் உண்டாகும். மாதந்தோறும் உள்ளடக்கம் மாற்றப்படுவதால், இந்தப் பக்கத்தை பேக் மார்க் செய்து சமீப கால இடைவெளிகளில் பரிசோதனை செய்யவும்.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) உலகளாவிய மாணவர் தூதரகக் குழுவில் சேரவும், இது உங்கள் Microsoft உள்வாயிலாக இருக்கலாம்.
 
-# துவக்கம்
+# துவக்குதல்
 
 ## 📚 ஆவணங்கள்
 
-- **[இன்ஸ்டாலேஷன் வழிகாட்டு](INSTALLATION.md)** - தொடக்கங்களுக்கான படி படியாக அமைக்கும் அறிவுரைகள்
-- **[பயன்பாடு வழிகாட்டு](USAGE.md)** - உதாரணங்கள் மற்றும் பொதுவான பணிகள்
-- **[பிரச்சனைகள் நீக்கம்](TROUBLESHOOTING.md)** - பொதுவான பிரச்சனைகள் மற்றும் தீர்வுகள்
-- **[சேரும் விதிமுறைகள்](CONTRIBUTING.md)** - இந்த திட்டத்திற்கு எப்படி பங்களிக்க வேண்டும்
-- **[ஆசிரியர்களுக்காக](for-teachers.md)** - கற்பிக்கும் வழிகாட்டல்கள் மற்றும் வகுப்பு வளங்கள்
+- **[நிறுவல் கையேடு](INSTALLATION.md)** - துவக்கக்காரர்களுக்கான படி-படி அமைப்பு வழிமுறைகள்
+- **[பயன்பாட்டு கையேடு](USAGE.md)** - எடுத்துக்காட்டு மற்றும் பொதுவான பணிச்சூழல்கள்
+- **[பிரச்சனை தீர்வு](TROUBLESHOOTING.md)** - பொதுவான பிரச்சனைகளுக்கான தீர்வுகள்
+- **[பங்களிப்பு வழிமுறை](CONTRIBUTING.md)** - இந்த திட்டத்திற்கு பங்களிப்பது எப்படி
+- **[ஆசிரியர்களுக்காக](for-teachers.md)** - கற்பித்தல் வழிகாட்டி மற்றும் வகுப்பறை வளங்கள்
 
-## 👨‍🎓 மாணவர்களுக்கு
-> **முழு புதியவர்கள்**: தரவு அறிவியலில் புதியவரா? எங்கள் [தொடக்க நண்பர்களுக்கான உதாரணங்கள்](examples/README.md) கொண்டு துவங்குங்கள்! இவைகள் எளிய, நன்கு கருத்துக்கணிக்கப்பட்ட உதாரணங்களாகும், முழு பாடத்திட்டத்தில் செல்வதற்கு முன் அடிப்படைகளை புரிந்துகொள்ள உதவும்.
-> **[மாணவர்கள்](https://aka.ms/student-page)**: இந்த பாடத்திட்டத்தை தனியாக பயன்படுத்த, முழு பதிவகத்தை fork செய்து, முன்-பாட வாசிப்பு விசைப்பாடுகளுடன் துவங்கி, பிறகு பாடத்தையும் செயல்பாடுகளையும் தயார் செய்க. தீர்வு குறியீட்டை நகலெடுக்காமல் பாடங்களை உணர்ந்து திட்டங்களை உருவாக்க முயலவும்; இருப்பினும், அந்த குறியீடு /solutions கோப்புறைகளில் ஒவ்வொரு திட்டமயமாக்கப்பட்ட பாடத்திலும் கிடைக்கும். மற்றொரு வழி, நண்பர்களுடன் ஒரு படிப்பு குழுவை உருவாக்கி ஒன்றிணைந்து பாடங்களைப் பார்க்கவும். மேலதிக படிப்புக்கு, [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) பரிந்துரைக்கப்படுகிறது.
+## 👨‍🎓 மாணவர்களுக்காக
+> **முழுமையான துவக்கக்காரர்கள்**: தரவு அறிவியலில் புதியவரா? எங்கள் [துவக்கக்காரர்களுக்கு ஏற்ப எடுத்துக்காட்டுகளை](examples/README.md) தொடங்குங்கள்! இந்த எளிய, நன்கு கருத்துரை செய்யப்பட்ட எடுத்துக்காட்டுகள் முழு பாடத்திட்டத்தில் சென்று சேருவதற்கு முன்னர் அடிப்படைகளை புரிந்து கொள்ள உதவும்.
+> **[மாணவர்கள்](https://aka.ms/student-page)**: உங்கள் சொந்தமாக இந்த பாடத்திட்டத்தை பயன்படுத்த, முற்றிலும் ரெப்போவை கால் செய்து உங்கள் சொந்தபடி பயிற்சிகளை முடிக்கவும், முன்னும்-அறைகளுக்கான க்விசைத் தொடங்கி. பின்னர் போதனையைப் படித்து மற்ற செயல்களை முடிக்கவும். தீர்வு குறியீட்டை நகலெடுக்காமல் பாடங்களை புரிந்து கொண்டு திட்டங்களை உருவாக்க முயற்சிக்கவும்; ஆனால் அந்த குறியீடு ஒவ்வொரு திட்ட சார்ந்த பாடத்திலும் /solutions கோப்புறையில் உள்ளது. மேலும், நண்பர்களுடன் ஒரு படிப்புக் குழு அமைத்து உள்ளடக்கத்தை ஒன்றாகக் கொண்டு செல்லும் வழியும் உள்ளது. மேலதிக படிப்புக்கு, [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) பரிந்துரைக்கப்படுகிறது.
 
 **விரைவான துவக்கம்:**
-1. உங்கள் சூழலை அமைக்க [இன்ஸ்டாலேஷன் வழிகாட்டை](INSTALLATION.md) பார்க்கவும்
-2. பாடத்திட்டத்துடன் வேலை பார்க்க [பயன்பாடு வழிகாட்டை](USAGE.md) மதிப்பாய்வு செய்யவும்
-3. முதலாம் பாடத்துடன் துவங்கி வரிசைப்படி பணியாற்றவும்
-4. உதவிக்காக எங்கள் [Discord சமூகத்தில்](https://aka.ms/ds4beginners/discord) சேரவும்
+1. உங்கள் சுற்றுப்புறத்தை அமைக்க [நிறுவல் கையேட்டை](INSTALLATION.md) பரிசோதிக்கவும்
+2. பாடத்திட்டத்தைப் பயன்படுத்த [பயன்பாட்டு கையேட்டைக்](USAGE.md) கற்றுக்கொள்ளவும்
+3. பாடம் 1-ல் தொடங்கி வரிசையாக செயல்படவும்
+4. ஆதரப்புக்கு எங்கள் [Discord சமுதாயத்தில்](https://aka.ms/ds4beginners/discord) சேரவும்
 
 ## 👩‍🏫 ஆசிரியர்களுக்காக
+> **ஆசிரியர்கள்**: இந்த பாடத்திட்டத்தை எப்படி பயன்படுத்துவது என்பது குறித்து [சில ஆலோசனைகள்](for-teachers.md) சேர்க்கப்பட்டுள்ளன. உங்கள் கருத்துக்களை [எங்கள் விவாத மன்றத்தில்](https://github.com/microsoft/Data-Science-For-Beginners/discussions) பகிர்ந்துகொள்ளும்படி கேட்கிறோம்!
 
-> **ஆசிரியர்கள்**: இந்த பாடத்திட்டத்தை பயன்படுத்த சில பரிந்துரைகளை [நாங்கள் சேர்த்துள்ளோம்](for-teachers.md). உங்கள் கருத்துக்களை எங்கள் [சர்ச்சை மன்றத்தில்](https://github.com/microsoft/Data-Science-For-Beginners/discussions) பகிர்ந்து கொள்ளவும்!
-## அணியினரை சந்திக்கவும்
+## குழுவை சந்திக்கவும்
 
-[![விளம்பரக் காணொளி](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "விளம்பரக் காணொளி")
+[![பிரச்சார வீடியோ](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "பிரச்சார வீடியோ")
 
-**ஜிஃப் செய்தவர்** [மோகித் ஜைசால்](https://www.linkedin.com/in/mohitjaisal)
+**கிஃப் உருவாக்கியவர்** [மோகித் ஜெய்சால்](https://www.linkedin.com/in/mohitjaisal)
 
-> 🎥 மேலே உள்ள படத்தை கிளிக் செய்து இந்தத் திட்டம் மற்றும் இதை உருவாக்கியவர்களைப் பற்றிய ஒரு வீடியோவைப் பார்க்கலாம்!
+> 🎥 மேலே உள்ள படத்தை கிளிக் செய்து இந்த திட்டம் மற்றும் அதை உருவாக்கியோருக்கு 관한 காணொளி பார்க்கவும்!
 
-## கற்றல் முறைகள்
+## கல்விசார் முறைகள்
 
-இந்த பாடத்திட்டத்தை உருவாக்குவதில் இரண்டு கற்றல் கோட்பாடுகளை தேர்ந்தெடுத்துள்ளோம்: அது திட்டாசாரமானதாக இருக்கும் என்பதும் அடிக்கடி வினாடி வினாக்களைச் சேர்க்க வேண்டும் என்பதும். இந்த தொடர் முடிவில், மாணவர்கள் தரவுத்துறையின் அடிப்படை 원理களை கற்றுக்கொள்வர், அதில் குற்றவியல் கருத்துக்களும், தரவு தயார் செய்தல், தரவு வேலை செய்யும் பல வழிகள், தரவு காட்சிப்படுத்தல், தரவு பகுப்பாய்வு, தரவுத்துறையின் உண்மையான பயன்பாடுகள் மற்றும் பல உள்ளன.
+இந்த பாடத்திட்டத்தை உருவாக்கும்போது இரண்டு கல்விசார் கொள்கைகளை தேர்ந்தெடுத்துள்ளோம்: இது திட்டத்துடன் தொடர்புடையதாக இருக்க வேண்டும் மற்றும் அதில் அடிக்கடி வினாக்களைக் கொண்டிருக்க வேண்டும். இந்த தொடர் முடிவில், மாணவர்கள் தரவியல் அறிவியலின் அடிப்படையான கொள்கைகள், ஒழுக்க நெறிகள், தரவு தயாரிப்பு, தரவுடன் வேலை செய்யும் விதிகள், தரவு காட்சியமைப்பு, தரவு பகுப்பு, தரவியல் அறிவியலின் உலகளாவிய பயன்பாடுகள் மற்றும் பலவற்றை கற்றுக்கொள்ளமுடியும்.
 
-மேலும், வகுப்புக்கு முன் ஒரு குறைவான முக்கியத்துவம் கொண்ட வினாடி வினா மாணவரின் ஒரு தலைப்பை கற்றுக்கொள்ளும் நோக்கத்தை அமைக்கும், பின்னர் ஒரு இரண்டாவது வினாடி வினா வகுப்புக்குப் பிறகு மேலும் நினைவில் வைத்திருக்க உதவும். இந்த பாடத்திட்டம் நெகிழ்ச்சி மற்றும் வேடிக்கையானதாக வடிவமைக்கப்பட்டுள்ளது மற்றும் முழுமையாகவோ அல்லது பகுதி ஒன்றாகவோ எடுக்கலாம். திட்டங்கள் சிறியதாக தொடங்கி 10 வார சுற்றின் இறுதியில் அதிகமாக சிக்கலாக மாறுகின்றன.
+மேலும், ஒரு வகுப்புக்கு முன் குறைந்த பளிச்சியான வினா ஒரு மாணவரின் ஒரு தலைப்பை கற்கும் நோக்கத்தை அமைக்க உதவுகிறது, அதேபோல் வகுப்பு முடிந்த பின்னர் இரண்டாவது வினா மேலதிக நினைவாற்றலை உறுதி செய்கிறது. இந்த பாடத்திட்டம் நெகிழ்வுடனும், மகிழ்ச்சியாகவும் இருக்க வடிவமைக்கப்பட்டுள்ளது மற்றும் முழுவதும் அல்லது ஒரு பகுதியையும் எடுத்துக் கொள்ளலாம். திட்டங்கள் சிறிய அளவில் துவங்கி 10 வார சுழற்சியின் இறுதிக்கு அதிகப்படியான சிக்கலானதாக மாறுகின்றன.
 
-> எங்கள் [நடத்தை விதிகள்](CODE_OF_CONDUCT.md), [பங்களிப்பு](CONTRIBUTING.md), [மொழிபெயர்ப்பு](TRANSLATIONS.md) வழிகாட்டுதல்களைப் பார்க்கவும். உங்கள் கட்டுரையான கருத்துக்களை வரவேற்கிறோம்!
+> எங்கள் [நடத்தை குறைந்த செயல்முறை](CODE_OF_CONDUCT.md), [கொடைப்பு](CONTRIBUTING.md), [மொழிபெயர்ப்பு](TRANSLATIONS.md) வழிகாட்டுதல்களை காண்க. உறுதியான கருத்துக்களை வரவேற்கிறோம்!
 
-## ஒவ்வொரு பாடத்திலும் உள்ளவை:
+## ஒவ்வொரு பாடத்திலும் அடங்கும்:
 
-- விருப்பமான ஸ்கெட்ச் நோட்  
-- விருப்பமான கூடுதல் வீடியோ  
-- பாடத்துக்கு முன் ஒரு ஆர்வக் வினா  
-- எழுதப்பட்ட பாடம்  
-- திட்டாசாரமான பாடங்களுக்கு, திட்டத்தை உருவாக்கும் படிகள்  
-- அறிவுத் தேர்வுகள்  
-- ஒரு சவால்  
-- கூடுதல் வாசிப்பு  
-- பணிகள்  
-- [பாடத்துக்குப் பிறகு வினாடி வினா](https://ff-quizzes.netlify.app/en/)
+- விருப்ப ஸ்கெட்ச் நோட்டு
+- விருப்ப மேலதிக வீடியோ
+- பாடத்திற்கு முன் மற்றும் வகுப்புக்குப் பிறகு வினாடி வினா
+- எழுதப்பட்ட பாடம்
+- திட்ட அடிப்படையிலான பாடங்களுக்கு, திட்டத்தை அமைப்பதற்கான படிப் படி வழிகாட்டிகள்
+- அறிவு சோதனை
+- ஒரு சவால்
+- மேலதிக வாசிப்பு
+- பணிகள்
+- [பாடத்திற்கு பிறகு வினாடி வினா](https://ff-quizzes.netlify.app/en/)
 
-> **வினாடி வினாக்கள் குறித்த ஒரு குறிப்பு**: அனைத்து வினாடிகள் Quiz-App கோப்புறையில் உள்ளன, ஒரே வினாடி வினாவில் மூன்று கேள்விகள் கொண்ட 40 வினா உள்ளது. அவை பாடங்களில் இணைக்கப்பட்டுள்ளன, ஆனால் வினா செயலி உள்ளூரிலும் இயக்கலாம் அல்லது Azure இல் பயன்படுத்தலாம்; அறிவுறுத்தல்களை `quiz-app` கோப்புறையில் பின்பற்றவும். அவை படிப்படியாக உள்ளூர் மொழிபெயர்க்கப்படுகின்றன.
+> **வினாடி வினாக்கள் குறித்த ஒரு குறிப்புரை**: அனைத்து வினாடி வினாக்களும் Quiz-App கோப்பகத்தில் உள்ளன, ஒவ்வொன்றிலும் மூன்று கேள்விகளுடன் மொத்தமாக 40 வினாக்கள் உள்ளன. அவை பாடங்களிலிருந்து இணைக்கப்பட்டுள்ளன, ஆனால் Quiz-ஆப் உள்ளூரில் இயக்கு அல்லது Azure க்கு வெளியிடலாம்; `quiz-app` கோப்பகத்தின் பரிந்துரைகளை பின்பற்றவும். அவை படிப்படியாக மொழிபெயர்க்கப்படுகின்றன.
 
-## 🎓 தொடக்க நிலையமைவுக்கு ஏற்ற உதாரணங்கள்
+## 🎓 தொடக்கத்திற்கு ஏற்ற எடுத்துக்காட்டுக்கள்
 
-**தரவு அறிவியலில் புதியவாயா?** எளிய மற்றும் நன்கு விளக்கப்பட்ட குறியீட்டுடன் சிறப்பு [உதாரணங்கள் அடைவு](examples/README.md) உருவாக்கியுள்ளோம், உங்களைத் தொடங்க உதவ:
+**தரவு அறிவியலில் புதியவரா?** ஆரம்பிப்பதற்கான எளிய, நன்கு விளக்கப்பட்ட குறியீட்டை கொண்ட ஒரு சிறப்பு [எடுத்துக்காட்டு கோப்பகம்](examples/README.md) உருவாக்கியுள்ளோம்:
 
-- 🌟 **ஹெலோ வெர்ல்ட்** - உங்கள் முதல் தரவு அறிவியல் திட்டம்  
-- 📂 **தரவை ஏற்றுதல்** - தரவுகளைக் கற்றுக்கொண்டு ஆராயவும்  
-- 📊 **எளிய பகுப்பாய்வு** - புள்ளியியல் கணக்கிடவும் மற்றும் மாதிரிகளை காணவும்  
-- 📈 **அடிப்படை காட்சிப்படுத்தல்** - படங்கள் மற்றும் வரைபடங்களை உருவாக்கவும்  
-- 🔬 **உண்மை உலகத் திட்டம்** - தொடக்கம் முதல் முடிவுவரை பணிமுறை ஐந்து மணி நேர மேலாண்மை  
+- 🌟 **ஹலோ வேர்ல்டு** - உங்கள் முதல் தரவு அறிவியல் நிரலை
+- 📂 **தரவு ஏற்றுதல்** - தரவு பலகைகளை படித்து ஆய்வு செய்வது
+- 📊 **எளியான பகுப்பு** - புள்ளிவிவரங்களை கணக்கிட்டு படிமுறைகளை கண்டறிதல்
+- 📈 **அடிப்படை காட்சியமைப்பு** - விளக்கப்படங்கள் மற்றும் வரைகறைகள் உருவாக்குதல்
+- 🔬 **உண்மையான உலக திட்டம்** - ஆரம்பத்தில் இருந்து முடிவுக்கு முழுப் பணிகள்
 
-ஒவ்வொரு உதாரணமும் ஒவ்வொரு படியையும் விரிவாக விளக்குகிறது, இது முற்றிலும் புதியவர்களுக்கே தகுந்தது!
+ஒவ்வொரு எடுத்துக்காட்டிலும் ஒவ்வொரு படியையும் விளக்கும் விரிவான குறிப்புகள் உள்ளன, இது முற்றிலும் தொடக்கத்திற்கானது!
 
-👉 **[உதாரணங்களுடன் தொடங்கவும்](examples/README.md)** 👈
+👉 **[எடுத்துக்காட்டுகளுடன் தொடங்கவும்](examples/README.md)** 👈
 
 ## பாடங்கள்
 
 
-|![ @sketchthedocs வழங்கிய ஸ்கெட்ச் நோட் https://sketchthedocs.dev](../../translated_images/ta/00-Roadmap.4905d6567dff4753.webp)|
+|![ @sketchthedocs உருவாக்கிய ஸ்கெட்ச் நோட்டு https://sketchthedocs.dev](../../translated_images/ta/00-Roadmap.4905d6567dff4753.webp)|
 |:---:|
-| தொடக்கர்களுக்கான தரவு அறிவியல்: வழிகாட்டி - _ஸ்கெட்ச் நோட் [@nitya](https://twitter.com/nitya) வழங்கியது_ |
+| Data Science For Beginners: வழிச்செலுத்தல் - _ஸ்கெட்ச் நோட்டு [@nitya](https://twitter.com/nitya) tarafından oluşturulmuştur_ |
 
 
-| பாடம் எண் | தலைப்பு | பாடத் தொகுப்பு | கற்றல் துலக்குகள் | இணைக்கப்பட்ட பாடம் | ஆசிரியர் |
+| பாடம் எண் | தலைப்பு | பாட வகுப்பு | கற்றல் இலக்குகள் | இணைக்கப்பட்ட பாடம் | ஆசிரியர் |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | தரவு அறிவியல் வரையறை | [அறிமுகம்](1-Introduction/README.md) | தரவு அறிவியலின் அடிப்படைக் கருத்துக்களையும், புனைகை நுண்ணறிவு, இயந்திரக் கற்றல், மற்றும் பெரிய தரவுடன் அதன் தொடர்பையும் கற்றுக் கொள்ளுங்கள். | [பாடம்](1-Introduction/01-defining-data-science/README.md) [வீடியோ](https://youtu.be/beZ7Mb_oz9I) | [டிமிட்ரி](http://soshnikov.com) |
-| 02 | தரவு அறிவியல் நெறிமுறைகள் | [அறிமுகம்](1-Introduction/README.md) | தரவு நெறிமுறைகள் கருத்துக்கள், சவால்கள் மற்றும் கட்டமைப்புகள். | [பாடம்](1-Introduction/02-ethics/README.md) | [நித்யா](https://twitter.com/nitya) |
-| 03 | தரவு வரையறை | [அறிமுகம்](1-Introduction/README.md) | தரவு வகைப்படுத்தப்படுவது மற்றும் அதன் பொதுவான மூலங்கள் எப்படி என்பதைப் பற்றி. | [பாடம்](1-Introduction/03-defining-data/README.md) | [ஜாஸ்மின்](https://www.twitter.com/paladique) |
-| 04 | புள்ளியியல் மற்றும் சாத்தியக்கூறு அறிமுகம் | [அறிமுகம்](1-Introduction/README.md) | தரவைப் புரிந்துகொள்ளும் சாத்தியக்கூறுகள் மற்றும் புள்ளியியல் கணக்கியல் தொழில்நுட்பங்கள். | [பாடம்](1-Introduction/04-stats-and-probability/README.md) [வீடியோ](https://youtu.be/Z5Zy85g4Yjw) | [டிமிட்ரி](http://soshnikov.com) |
-| 05 | உறவுக் தரவு செயல்பாடு | [தரவு உடன் வேலை](2-Working-With-Data/README.md) | உறவுக்கூரிய தரவுகள் அறிமுகம் மற்றும் அமைப்பாக்க கேள்வி மொழி (SQL) உடன் உறவுக் தரவுகளை ஆராய்ந்து பகுப்பாய்வு செய்வதின் அடிப்படைகள். | [பாடம்](2-Working-With-Data/05-relational-databases/README.md) | [கிரிஸ்டோபர்](https://www.twitter.com/geektrainer) | | |
-| 06 | NoSQL தரவு செயல்பாடு | [தரவு உடன் வேலை](2-Working-With-Data/README.md) | தொடர்பு இல்லாத தரவு அறிமுகம், அதன் பல வகைகள் மற்றும் ஆவண தரவுத்தளங்களை ஆராய்ந்து பகுப்பாய்வு செய்வதின் அடிப்படைகள். | [பாடம்](2-Working-With-Data/06-non-relational/README.md) | [ஜாஸ்மின்](https://twitter.com/paladique)|
-| 07 | Python உடன் வேலை | [தரவு உடன் வேலை](2-Working-With-Data/README.md) | Python பயன்படுத்தி பாண்டாஸ் போன்ற நூலகங்களுடன் தரவை ஆராய்வதின் அடிப்படைகள். Python நிரலாக்க அடிப்படை அறிவு பரிந்துரைக்கப்படுகிறது. | [பாடம்](2-Working-With-Data/07-python/README.md) [வீடியோ](https://youtu.be/dZjWOGbsN4Y) | [டிமிட்ரி](http://soshnikov.com) |
-| 08 | தரவு தயார் செயல் | [தரவு உடன் வேலை](2-Working-With-Data/README.md) | தரவை சுத்தம் செய்து மாற்றுவதற்கான தொழில்நுட்பங்கள் மற்றும் தரவு இல்லாத, தவறான அல்லது முழுமையற்ற தரவை கையாளும் சவால்கள். | [பாடம்](2-Working-With-Data/08-data-preparation/README.md) | [ஜாஸ்மின்](https://www.twitter.com/paladique) |
-| 09 | அளவுகோல்களை காட்சிப்படுத்தல் | [தரவு காட்சிப்படுத்தல்](3-Data-Visualization/README.md) | பறவையின் தரவை Matplotlib இன் உதவியுடன் பார்ப்பது எப்படி என்பதை கற்று கொள்ளுங்கள் 🦆 | [பாடம்](3-Data-Visualization/09-visualization-quantities/README.md) | [ஜென்](https://twitter.com/jenlooper) |
-| 10 | தரவு விநியோகங்களை காட்சிப்படுத்தல் | [தரவு காட்சிப்படுத்தல்](3-Data-Visualization/README.md) | இடைநிலையிலான கவனிப்புகள் மற்றும் போக்குகளை காட்சிப்படுத்தல். | [பாடம்](3-Data-Visualization/10-visualization-distributions/README.md) | [ஜென்](https://twitter.com/jenlooper) |
-| 11 | விகிதங்களை காட்சிப்படுத்தல் | [தரவு காட்சிப்படுத்தல்](3-Data-Visualization/README.md) | தனித்தனியான மற்றும் குழும விகிதங்களை காட்சிப்படுத்தல். | [பாடம்](3-Data-Visualization/11-visualization-proportions/README.md) | [ஜென்](https://twitter.com/jenlooper) |
-| 12 | உறவுகளை காட்சிப்படுத்தல் | [தரவு காட்சிப்படுத்தல்](3-Data-Visualization/README.md) | தரவு தொகுதிகளுக்குப் பொதுவான தொடர்பு மற்றும் சார்புகளை காட்சிப்படுத்தல். | [பாடம்](3-Data-Visualization/12-visualization-relationships/README.md) | [ஜென்](https://twitter.com/jenlooper) |
-| 13 | அர்த்தமுள்ள காட்சிகள் | [தரவு காட்சிப்படுத்தல்](3-Data-Visualization/README.md) | பழக்க வழக்கமான மற்றும் விளக்கமாகக் காட்சிகளை உருவாக்குவதற்கான தொழில்நுட்பங்கள் மற்றும் வழிகாட்டுதல்கள். | [பாடம்](3-Data-Visualization/13-meaningful-visualizations/README.md) | [ஜென்](https://twitter.com/jenlooper) |
-| 14 | தரவு அறிவியலின் வாழ்நாள் அறிமுகம் | [வாழ்நாள்](4-Data-Science-Lifecycle/README.md) | தரவு அறிவியல் வாழ்நாள் மற்றும் தரவை சேகரித்தல் மற்றும் எடுக்குதல் என அதன் முதல் படி அறிமுகம். | [பாடம்](4-Data-Science-Lifecycle/14-Introduction/README.md) | [ஜாஸ்மின்](https://twitter.com/paladique) |
-| 15 | பகுப்பாய்வு | [வாழ்நாள்](4-Data-Science-Lifecycle/README.md) | தரவு அறிவியல் வாழ்நாட்டின் இந்த கட்டத்தில் தரவைப் பகுப்பாய்வு செய்வதற்கான தொழில்நுட்பங்கள் z. | [பாடம்](4-Data-Science-Lifecycle/15-analyzing/README.md) | [ஜாஸ்மின்](https://twitter.com/paladique) | | |
-| 16 | தொடர்பு | [வாழ்நாள்](4-Data-Science-Lifecycle/README.md) | தரவு அறிவியல் வாழ்நாட்டின் இந்த கட்டத்தில் தலைமை முடிவு எடுப்பவர்களுக்கு புரிந்துகொள்ள எளிதாகும் படி தரவிலிருந்து அறிவ்களை வழங்குவதேக் கவனம். | [பாடம்](4-Data-Science-Lifecycle/16-communication/README.md) | [ஜாலன்](https://twitter.com/JalenMcG) | | |
-| 17 | மேகத்தில் தரவு அறிவியல் | [மேக தரவு](5-Data-Science-In-Cloud/README.md) | இந்த பாடத் தொடர் மேகத்தில் தரவு அறிவியலை மற்றும் அதன் நன்மைகளை அறிமுகப்படுத்துகிறது. | [பாடம்](5-Data-Science-In-Cloud/17-Introduction/README.md) | [டிஃபனி](https://twitter.com/TiffanySouterre) மற்றும் [மாட்](https://twitter.com/maudstweets) |
-| 18 | மேகத்தில் தரவு அறிவியல் | [மேக தரவு](5-Data-Science-In-Cloud/README.md) | குறைந்த குறியீட்டு கருவிகளை பயன்படுத்தி மாதிரிகளை பயிற்சி செய்தல். |[பாடம்](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [டிஃபனி](https://twitter.com/TiffanySouterre) மற்றும் [மாட்](https://twitter.com/maudstweets) |
-| 19 | மேகத்தில் தரவு அறிவியல் | [மேக தரவு](5-Data-Science-In-Cloud/README.md) | Azure இயந்திர கற்றல் ஸ்டுடியோ மூலம் மாதிரிகளை பரப்புதல். | [பாடம்](5-Data-Science-In-Cloud/19-Azure/README.md)| [டிஃபனி](https://twitter.com/TiffanySouterre) மற்றும் [மாட்](https://twitter.com/maudstweets) |
-| 20 | இயற்கையில் தரவு அறிவியல் | [இயற்கையில்](6-Data-Science-In-Wild/README.md) | உண்மையான உலகில் தரவு அறிவியலால் இயக்கப்படும் திட்டங்கள். | [பாடம்](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [நித்யா](https://twitter.com/nitya) |
+| 01 | தரவு அறிவியலை வரையறுத்தல் | [அறிமுகம்](1-Introduction/README.md) | தரவு அறிவியலை பற்றிய அடிப்படைக் கொள்கைகள் மற்றும் அதனுடன் கூடிய செயற்கை நுண்ணறிவு, இயந்திர கற்றல் மற்றும் பெரிய தரவு தொடர்புகளை அறிந்துகொள்ளல். | [பாடம்](1-Introduction/01-defining-data-science/README.md) [காணொளி](https://youtu.be/beZ7Mb_oz9I) | [ட்மிட்ரி](http://soshnikov.com) |
+| 02 | தரவு அறிவியல் ஒழுங்கு விதிகள் | [அறிமுகம்](1-Introduction/README.md) | தரவு ஒழுங்கு விதி கொள்கைகள், சவால்கள் மற்றும் கட்டமைப்புகள். | [பாடம்](1-Introduction/02-ethics/README.md) | [நித்யா](https://twitter.com/nitya) |
+| 03 | தரவு வரையறுத்தல் | [அறிமுகம்](1-Introduction/README.md) | தரவு வகைகள் மற்றும் அதன் பொதுவான மூலதனங்கள். | [பாடம்](1-Introduction/03-defining-data/README.md) | [ஜஸ்மின்](https://www.twitter.com/paladique) |
+| 04 | புள்ளியியல் மற்றும் பற்றிய அறிமுகம் | [அறிமுகம்](1-Introduction/README.md) | தரவு புரிந்துகொள்ள புள்ளிவிவரங்களின் மற்றும் வாய்ப்பியல் முறைமைகள்.| [பாடம்](1-Introduction/04-stats-and-probability/README.md) [காணொளி](https://youtu.be/Z5Zy85g4Yjw) | [ட்மிட்ரி](http://soshnikov.com) |
+| 05 | தொடர்புடைய தரவோடு வேலை செய்தல் | [தரவு வேலை செய்வது](2-Working-With-Data/README.md) | தொடர்புடைய தரவு அறிமுகம் மற்றும் தொடர்புடைய தரவை ஆராயவும் பரிசீலனை செய்யவும் அடிப்படைமுறைகள், மேலும் வட்டாரக் கேள்வி மொழி அல்லது SQL (”See-Quell” என உச்சரிக்கப்படுகிறது) பயன்படுத்தல். | [பாடம்](2-Working-With-Data/05-relational-databases/README.md) | [கிறிஸ்டோபர்](https://www.twitter.com/geektrainer) | | |
+| 06 |  நோ-எஸ்க்யூஎல் தரவோடு வேலை செய்தல் | [தரவு வேலை செய்வது](2-Working-With-Data/README.md) | தொடர்பில்லாத தரவு அறிமுகம், அதன் வகைகள் மற்றும் ஆவண தரவுத்தளங்களை ஆராயும் மற்றும் பகுப்பாய்வு செய்யும் அடிப்படை. | [பாடம்](2-Working-With-Data/06-non-relational/README.md) | [ஜஸ்மின்](https://twitter.com/paladique)|
+| 07 | பைதான் மொழியுடன் வேலை செய்வது | [தரவு வேலை செய்வது](2-Working-With-Data/README.md) | Pandas போன்ற நூலகங்களைப் பயன்படுத்தி பைதானில் தரவை ஆராய்வு செய்வதன் அடிப்படைகள். பைதான் நிரலாக்கத்தின் அடிப்படை புரிதல் பரிந்துரைக்கப்படுகிறது. | [பாடம்](2-Working-With-Data/07-python/README.md) [காணொளி](https://youtu.be/dZjWOGbsN4Y) | [ட்மிட்ரி](http://soshnikov.com) |
+| 08 | தரவு தயாரிப்பு | [தரவு வேலை செய்வது](2-Working-With-Data/README.md) | பிழையான, குறைந்தவோ அல்லது அவற்றுக்குள் மறைந்துள்ள தரவை பராமரிக்க மற்றும் மாற்றுவதற்கான நுட்ப அம்சங்கள். | [பாடம்](2-Working-With-Data/08-data-preparation/README.md) | [ஜஸ்மின்](https://www.twitter.com/paladique) |
+| 09 | அளவுகளை காட்சியமைத்தல் | [தரவு காட்சியமைப்பு](3-Data-Visualization/README.md) | பறவை தரவை மாட்பிளாட்லிபை பயன்படுத்தி காட்சியமைக்க கற்றுக்கொள்ளுங்கள் 🦆 | [பாடம்](3-Data-Visualization/09-visualization-quantities/README.md) | [ஜென்](https://twitter.com/jenlooper) |
+| 10 | தரவு விநியோகங்களை காட்சியமைத்தல் | [தரவு காட்சியமைப்பு](3-Data-Visualization/README.md) | ஓர் இடைவெளியின் உள்ள பார்வைகள் மற்றும் போக்குகளை காட்சியமைத்தல். | [பாடம்](3-Data-Visualization/10-visualization-distributions/README.md) | [ஜென்](https://twitter.com/jenlooper) |
+| 11 | விகிதங்களை காட்சியமைத்தல் | [தரவு காட்சியமைப்பு](3-Data-Visualization/README.md) | தனித்த மற்றும் குழுவாக பகுக்கப்பட்ட சதவீதங்களை காட்சியமைத்தல். | [பாடம்](3-Data-Visualization/11-visualization-proportions/README.md) | [ஜென்](https://twitter.com/jenlooper) |
+| 12 | தொடர்புகளை காட்சியமைத்தல் | [தரவு காட்சியமைப்பு](3-Data-Visualization/README.md) | தரவுத்தொகுதிகளுக்கும் அதனுடைய மாறிலிகளுக்கும் இடையேயான தொடர்புகள் மற்றும் தொடர்புகளை காட்சியமைத்தல். | [பாடம்](3-Data-Visualization/12-visualization-relationships/README.md) | [ஜென்](https://twitter.com/jenlooper) |
+| 13 | பொருள்மிக்க காட்சிகள் | [தரவு காட்சியமைப்பு](3-Data-Visualization/README.md) | உங்கள் காட்சிகளினை மதிப்புமிக்கதாக மாற்றுவதற்கான நுட்பங்கள் மற்றும் வழிகாட்டல்கள், செயல்திறன் அளிக்கும் பிரச்சனைகளை தீர்க்க மற்றும் தெளிவுகளை பெற. | [பாடம்](3-Data-Visualization/13-meaningful-visualizations/README.md) | [ஜென்](https://twitter.com/jenlooper) |
+| 14 | தரவு அறிவியலின் வாழ்கைச் சுற்றம் அறிமுகம் | [வாழ்கைச் சுற்றம்](4-Data-Science-Lifecycle/README.md) | தரவு அறிவியல் வாழ்கைச் சுற்றமும் அதின் முதல் படியான தரவு சேகரிப்பு மற்றும் எடுக்கும் நடவடிக்கையும். | [பாடம்](4-Data-Science-Lifecycle/14-Introduction/README.md) | [ஜஸ்மின்](https://twitter.com/paladique) |
+| 15 | பகுப்பாய்வு | [வாழ்கைச் சுற்றம்](4-Data-Science-Lifecycle/README.md) | தரவு அறிவியல் வாழ்கைச் சுற்றின் இந்த கட்டம் தரவை ஆராயும் நுட்பங்களை கவனிக்கிறது. | [பாடம்](4-Data-Science-Lifecycle/15-analyzing/README.md) | [ஜஸ்மின்](https://twitter.com/paladique) | | |
+| 16 | தொடர்பாடல் | [வாழ்கைச் சுற்றம்](4-Data-Science-Lifecycle/README.md) | தரவிலிருந்து கிடைக்கும் தெளிவுகளை முடிவு எடுப்பவர்களுக்கு எளிதாக புரியுமிடமாக காட்டு இந்த கட்டம் கவனம் செலுத்துகிறது. | [பாடம்](4-Data-Science-Lifecycle/16-communication/README.md) | [ஜேலன்](https://twitter.com/JalenMcG) | | |
+| 17 | மேகத்தில் தரவு அறிவியல் | [மேக தரவு](5-Data-Science-In-Cloud/README.md) | இதுவே மேகத்தில் தரவு அறிவியலை அறிமுகப்படுத்தும் மற்றும் அதன் நன்மைகள் குறித்த தொடர் பாடங்கள். | [பாடம்](5-Data-Science-In-Cloud/17-Introduction/README.md) | [டிஃபினி](https://twitter.com/TiffanySouterre) மற்றும் [மாட்](https://twitter.com/maudstweets) |
+| 18 | மேகத்தில் தரவு அறிவியல் | [மேக தரவு](5-Data-Science-In-Cloud/README.md) | குறைந்த குறியீட்டுடன் (Low Code) மாதிரிகள் பயிற்சி பெறுதல். |[பாடம்](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [டிஃபினி](https://twitter.com/TiffanySouterre) மற்றும் [மாட்](https://twitter.com/maudstweets) |
+| 19 | மேகத்தில் தரவு அறிவியல் | [மேக தரவு](5-Data-Science-In-Cloud/README.md) | மேகத்தில் Azure Machine Learning Studio மூலம் மாதிரிகளை வெளியிடுதல். | [பாடம்](5-Data-Science-In-Cloud/19-Azure/README.md)| [டிஃபினி](https://twitter.com/TiffanySouterre) மற்றும் [மாட்](https://twitter.com/maudstweets) |
+| 20 | உள்ளூர் சாதனங்களில் தரவு அறிவியல் | [இலங்கையில்](6-Data-Science-In-Wild/README.md) | உண்மையான உலகில் தரவு அறிவியலை செயல்படுத்தும் திட்டங்கள். | [பாடம்](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [நித்யா](https://twitter.com/nitya) |
 
-## GitHub Codespaces
+## GitHub கோட்ஸ்பேசஸ்
 
-இந்த மாதிரியை Codespace இல் திறக்க கீழ்க்கண்ட படிகளை பின்பற்றவும்:  
-1. Code கீழிறங்கும் மெனுவை கிளிக் செய்து Open with Codespaces விருப்பத்தைத் தேர்ந்தெடுக்கவும்.  
-2. கீழே உள்ள பட்டியில் + New codespace ஐத் தேர்ந்தெடுக்கவும்.  
-மேலும் தகவலுக்கு, [GitHub ஆவணங்களை](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) பார்வையிடவும்.
+இந்த மாதிரியை Codespace இல் திறக்க கீழ்காணும் படிகளை பின்பற்றவும்:
+1. குறியீடு கீழ் விழுந்து வெளியீடு பட்டியில் Open with Codespaces விருப்பத்தை தேர்ந்தெடுக்கவும்.
+2. குழியில் கீழே + New codespace என்பதை தேர்ந்தெடுக்கவும்.
+மேலும் தகவலுக்கு, [GitHub ஆவணத்தை](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) காணவும்.
 
-## VSCode Remote - Containers  
-உங்கள் உள்ளூர் கணினியில் VSCode மற்றும் VS Code Remote - Containers நீட்டிப்பின் உதவியுடன் இந்த தொகுப்பை கொண்டெய்னரில் திறக்க கீழ்க்கண்ட படிகளை பின்பற்றவும்:
+## VSCode ரிமோட் - கண்டெய்னர்கள்
+உங்கள் உள்ளூர் கணினி மற்றும் VSCode பயன்படுத்தி VS Code Remote - Containers நீட்டிப்பை மூலம் இந்த தொகுதியை கண்டெய்னரில் திறக்க கீழ்காணும் படிகள்:
 
-1. இது உங்கள் முதன்முறை வளர்ச்சி கொண்டெய்னர் என்றால், உங்கள் கணினி தேவைகள் (எ.கா. Docker நிறுவப்பட்டிருப்பது) [தொடக்க ஆவணங்களில்](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) சரிபார்க்கவும்.
+1. நீங்கள் முதல் முறையாக அபிவிருத்தி கண்டெய்னரை பயன்படுத்தினால், உங்கள் அமைப்பு தேவைகளை (முக்கியமாக Docker நிறுவல்) [ஆரம்ப ஆவணத்தில்](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) உறுதிப்படுத்தவும்.
 
-இந்த தொகுப்பை பயன்படுத்த, நீங்கள் தொகுப்பை தனியான Docker வாலியூமில் திறக்கலாம்:
+இந்த தொகுதியைப் பயன்படுத்த, நீங்கள் அல்லது:
 
-**குறிப்பு**: இதன் கீழ் Remote-Containers: **Clone Repository in Container Volume...** கட்டளை பயன்படுத்தி மூல குறியீட்டுத் தொகுப்பை உள்ளூர் கோப்பு அமைப்புப் பதிலாக Docker வாலியூமாகக் கிளோன் செய்யும். [வாலியூம்கள்](https://docs.docker.com/storage/volumes/) கொண்டெய்னர் தரவைச் சேமிப்பதற்கான முக்கியமான நடைமுறையாகக் கருதப்படுகின்றன.
+**குறிப்பு**: உள்ளக கோப்புறை பதிலாக Docker தொகுதியிலேயே மூலக் குறியீட்டை கிளோன் செய்ய Remote-Containers: **Clone Repository in Container Volume...** ஆணையைப் பயன்படுத்தும். [கோப்பகங்கள்](https://docs.docker.com/storage/volumes/) என்பது கண்டெய்னர் தரவை நிலைத்திருக்க மிகவும் பிடித்த முறை.
 
-அல்லது உள்ளூர் முறையில் கிளோன் செய்யப்பட்ட அல்லது பதிவிறக்கம் செய்யப்பட்ட தொகுப்பைத் திறக்கவும்:
+அல்லது உள்ளகமாக கிளோன் செய்த பதிப்பைத் திறக்கவும்:
 
-- இந்த தொகுப்பை உங்கள் உள்ளூர் கோப்புறைக்கு கிளோன் செய்யவும்.  
-- F1 அழுத்தி **Remote-Containers: Open Folder in Container...** கட்டளையைத் தேர்ந்தெடுக்கவும்.  
-- இந்த கோப்புறையின் கிளோன் செய்யப்பட்ட நகலை தேர்ந்தெடுத்து, கொண்டெய்னர் தொடங்க வேண்டும் என காத்திருந்து செயல்களை முயற்சிக்கவும்.
+- இந்த தொகுதியை உங்கள் உள்ளக கோப்புறைக்கு கிளோன் செய்யவும்.
+- F1 அழுத்தி **Remote-Containers: Open Folder in Container...** ஆணையை தேர்வு செய்யவும்.
+- இந்த கோப்பகத்தின் கிளோன் பிரதியை தேர்ந்தெடுத்து, கண்டெய்னர் துவங்கும்வரை காத்திருந்து முயற்சிக்கவும்.
 
 ## ஆஃப்லைன் அணுகல்
 
-[Docsify](https://docsify.js.org/#/) பயன்படுத்தி இந்த ஆவணத்தைக் கோப்புறையில் இண்டர்னெட்டினின்றி இயக்கலாம். இந்த தொகுப்பை கிளோன் செய்து, உங்கள் உள்ளூர் கணினியில் [Docsify ஐ நிறுவி](https://docsify.js.org/#/quickstart), பின்னர் இந்த தொகுப்பின் அடிப்படை கோப்புறையில் `docsify serve` என்ற டைப் செய்து இயக்கவும். வலைத்தளம் உங்கள் localhost இல் 3000 போர்ட் மூலம் கிடைக்கும்: `localhost:3000`.
+இந்த ஆவணத்தை ஆஃப்லைனில் பயன்படுத்த [Docsify](https://docsify.js.org/#/) பயன்படுத்தலாம். இந்த தொகுதியை ஃபோர்க் செய்து [Docsify ஐ நிறுவி](https://docsify.js.org/#/quickstart) உள்ளூர் கணினியில் இயக்கு, பின்னர் இந்த தொகுதியின் ரூட் கோப்பகத்தில் `docsify serve` என தட்டச்சு செய்யவும். இணையதளம் உங்கள் உள்ளூர் ஃப்ராட்ட்லோக்கலிடம் 3000 போர்ட்டில் இயக்கப்படும்: `localhost:3000`.
 
-> கவனிக்கவும், நோட்புக்கள் Docsify மூலம் காட்டப்பட மாட்டார்கள், ஆகவே நீங்கள் நோட்புக் இயக்கவேண்டுமானால், அது தனி முறையில் VS Code இல் Python கர்னல் கொண்டு இயக்கவும்.
+> குறிப்பு, நோட்புக் கோப்புகள் Docsify மூலம் காட்டப்படமாட்டாது, எனவே நோட்பூக்கை இயக்க வேண்டியபோது, அதனை தனியே VS Code இல் Python கர்னலை இயக்கி செய்யவும்.
 
-## மற்ற பாடத்திட்டங்கள்
+## பிற பாடத்திட்டங்கள்
 
-எங்கள் அணி மற்ற பாடத்திட்டங்களையும் உருவாக்குகிறது! பாருங்கள்:
+எங்கள் குழு பிற பாடத்திட்டங்களையும் உருவாக்குகிறது! பார்க்கவும்:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
-[![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
+[![LangChain4j தொடக்கங்களுக்கு](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
 [![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
 ### Azure / Edge / MCP / முகவர்கள்
@@ -216,7 +226,7 @@
 
 ---
  
-### கோர் கற்றல்
+### மையக் கற்றல்
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -227,7 +237,7 @@
 
 ---
  
-### கோபைலட் தொடர்
+### கூட்டணித் தொடர்
 [![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
@@ -235,19 +245,19 @@
 
 ## உதவி பெறுதல்
 
-**சிக்கல்கள் சந்திக்கிறீர்களா?** பொதுவான பிரச்சினைகளுக்கான தீர்வுகளை பெற எங்கள் [பிரச்சினை தீர்க்கும் கையேட்டை](TROUBLESHOOTING.md) சரிபார்க்கவும்.
+**பிரச்சினைகள் நேர்ந்துள்ளதா?** பொதுவான பிரச்சினைகளுக்கான தீர்வுகளைப் பெற எங்கள் [பிரச்சினை தீர்க்கும் வழிகாட்டியை](TROUBLESHOOTING.md) சரிபார்க்கவும்.
 
-AI செயலிகளைக் கட்டமைப்பதில் தடுமாறவோ அல்லது ஏதேனும் கேள்விகள் இருந்தால், MCP குறித்த பேச்சுகளில் மற்ற கற்றவர்களுடனும் அனுபவமுள்ள டெவலப்பர்களுடனும் சேர்ந்துகொள்ளவும். கேள்விகள் வரவேற்கப்படும்தானும் அறிவு அவ்வப்போது பகிரப்படுவதுமான ஆதரவு சமூகமாகும்.
+AI செயலிகளை உருவாக்குவதில் சிக்கல்கள் அல்லது கேள்விகள் உள்ளதாயின், MCP பற்றி நிபுணர்கள் மற்றும் உடன் கற்றுக்கொள்ளும் மாணவர்கள் இணைந்த கருத்தரங்குகளில் கலந்துரையாடுங்கள். கேள்விகள் வரவேற்கப்படுகிறன மற்றும் அறிவு சுதந்திரமாக பகிரப்படுகிறது.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-உங்களிடம் தயாரிப்பு கருத்து அல்லது பிழைகள் இருந்தால், கட்டமைக்கும்போது பின்வரும் இடத்தை பார்வையிடவும்:
+உற்பத்தி பின்னூட்டங்கள் அல்லது பிழைகள் தொடர்பாக, கட்டுமானத்தில்:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**பிரதி விளக்கம்**:
-இந்த ஆவணம் AI மொழிபெயர்ப்பு சேவை [Co-op Translator](https://github.com/Azure/co-op-translator) பயன்படுத்தி மொழிபெயர்க்கப்பட்டுள்ளது. நாங்கள் துல்லியத்தன்மைக்கு முயற்சி செய்கிறோம் என்றாலும், தானாக செய்யப்பட்ட மொழிபெயர்ப்புகளில் பிழைகள் அல்லது தவறுதல்கள் இருக்கக்கூடும் என்பதை தயவுசெய்து கவனியுங்கள். அசல் ஆவணம் தனது சொந்த மொழியில் அதிகாரப்பூர்வ ஆதாரமாக கருதப்பட வேண்டும். முக்கியமான தகவல்களுக்கு, தொழில்முறை மனித மொழிபெயர்ப்பு பரிந்துரைக்கப்படுகிறது. இந்த மொழிபெயர்ப்பின் பயன்பாட்டால் ஏற்பட்ட எந்த தவறான புரிதல்கள் அல்லது தவறாய்க் கருத்துகளுக்கும் நாங்கள் பொறுப்பில்லை.
+**வெறுமனது அறிவுரை**:  
+இந்த ஆவணம் [Co-op Translator](https://github.com/Azure/co-op-translator) என்ற AI மொழிபெயர்ப்பு சேவையை பயன்படுத்தி மொழிபெயர்க்கப்பட்டுள்ளதாகும். நாங்கள் துல்லியத்திற்காக முயலுகிறோம்; எனினும், தானியங்கி மொழிபெயர்ப்புகளில் பிழைகள் அல்லது தவறுகள் இருக்கக்கூடும் என்பதை தயவுசெய்து கருத்தில் கொள்ளவும். பூரண தகவலுக்காக, மூல மொழியில் உள்ள ஆவணம் அதிகாரபூர்வ ஆதாரமாக கருதப்பட வேண்டும். முக்கியமான தகவலுக்கு, தொழில்முறை மனித மொழிபெயர்ப்பை பரிந்துரைக்கிறோம். இந்த மொழிபெயர்ப்பின் பயன்பாட்டினால் ஏற்பட்ட ஏதேனும் தவறான புரிதல்கள் அல்லது தவறான விளக்கங்களுக்கு நாங்கள் பொறுப்புவாயிலிருப்பதில்லை.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

@@ -1,4 +1,4 @@
-# नवीन सुरुवातीसाठी डेटा सायन्स - एक अभ्यासक्रम
+# नवीन शिकणाऱ्यांसाठी डेटा सायन्स - एक अभ्यासक्रम
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=344191198)
 
@@ -17,190 +17,198 @@
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
-मायक्रोसॉफ्टमधील Azure Cloud Advocates हे डेटा सायन्सबाबत १० आठवडे, २० धडे या अभ्यासक्रमाची ऑफर देताना आनंदित आहेत. प्रत्येक धड्यात प्री-लेसन आणि पोस्ट-लेसन प्रश्नपत्रिका, धडा पूर्ण करण्यासाठी लेखी सूचना, एक मार्गदर्शक उपाय आणि एक असाइनमेंट समाविष्ट आहे. आमच्या प्रोजेक्ट-आधारित पद्धतीमुळे आपण शिकताना तयार करता, जे नवीन कौशल्य अधिक चांगल्या प्रकारे लागून राहण्यासाठी सिद्ध झाले आहे.
+मायक्रोसॉफ्टमधील Azure Cloud Advocates डेटा सायन्सबाबत 10 आठवडे, 20 धड्यांचा अभ्यासक्रम देण्यास आनंदित आहेत. प्रत्येक धड्यात प्री-लेसन आणि पोस्ट-लेसन क्विझ, धडा पूर्ण करण्यासाठी लेखी सूचना, उपाय आणि असाईनमेंट असते. आमची प्रकल्प-आधारित अध्यापनपद्धती तुम्हाला शिकत असतानाच तयार करण्याची परवानगी देते, जी नवीन कौशल्ये 'अडकण्यासाठी' सिद्ध झालेले मार्ग आहे.
 
 **आमच्या लेखकांचे मनापासून आभार:** [Jasmine Greenaway](https://www.twitter.com/paladique), [Dmitry Soshnikov](http://soshnikov.com), [Nitya Narasimhan](https://twitter.com/nitya), [Jalen McGee](https://twitter.com/JalenMcG), [Jen Looper](https://twitter.com/jenlooper), [Maud Levy](https://twitter.com/maudstweets), [Tiffany Souterre](https://twitter.com/TiffanySouterre), [Christopher Harrison](https://www.twitter.com/geektrainer).
 
-**🙏 विशेष आभार 🙏 आमच्या [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) लेखक, परिक्षक आणि सामग्री योगदानकर्त्यांना,** विशेषतः आर्यन अरोरा, [आदित्य गर्ग](https://github.com/AdityaGarg00), [अलोंद्रामोलिना सांचेज](https://www.linkedin.com/in/alondra-sanchez-molina/), [अंकिता सिंग](https://www.linkedin.com/in/ankitasingh007), [अनुपम मिश्रा](https://www.linkedin.com/in/anupam--mishra/), [अर्पिता दास](https://www.linkedin.com/in/arpitadas01/), छैल बिहारी दुबे, [डिब्री नसोफोर](https://www.linkedin.com/in/dibrinsofor), [दिशिता भासिन](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [माजद सफी](https://www.linkedin.com/in/majd-s/), [मॅक्स ब्लुम](https://www.linkedin.com/in/max-blum-6036a1186/), [मिगुएल कोरेया](https://www.linkedin.com/in/miguelmque/), [मोहम्मा इफ्तेखेर (इफ्टू) अबने जलाल](https://twitter.com/iftu119), [नवरीन तबास्सुम](https://www.linkedin.com/in/nawrin-tabassum), [रेमंड वांग्सा पुत्त्रा](https://www.linkedin.com/in/raymond-wp/), [रोहित यादव](https://www.linkedin.com/in/rty2423), समृद्धी शर्मा, [सान्या सिन्हा](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
-[शीना नारुला](https://www.linkedin.com/in/sheena-narua-n/), [तौकीर अहमद](https://www.linkedin.com/in/tauqeerahmad5201/), योगेंद्रसिंग पवार , [विदुषी गुप्ता](https://www.linkedin.com/in/vidushi-gupta07/), [जसलीन सुनधी](https://www.linkedin.com/in/jasleen-sondhi/)
+**🙏 खास आभार 🙏 आमच्या [Microsoft Student Ambassador](https://studentambassadors.microsoft.com/) लेखक, पुनरावलोकक आणि सामग्री योगदानकर्त्यांना,** विशेषतः आर्यन अरोरा, [आदित्य गर्ग](https://github.com/AdityaGarg00), [आलंद्रा सांचेज़](https://www.linkedin.com/in/alondra-sanchez-molina/), [अंकिता सिंग](https://www.linkedin.com/in/ankitasingh007), [अनुपम मिश्रा](https://www.linkedin.com/in/anupam--mishra/), [अर्पिता दास](https://www.linkedin.com/in/arpitadas01/), छुहैलबिहारी दुबे, [डिब्री नसोफोर](https://www.linkedin.com/in/dibrinsofor), [दिशिता भसीन](https://www.linkedin.com/in/dishita-bhasin-7065281bb), [मजद सफी](https://www.linkedin.com/in/majd-s/), [मॅक्स ब्लम](https://www.linkedin.com/in/max-blum-6036a1186/), [मिगेल कोर्रेया](https://www.linkedin.com/in/miguelmque/), [मोहम्मा इफ्तेखेर (इफ्टू) इब्ने जलाल](https://twitter.com/iftu119), [नवरीन ताबस्सुम](https://www.linkedin.com/in/nawrin-tabassum), [रेमंड वांगसा पूत्रा](https://www.linkedin.com/in/raymond-wp/), [रोहित यादव](https://www.linkedin.com/in/rty2423), समृद्धी शर्मा, [सांया सिन्हा](https://www.linkedin.com/mwlite/in/sanya-sinha-13aab1200),
+[शीना नारुला](https://www.linkedin.com/in/sheena-narua-n/), [तौकीर अहमद](https://www.linkedin.com/in/tauqeerahmad5201/), योगेंद्रसिंह पवार , [विदुषी गुप्ता](https://www.linkedin.com/in/vidushi-gupta07/), [जसलीन संधि](https://www.linkedin.com/in/jasleen-sondhi/)
 
 |![Sketchnote by @sketchthedocs https://sketchthedocs.dev](../../translated_images/mr/00-Title.8af36cd35da1ac55.webp)|
 |:---:|
-| सुरु करणार्‍यांसाठी डेटा सायन्स - _स्केचनोद [@nitya](https://twitter.com/nitya) द्वारे_ |
+| नवीन शिकणाऱ्यांसाठी डेटा सायन्स - _स्केचनोंट [@nitya](https://twitter.com/nitya)_ |
 
 ### 🌐 बहुभाषिक समर्थन
 
-#### GitHub Action द्वारे समर्थित (स्वयंचलित व कायम अद्ययावत)
+#### GitHub Action द्वारे समर्थित (स्वयंचलित आणि सदैव अद्ययावत)
 
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE START -->
 [Arabic](../ar/README.md) | [Bengali](../bn/README.md) | [Bulgarian](../bg/README.md) | [Burmese (Myanmar)](../my/README.md) | [Chinese (Simplified)](../zh-CN/README.md) | [Chinese (Traditional, Hong Kong)](../zh-HK/README.md) | [Chinese (Traditional, Macau)](../zh-MO/README.md) | [Chinese (Traditional, Taiwan)](../zh-TW/README.md) | [Croatian](../hr/README.md) | [Czech](../cs/README.md) | [Danish](../da/README.md) | [Dutch](../nl/README.md) | [Estonian](../et/README.md) | [Finnish](../fi/README.md) | [French](../fr/README.md) | [German](../de/README.md) | [Greek](../el/README.md) | [Hebrew](../he/README.md) | [Hindi](../hi/README.md) | [Hungarian](../hu/README.md) | [Indonesian](../id/README.md) | [Italian](../it/README.md) | [Japanese](../ja/README.md) | [Kannada](../kn/README.md) | [Korean](../ko/README.md) | [Lithuanian](../lt/README.md) | [Malay](../ms/README.md) | [Malayalam](../ml/README.md) | [Marathi](./README.md) | [Nepali](../ne/README.md) | [Nigerian Pidgin](../pcm/README.md) | [Norwegian](../no/README.md) | [Persian (Farsi)](../fa/README.md) | [Polish](../pl/README.md) | [Portuguese (Brazil)](../pt-BR/README.md) | [Portuguese (Portugal)](../pt-PT/README.md) | [Punjabi (Gurmukhi)](../pa/README.md) | [Romanian](../ro/README.md) | [Russian](../ru/README.md) | [Serbian (Cyrillic)](../sr/README.md) | [Slovak](../sk/README.md) | [Slovenian](../sl/README.md) | [Spanish](../es/README.md) | [Swahili](../sw/README.md) | [Swedish](../sv/README.md) | [Tagalog (Filipino)](../tl/README.md) | [Tamil](../ta/README.md) | [Telugu](../te/README.md) | [Thai](../th/README.md) | [Turkish](../tr/README.md) | [Ukrainian](../uk/README.md) | [Urdu](../ur/README.md) | [Vietnamese](../vi/README.md)
 
-> **स्थानिक कॉपी प्राधान्य द्याल का?**
-
-> हा संग्रह 50+ भाषांमध्ये भाषांतरांचा समावेश करतो ज्यामुळे डाउनलोड साइज मोठा होतो. भाषांतरांशिवाय क्लोन करण्यासाठी sparse checkout वापरा:
+> **स्थानिक पद्धतीने क्लोन करायचे आहे का?**
+>
+> या रिपॉजिटरीमध्ये ५०+ भाषांमध्ये अनुवाद समाविष्ट आहेत ज्यामुळे डाउनलोड साईझ फार मोठा होतो. अनुवादांशिवाय क्लोन करण्यासाठी sparse checkout वापरा:
+>
+> **Bash / macOS / Linux:**
 > ```bash
 > git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
 > cd Data-Science-For-Beginners
 > git sparse-checkout set --no-cone '/*' '!translations' '!translated_images'
 > ```
-> यामुळे आपल्याला अभ्यासक्रम पूर्ण करण्यासाठी आवश्यक सर्वकाही मिळेल आणि डाउनलोड जलद होईल.
+>
+> **CMD (Windows):**
+> ```cmd
+> git clone --filter=blob:none --sparse https://github.com/microsoft/Data-Science-For-Beginners.git
+> cd Data-Science-For-Beginners
+> git sparse-checkout set --no-cone "/*" "!translations" "!translated_images"
+> ```
+>
+> तुम्हाला अभ्यासक्रम पूर्ण करण्यासाठी आवश्यक सर्वकाही हे जलद डाउनलोडसह मिळेल.
 <!-- CO-OP TRANSLATOR LANGUAGES TABLE END -->
 
-**अधिक भाषांतरांसाठी समर्थित भाषा येथे पाहा [येथे](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md)**
+**अधिक भाषांच्या अनुवादांसाठी [येथे](https://github.com/Azure/co-op-translator/blob/main/getting_started/supported-languages.md) पाहा**
 
-#### आमच्या समुदायात सामील व्हा 
+#### आमच्या समुदायात सामील व्हा
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-आमच्याकडे Discord वर AI सह जाणून घेण्याचा सत्र चालू आहे, त्याबद्दल अधिक जाणून घेण्यासाठी आणि सहभागी होण्यासाठी [Learn with AI Series](https://aka.ms/learnwithai/discord) येथे भेट द्या, १८ - ३० सप्टेंबर, २०२५. तुम्हाला डेटा सायन्ससाठी GitHub Copilot वापरण्याचे टिप्स आणि ट्रिक्स मिळतील.
+आमच्याकडे डिसकॉर्डवर AI सह शिकण्याची मालिका सुरू आहे, अधिक जाणून घेण्यासाठी आणि आमच्यात सामील होण्यासाठी [Learn with AI Series](https://aka.ms/learnwithai/discord) येथे १८ ते ३० सप्टेंबर, २०२५. तुम्हाला GitHub Copilot चा डेटा सायन्ससाठी वापर याबाबत तंत्र सांगितले जातील.
 
 ![Learn with AI series](../../translated_images/mr/1.2b28cdc6205e26fe.webp)
 
 # तुम्ही विद्यार्थी आहात का?
 
-खालील संसाधनांसह प्रारंभ करा:
+खालील संसाधनांपासून सुरुवात करा:
 
-- [विद्यार्थी हब पेज](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) या पृष्ठावर, तुम्हाला नवीन सुरुवातीसाठी संसाधने, विद्यार्थी पॅक आणि अगदी मोफत प्रमाणपत्र व्हाउचरसाठी मार्ग मिळतील. हा असा एक पृष्ठ आहे ज्याला तुम्ही बुकमार्क करा आणि कधी कधी तपासत राहा कारण आम्ही किमान महिन्याला एकदा सामग्री अद्ययावत करतो.
-- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) या ग्लोबल समुदायात सहभागी व्हा, हे तुम्हाला Microsoft मध्ये सामील होण्याचा मार्ग असू शकतो.
+- [विद्यार्थी हब पेज](https://docs.microsoft.com/en-gb/learn/student-hub?WT.mc_id=academic-77958-bethanycheum) या पेजवर तुम्हाला नवीन सुरुवातीसाठी संसाधने, विद्यार्थी पॅक्स आणि अगदी मोफत सर्टिफिकेट वाउचर मिळण्याचे मार्ग सापडतील. हा असा एक पान आहे जे तुम्ही आवर्जून बुकमार्क करा व काळा कालांतराने तपासा कारण आम्ही दर महिन्याला सामग्री अद्यतनित करतो.
+- [Microsoft Learn Student Ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77958-bethanycheum) जागतिक विद्यार्थी अ‍ॅम्बेसेडर समुदायात सामील व्हा, हे मायक्रोसॉफ्टमध्ये तुमच्या प्रवेशाचे मार्ग असू शकते.
 
-# प्रारंभ करणे
+# सुरुवात कशी करावी
 
-## 📚 दस्तऐवजीकरण
+## 📚 दस्तऐवज
 
-- **[स्थापना मार्गदर्शक](INSTALLATION.md)** - सुरुवातीसाठी पावलोपावली सेटअप सूचना
-- **[वापर मार्गदर्शक](USAGE.md)** - उदाहरणे आणि सामान्य कार्यप्रवाह
+- **[इंस्टॉलेशन मार्गदर्शिका](INSTALLATION.md)** - नवीन लोकांसाठी टप्प्याटप्प्याने सेटअप सूचना
+- **[वापर मार्गदर्शिका](USAGE.md)** - उदाहरणे व सामान्य कार्यप्रवाह
 - **[समस्या निवारण](TROUBLESHOOTING.md)** - सामान्य समस्या सोडवण्याचे उपाय
-- **[योगदान कसे करावे](CONTRIBUTING.md)** - या प्रकल्पात कसे योगदान द्यावे
-- **[शिकविणाऱ्यांसाठी](for-teachers.md)** - शिकवण्याचे मार्गदर्शन आणि वर्गातील संसाधने
+- **[योगदान कसे करावे](CONTRIBUTING.md)** - या प्रकल्पात योगदान देण्याचा मार्गदर्शक
+- **[शिक्षकांसाठी](for-teachers.md)** - शिकवणी मार्गदर्शन आणि वर्गातील संसाधने
 
 ## 👨‍🎓 विद्यार्थ्यांसाठी
-> **पूर्ण नवीन सुरुवातीसाठी**: डेटा सायन्समध्ये नवीन आहात का? आमच्या [सुरुवातीसाठी सोप्या उदाहरणांपासून](examples/README.md) सुरू करा! ही सोपी, व्यवस्थित समजावलेली उदाहरणे आपल्याला मूलभूत समजण्यासाठी मदत करतील आणि नंतर संपूर्ण अभ्यासक्रमात उडी मारू शकता.
-> **[विद्यार्थी](https://aka.ms/student-page)**: हा अभ्यासक्रम स्वतः वापरण्यासाठी, संपूर्ण रेपो फोर्क करा आणि स्वतः प्रश्नपत्रिका पासून सुरू करून एक्सरसाइझ पूर्ण करा. नंतर लेक्चर वाचा आणि बाकीच्या क्रियाकलापांचे पूर्णत्व साधा. प्रोजेक्ट तयार करताना समाधान कोड कॉपी करण्याऐवजी धडे समजून घेण्याचा प्रयत्न करा; तथापि, त्या कोड प्रत्येक प्रोजेक्ट-उन्मुख धड्यातील /solutions फोल्डरमध्ये उपलब्ध आहे. आणखी एक विचार म्हणजे मित्रांबरोबर अभ्यास गट तयार करून सामग्री एकत्रून जाणून घेणे. पुढील अध्ययनासाठी आम्ही [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) शिफारस करतो.
+> **पूर्णपणे नवीन:** डेटा सायन्समध्ये नवीन आहात? आमच्या [नवीन सुरुवातीसाठी उदाहरणांपासून](examples/README.md) सुरुवात करा! ही सोपी, उत्कृष्ट टिप्पण्यांसह उदाहरणे तुम्हाला मूलभूत गोष्टी समजून घेण्यासाठी मदत करतील पूर्ण अभ्यासक्रमात काहीही डुबकी मारण्याअगोदर.
+> **[विद्यार्थी](https://aka.ms/student-page)**: हा अभ्यासक्रम स्वतः वापरण्यासाठी, संपूर्ण रेपो फोर्क करा आणि स्वतःच सराव पूर्ण करा, प्री-लेक्चर क्विझपासून सुरू करा. नंतर लेक्चर वाचा आणि बाकीच्या क्रियाकलाप पूर्ण करा. उपाययोजना कोड सहज कॉपी करण्याऐवजी, धडे समजून घेऊन प्रकल्प तयार करण्याचा प्रयत्न करा; तरीसुद्धा, त्या कोड सोल्यूशन्स फोल्डरमध्ये प्रत्येक प्रकल्प-आधारित धड्यात उपलब्ध आहे. आणखी एक कल्पना म्हणजे मित्रांसोबत अभ्यास गट तयार करणे आणि एकत्रून सामग्री पाहणे. अधिक अभ्यासासाठी, आम्ही [Microsoft Learn](https://docs.microsoft.com/en-us/users/jenlooper-2911/collections/qprpajyoy3x0g7?WT.mc_id=academic-77958-bethanycheum) यांचा सल्ला देतो.
 
 **त्वरित प्रारंभ:**
-1. आपले वातावरण सेट करण्यासाठी [स्थापना मार्गदर्शक](INSTALLATION.md) तपासा
-2. अभ्यासक्रम वापरण्याबाबत जाणून घेण्यासाठी [वापर मार्गदर्शक](USAGE.md) पाहा
-3. पहिल्या धड्यानं सुरू करा आणि सलग काम करा
-4. आधारासाठी आमच्या [Discord समुदायात](https://aka.ms/ds4beginners/discord) सहभागी व्हा
+1. तुमचे वातावरण सेटअप करण्यासाठी [इंस्टॉलेशन मार्गदर्शिका](INSTALLATION.md) तपासा
+2. अभ्यासक्रम कसा वापरायचा ते शिकण्यासाठी [वापर मार्गदर्शिका](USAGE.md) वाचा
+3. प्रथम धड्यापासून सुरु करा आणि अनुक्रमे काम करा
+4. मदतीसाठी आमच्या [Discord समुदायात](https://aka.ms/ds4beginners/discord) सामील व्हा
 
 ## 👩‍🏫 शिक्षकांसाठी
+> **शिक्षक**: आम्ही या अभ्यासक्रमाचा कसा वापर करावा याबाबत काही [सूचना समाविष्ट केल्या आहेत](for-teachers.md). आम्हाला तुमची अभिप्राय [आमच्या चर्चा मंचावर](https://github.com/microsoft/Data-Science-For-Beginners/discussions) आवडेल!
 
-> **शिक्षकांसाठी**: आम्ही या अभ्यासक्रमाचा कसा वापर करावा याबाबत काही [सूचना](for-teachers.md) समाविष्ट केल्या आहेत. आम्हाला तुमचे अभिप्राय आवडेल [आपल्या चर्चा मंचावर](https://github.com/microsoft/Data-Science-For-Beginners/discussions)!
 ## टीमला भेटा
 
-[![प्रोमो व्हिडिओ](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "प्रोमो व्हिडिओ")
+[![प्रमोशनल व्हिडिओ](../../ds-for-beginners.gif)](https://youtu.be/8mzavjQSMM4 "प्रमोशनल व्हिडिओ")
 
-**गीफ** [मोहीत जैसल](https://www.linkedin.com/in/mohitjaisal) यांनी तयार केलेली
+**जीआयएफ** [मोहित जैसाळ](https://www.linkedin.com/in/mohitjaisal) यांचे
 
-> 🎥 प्रोजेक्ट आणि ते तयार करणाऱ्या लोकांबद्दल व्हिडिओ पाहण्यासाठी वरील प्रतिमेवर क्लिक करा!
+> 🎥 प्रोजेक्ट बद्दल व्हिडिओसाठी वरच्या प्रतिमेवर क्लिक करा ज्यांनी ही तयार केली आहे त्यांच्यावर!
 
-## अध्यापन पद्धती
+## अध्यापनशास्त्र
 
-आम्ही या अभ्यासक्रम तयार करताना दोन अध्यापन तत्त्वे निवडली आहेत: तो प्रोजेक्ट-आधारित असेल आणि त्यात वारंवार क्विझेस असतील याची खात्री करणे. या मालिकेच्या शेवटी, विद्यार्थ्यांनी डेटासायन्सची मूलभूत तत्त्वे शिकली असतील, ज्यात नैतिक संकल्पना, डेटाची तयारी, डेटासह काम करण्याच्या वेगवेगळ्या पद्धती, डेटा व्हिज्युअलायझेशन, डेटा विश्लेषण, डेटासायन्सचे वास्तविक वापर केसेस आणि बरेच काही समाविष्ट आहे.
+आम्ही हा अभ्यासक्रम तयार करताना दोन अध्यापन तत्त्वे निवडली आहेत: प्रकल्प-आधारित असणे आणि वारंवार क्विझ समाविष्ट करणे. या मालिकेच्या शेवटी, विद्यार्थी डेटा सायन्सच्या मूलभूत तत्त्वांबाबत शिकतील, ज्यामध्ये नैतिक संकल्पना, डेटा तयारी, डेटा वापरण्याचे विविध मार्ग, डेटा व्हिज्युअलायझेशन, डेटा विश्लेषण, डेटा सायन्सच्या प्रत्यक्ष उपयोगाच्या केससह इत्यादी समाविष्ट आहेत.
 
-याशिवाय, वर्गाच्या आधी एक कमी-धोक्याचा क्विझ विद्यार्थ्याच्या एका विषयावर लक्ष केंद्रित करण्याचा उद्देश सेट करतो, तर वर्गानंतरचा दुसरा क्विझ अधिक टिकाव खातो. हा अभ्यासक्रम लवचिक आणि मजेशीर बनविण्यासाठी डिझाइन केला गेला आहे आणि तो पूर्णपणे किंवा भागानुसार घेता येऊ शकतो. प्रोजेक्ट्स लहान सुरू होतात आणि 10 आठवड्यांच्या चक्राच्या शेवटी अधिक जटिल होतात.
+याशिवाय, वर्गाच्या आधी एक कमी-कठोर क्विझ विद्यार्थ्यांच्या विषयाची जाण ठेवण्यासाठी सेट केली जाते, तर वर्गानंतर दुसऱ्या क्विझमुळे अधिक टिकाव सुनिश्चित होतो. हा अभ्यासक्रम लवचिक आणि मजेदार असावा यासाठी डिझाइन करण्यात आला आहे आणि तो पूर्णपणे किंवा भागांमध्ये घेतला जाऊ शकतो. प्रकल्प लहानपासून सुरुवात होतात आणि १० आठवड्यांच्या चक्राच्या शेवटी हळूहळू जटिल होतात.
 
-> आमचा [व्यवहार संहिता](CODE_OF_CONDUCT.md), [योगदान](CONTRIBUTING.md), [भाषांतर](TRANSLATIONS.md) मार्गदर्शक तत्त्वे पहा. आम्ही आपले रचनात्मक अभिप्राय स्वागत करतो!
+> आमचा [आचारसंहिता](CODE_OF_CONDUCT.md), [योगदान](CONTRIBUTING.md), [भाषांतर](TRANSLATIONS.md) मार्गदर्शक तत्त्वे पाहा. तुमचा सकारात्मक अभिप्राय आम्हाला आवडेल!
 
-## प्रत्येक धड्यात समाविष्ट आहे:
+## प्रत्येकी अभ्यासात समाविष्ट:
 
-- ऐच्छिक स्केच नोट
+- ऐच्छिक स्केचनोट
 - ऐच्छिक पूरक व्हिडिओ
-- धड्याआधी गरम-up क्विझ
+- पूर्व-अभ्यास उत्कंठावर्धक क्विझ
 - लेखी धडा
-- प्रोजेक्ट-आधारित धड्यांकरिता, प्रोजेक्ट कसा तयार करावा यावर चरण-दर-चरण मार्गदर्शक
-- ज्ञान तपासण्या
+- प्रकल्प-आधारित धड्यांसाठी, प्रकल्प कसा तयार करावा याचे पायरी-पायरी मार्गदर्शन
+- ज्ञान तपासणी
 - एक आव्हान
 - पूरक वाचन
 - असाइनमेंट
 - [धड्यानंतरचा क्विझ](https://ff-quizzes.netlify.app/en/)
 
-> **क्विझेसबाबत एक टिप**: सर्व क्विझेस Quiz-App फोल्डरमध्ये आहेत, प्रत्येकमध्ये तीन प्रश्नांसह 40 क्विझेस. ते धड्यांमध्ये लिंक केलेले आहेत, पण क्विझ ॲप स्थानिकरित्या चालवता येऊ शकते किंवा Azure वर तैनात करता येऊ शकते; `quiz-app` फोल्डरमधील सूचना पाळा. ते हळूहळू स्थानिकीकरण केले जात आहेत.
+> **क्विझबाबत एक नोट**: सर्व क्विझ Quiz-App फोल्डरमध्ये आहेत, जे तीन प्रश्नांचे एकूण ४० क्विझ आहेत. हे धड्यांमध्ये लिंक्ड आहेत, पण क्विझ अॅप स्थानिकपणे चालवू शकता किंवा Azure वर तैनात करू शकता; `quiz-app` फोल्डरमधील सूचना अनुसरा. ते हळूहळू स्थानिकीकरण होत आहेत.
 
 ## 🎓 नवशिक्यांसाठी सोपे उदाहरणे
 
-**डेटासायन्समध्ये नवीन आहात?** आम्ही एक खास [उदाहरणांचे निर्देशिका](examples/README.md) तयार केली आहे ज्यात सोपा, व्यवस्थित टिप्पणी केलेला कोड आहे ज्यामुळे तुम्हाला सुरुवात करण्यात मदत होईल:
+**डेटा सायन्स मधे नवीन आहेस?** आम्ही एक विशेष [उदाहरणे निर्देशिका](examples/README.md) तयार केली आहे ज्यात सोपा, व्यवस्थित कोड आहे ज्यामुळे तुम्ही सुरुवात करू शकाल:
 
-- 🌟 **हॅलो वर्ल्ड** - तुमचा पहिला डेटासायन्स प्रोग्राम
-- 📂 **डेटा लोड करणे** - डेटासेट वाचणे आणि तपासणे शिका
-- 📊 **सोपा विश्लेषण** - सांख्यिकी मोजा आणि नमुने शोधा
-- 📈 **मूलभूत व्हिज्युअलायझेशन** - चार्ट आणि ग्राफ तयार करा
-- 🔬 **प्रामाणिक प्रोजेक्ट** - सुरुवातीपासून शेवटपर्यंत संपूर्ण कार्यप्रवाह
+- 🌟 **हॅलो वर्ल्ड** - तुमचा पहिला डेटा सायन्स प्रोग्राम
+- 📂 **डेटा लोड करणे** - डेटासेट वाचायला व एक्सप्लोर करायला शिका
+- 📊 **सोपे विश्लेषण** - आकडेवारी काढा आणि नमुने शोधा
+- 📈 **मूलभूत व्हिज्युअलायझेशन** - चार्ट्स आणि ग्राफ तयार करा
+- 🔬 **खऱ्या जगाचा प्रकल्प** - सुरुवातीपासून पूर्ण कार्यप्रवाह
 
-प्रत्येक उदाहरणात प्रत्येक टप्प्यावर सविस्तर टिप्पणी आहे, त्यामुळे ते पूर्णपणे नवशिक्यांसाठी योग्य आहे!
+प्रत्येक उदाहरणात सविस्तर टिप्पणी आहे जी प्रत्येक टप्पा समजावते, ज्यामुळे ते नवशिक्यांसाठी उत्तम आहे!
 
 👉 **[उदाहरणांसह सुरू करा](examples/README.md)** 👈
 
 ## धडे
 
-
-|![ @sketchthedocs यांनी केलेली स्केच नोट https://sketchthedocs.dev](../../translated_images/mr/00-Roadmap.4905d6567dff4753.webp)|
+|![ @sketchthedocs कडून स्केचनोट https://sketchthedocs.dev](../../translated_images/mr/00-Roadmap.4905d6567dff4753.webp)|
 |:---:|
-| डेटासायन्स फॉर बिगिनर्स: रोडमॅप - _स्केच नोट [@nitya](https://twitter.com/nitya) यांनी_ |
+| बिगिनर्ससाठी डेटा सायन्स: रोडमॅप - _स्केचनोट [@nitya](https://twitter.com/nitya) कडून_ |
 
-
-| धडा क्रमांक | विषय | धडा समूह | शिकण्याचे उद्दिष्टे | लिंक केलेला धडा | लेखक |
+| धडा क्रमांक | विषय | धडा गट | शिक्षण उद्दिष्टे | लिंक्ड धडा | लेखक |
 | :-----------: | :----------------------------------------: | :--------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | डेटासायन्सची व्याख्या | [परिचय](1-Introduction/README.md) | डेटासायन्समागील मूलभूत संकल्पना आणि तो कसा आर्टिफिशियल इंटेलिजन्स, मशीन लर्निंग, व बिग डेटा शी संबंधित आहे हे शिका. | [धडा](1-Introduction/01-defining-data-science/README.md) [व्हिडिओ](https://youtu.be/beZ7Mb_oz9I) | [दिमित्री](http://soshnikov.com) |
-| 02 | डेटासायन्सचे नैतिक तत्त्व | [परिचय](1-Introduction/README.md) | डेटाऐथिक्सची संकल्पना, आव्हाने व चौकट. | [धडा](1-Introduction/02-ethics/README.md) | [नित्य](https://twitter.com/nitya) |
-| 03 | डेटाची व्याख्या | [परिचय](1-Introduction/README.md) | डेटाची वर्गवारी कशी केली जाते आणि त्याचे सामान्य स्रोत कोणते. | [धडा](1-Introduction/03-defining-data/README.md) | [जॅस्मीन](https://www.twitter.com/paladique) |
-| 04 | सांख्यिकी व संभाव्यता परिचय | [परिचय](1-Introduction/README.md) | डेटा समजून घेण्यासाठी संभाव्यता आणि सांख्यिकीचे गणितीय तंत्र. | [धडा](1-Introduction/04-stats-and-probability/README.md) [व्हिडिओ](https://youtu.be/Z5Zy85g4Yjw) | [दिमित्री](http://soshnikov.com) |
-| 05 | रिलेशनल डेटासह काम करणे | [डेटासह काम करणे](2-Working-With-Data/README.md) | रिलेशनल डेटाचा परिचय व स्ट्रक्चर्ड क्वेरी लँग्वेज (SQL) वापरून डेटाचा शोध व विश्लेषण. | [धडा](2-Working-With-Data/05-relational-databases/README.md) | [क्रिस्टोफर](https://www.twitter.com/geektrainer) | | |
-| 06 | NoSQL डेटासह काम करणे | [डेटासह काम करणे](2-Working-With-Data/README.md) | नॉन-रिलेशनल डेटाचा परिचय, विविध प्रकार व दस्तऐवज डेटाबेसची मूलभूत माहिती. | [धडा](2-Working-With-Data/06-non-relational/README.md) | [जॅस्मीन](https://twitter.com/paladique)|
-| 07 | पायथॉनचा वापर | [डेटासह काम करणे](2-Working-With-Data/README.md) | पायथॉन वापरून डेटाची तपासणी करण्यासाठी पॅंडाज सारख्या लायब्ररींसह मूलभूत ज्ञान. पायथॉन प्रोग्रॅमिंगची प्राथमिक समज आवश्यक. | [धडा](2-Working-With-Data/07-python/README.md) [व्हिडिओ](https://youtu.be/dZjWOGbsN4Y) | [दिमित्री](http://soshnikov.com) |
-| 08 | डेटा तयारी | [डेटासह काम करणे](2-Working-With-Data/README.md) | गहाळ, चुकीचा किंवा अपूर्ण डेटाशी संबंधित डेटा स्वच्छता आणि रूपांतरणाच्या तंत्रज्ञानावर विषय. | [धडा](2-Working-With-Data/08-data-preparation/README.md) | [जॅस्मीन](https://www.twitter.com/paladique) |
-| 09 | मात्रांचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | Matplotlib वापरून पक्षी डेटा 🦆 कसा व्हिज्युअलायझ करायचा ते शिका | [धडा](3-Data-Visualization/09-visualization-quantities/README.md) | [जेन](https://twitter.com/jenlooper) |
-| 10 | डेटाच्या वितरणांचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | निरीक्षणे आणि ट्रेंड एका अंतरालात कसे व्हिज्युअलायझ करायचे. | [धडा](3-Data-Visualization/10-visualization-distributions/README.md) | [जेन](https://twitter.com/jenlooper) |
-| 11 | प्रमाणांचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | डिस्क्रीट आणि गटबद्ध टक्केवारींचे व्हिज्युअलायझेशन. | [धडा](3-Data-Visualization/11-visualization-proportions/README.md) | [जेन](https://twitter.com/jenlooper) |
-| 12 | नातेसंबंधांचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | डेटाच्या संचांमधील कनेक्शन आणि सहसंबंध कसे व्हिज्युअलायझ करायचे. | [धडा](3-Data-Visualization/12-visualization-relationships/README.md) | [जेन](https://twitter.com/jenlooper) |
-| 13 | अर्थपूर्ण व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | प्रभावी समस्या सोडविण्यासाठी आणि आकलनांसाठी व्हिज्युअलायझेशन कसे मूल्यवान बनवायचे यासाठी तंत्रे व मार्गदर्शन. | [धडा](3-Data-Visualization/13-meaningful-visualizations/README.md) | [जेन](https://twitter.com/jenlooper) |
-| 14 | डेटासायन्सच्या जीवनचक्राचा परिचय | [जीवनचक्र](4-Data-Science-Lifecycle/README.md) | डेटासायन्स जीवनचक्राचा परिचय आणि डेटाकडे प्रवेश व बाहेर काढण्याचा प्रथम टप्पा. | [धडा](4-Data-Science-Lifecycle/14-Introduction/README.md) | [जॅस्मीन](https://twitter.com/paladique) |
-| 15 | विश्लेषण | [जीवनचक्र](4-Data-Science-Lifecycle/README.md) | डेटासायन्स जीवनचक्राचा हा टप्पा डेटाचे विश्लेषण करण्यावर लक्ष केंद्रित करतो. | [धडा](4-Data-Science-Lifecycle/15-analyzing/README.md) | [जॅस्मीन](https://twitter.com/paladique) | | |
-| 16 | संवाद | [जीवनचक्र](4-Data-Science-Lifecycle/README.md) | निर्णय घेणाऱ्यांना समजायला सोपे करण्यासाठी डेटापासून Insights सादर करण्यावर लक्ष केंद्रित करतो. | [धडा](4-Data-Science-Lifecycle/16-communication/README.md) | [जालेन](https://twitter.com/JalenMcG) | | |
-| 17 | क्लाउडमधील डेटासायन्स | [क्लाउड डेटा](5-Data-Science-In-Cloud/README.md) | क्लाउड मधील डेटासायन्स आणि त्याचे फायदे यांचा ओळख. | [धडा](5-Data-Science-In-Cloud/17-Introduction/README.md) | [टिफनी](https://twitter.com/TiffanySouterre) आणि [मॉड](https://twitter.com/maudstweets) |
-| 18 | क्लाउडमधील डेटासायन्स | [क्लाउड डेटा](5-Data-Science-In-Cloud/README.md) | लो कोड टूल्स वापरून मॉडेल ट्रेनिंग. |[धडा](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [टिफनी](https://twitter.com/TiffanySouterre) आणि [मॉड](https://twitter.com/maudstweets) |
-| 19 | क्लाउडमधील डेटासायन्स | [क्लाउड डेटा](5-Data-Science-In-Cloud/README.md) | Azure Machine Learning Studio वापरून मॉडेल तैनात करणे. | [धडा](5-Data-Science-In-Cloud/19-Azure/README.md)| [टिफनी](https://twitter.com/TiffanySouterre) आणि [मॉड](https://twitter.com/maudstweets) |
-| 20 | नैसर्गिक जगतातील डेटासायन्स | [नैसर्गिक जगतामध्ये](6-Data-Science-In-Wild/README.md) | वास्तविक जगातील डेटासायन्स चालवलेले प्रोजेक्ट्स. | [धडा](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [नित्य](https://twitter.com/nitya) |
+| 01 | डेटा सायन्सची व्याख्या | [परिचय](1-Introduction/README.md) | डेटा सायन्सच्या मूलभूत संकल्पना आणि त्याचा कृत्रिम बुद्धिमत्ता, मशीन लर्निंग, व बिग डेटा यांच्याशी संबंध कसा आहे हे शिका. | [धडा](1-Introduction/01-defining-data-science/README.md) [व्हिडिओ](https://youtu.be/beZ7Mb_oz9I) | [डिमित्री](http://soshnikov.com) |
+| 02 | डेटा सायन्स नैतिकता | [परिचय](1-Introduction/README.md) | डेटा एथिक्स संकल्पना, आव्हाने आणि फ्रेमवर्क. | [धडा](1-Introduction/02-ethics/README.md) | [नित्या](https://twitter.com/nitya) |
+| 03 | डेटाची व्याख्या | [परिचय](1-Introduction/README.md) | डेटाचे वर्गीकरण कसे होते आणि त्याचे सामान्य स्रोत काय आहेत. | [धडा](1-Introduction/03-defining-data/README.md) | [जॅस्मीन](https://www.twitter.com/paladique) |
+| 04 | सांख्यिकी व संभाव्यता परिचय | [परिचय](1-Introduction/README.md) | डेटा समजून घेण्यासाठी संभाव्यता व सांख्यिकीचे गणितीय तंत्र. | [धडा](1-Introduction/04-stats-and-probability/README.md) [व्हिडिओ](https://youtu.be/Z5Zy85g4Yjw) | [डिमित्री](http://soshnikov.com) |
+| 05 | रिलेशनल डेटासोबत काम करणं | [डेटासोबत काम](2-Working-With-Data/README.md) | रिलेशनल डेटाचा परिचय आणि संरचित क्वेरी भाषा (SQL) वापरून रिलेशनल डेटाचे विश्लेषण व शोधण्याचे मूलतत्त्वे. | [धडा](2-Working-With-Data/05-relational-databases/README.md) | [क्रिस्टोफर](https://www.twitter.com/geektrainer) | | |
+| 06 | नोएसक्यूएल डेटासोबत काम करणं | [डेटासोबत काम](2-Working-With-Data/README.md) | नॉन-रिलेशनल डेटा, त्याचे विविध प्रकार आणि डोक्युमेंट डेटाबेससह विश्लेषण. | [धडा](2-Working-With-Data/06-non-relational/README.md) | [जॅस्मीन](https://twitter.com/paladique)|
+| 07 | पाइथनसह काम करणं | [डेटासोबत काम](2-Working-With-Data/README.md) | पायथन वापरून डेटा एक्सप्लोरेशनसाठी मूलतत्त्वे, जसे की पँडास लायब्ररी. पायथन प्रोग्रामींगचे मूलतत्त्व समजणे शिफारसीय आहे. | [धडा](2-Working-With-Data/07-python/README.md) [व्हिडिओ](https://youtu.be/dZjWOGbsN4Y) | [डिमित्री](http://soshnikov.com) |
+| 08 | डेटा तयारी | [डेटासोबत काम](2-Working-With-Data/README.md) | डेटाशी निगडीत साफसफाई आणि रूपांतरण तंत्र जे गहाळ, चुकीचा किंवा अपूर्ण डेटा हाताळतात. | [धडा](2-Working-With-Data/08-data-preparation/README.md) | [जॅस्मीन](https://www.twitter.com/paladique) |
+| 09 | प्रमाण व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | मॅटप्लॉटलिब वापरून पक्षी डेटाचे व्हिज्युअलायझेशन 🦆 | [धडा](3-Data-Visualization/09-visualization-quantities/README.md) | [जेन](https://twitter.com/jenlooper) |
+| 10 | डेटाच्या वितरणाचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | निरीक्षणे आणि ट्रेंड्सची विशिष्ट अंतरालात व्हिज्युअलायझेशन. | [धडा](3-Data-Visualization/10-visualization-distributions/README.md) | [जेन](https://twitter.com/jenlooper) |
+| 11 | प्रमाणांचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | डिस्क्रिट आणि गटबद्ध टक्केवारीचे व्हिज्युअलायझेशन. | [धडा](3-Data-Visualization/11-visualization-proportions/README.md) | [जेन](https://twitter.com/jenlooper) |
+| 12 | संबंधांचे व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | डेटासेट्समधील संबंध आणि सहसंबंधांचे व्हिज्युअलायझेशन. | [धडा](3-Data-Visualization/12-visualization-relationships/README.md) | [जेन](https://twitter.com/jenlooper) |
+| 13 | अर्थपूर्ण व्हिज्युअलायझेशन | [डेटा व्हिज्युअलायझेशन](3-Data-Visualization/README.md) | प्रभावी समस्या सोडवण्यासाठी आणि अंतर्दृष्टीसाठी व्हिज्युअलायझेशनचे तंत्र आणि मार्गदर्शन. | [धडा](3-Data-Visualization/13-meaningful-visualizations/README.md) | [जेन](https://twitter.com/jenlooper) |
+| 14 | डेटा सायन्स जीवनचक्राचा परिचय | [जीवनचक्र](4-Data-Science-Lifecycle/README.md) | डेटा सायन्स जीवनचक्राचा परिचय आणि त्याचा पहिला टप्पा म्हणजे डेटा प्राप्त करणे आणि त्याचे निष्कर्ष काढणे. | [धडा](4-Data-Science-Lifecycle/14-Introduction/README.md) | [जॅस्मीन](https://twitter.com/paladique) |
+| 15 | विश्लेषण | [जीवनचक्र](4-Data-Science-Lifecycle/README.md) | डेटा सायन्स जीवनचक्राचा हा टप्पा डेटाचे विश्लेषण करण्याच्या तंत्रांवर लक्ष केंद्रित करतो. | [धडा](4-Data-Science-Lifecycle/15-analyzing/README.md) | [जॅस्मीन](https://twitter.com/paladique) | | |
+| 16 | संवाद | [जीवनचक्र](4-Data-Science-Lifecycle/README.md) | हा टप्पा निर्णय घेणाऱ्यांसाठी डेटामधून अंतर्दृष्टी सादर करण्यावर केंद्रित आहे. | [धडा](4-Data-Science-Lifecycle/16-communication/README.md) | [जालेन](https://twitter.com/JalenMcG) | | |
+| 17 | क्लाउडमध्ये डेटा सायन्स | [क्लाउड डेटा](5-Data-Science-In-Cloud/README.md) | क्लाउडमध्ये डेटा सायन्स आणि त्याचे फायदे यांचा परिचय. | [धडा](5-Data-Science-In-Cloud/17-Introduction/README.md) | [टिफनी](https://twitter.com/TiffanySouterre) आणि [मावड](https://twitter.com/maudstweets) |
+| 18 | क्लाउडमध्ये डेटा सायन्स | [क्लाउड डेटा](5-Data-Science-In-Cloud/README.md) | लो कोड साधने वापरून मॉडेल प्रशिक्षण. |[धडा](5-Data-Science-In-Cloud/18-Low-Code/README.md) | [टिफनी](https://twitter.com/TiffanySouterre) आणि [मावड](https://twitter.com/maudstweets) |
+| 19 | क्लाउडमध्ये डेटा सायन्स | [क्लाउड डेटा](5-Data-Science-In-Cloud/README.md) | Azure मशीन लर्निंग स्टुडिओसह मॉडेल तैनात करणे. | [धडा](5-Data-Science-In-Cloud/19-Azure/README.md) | [टिफनी](https://twitter.com/TiffanySouterre) आणि [मावड](https://twitter.com/maudstweets) |
+| 20 | वास्तवात डेटा सायन्स | [वास्तवात](6-Data-Science-In-Wild/README.md) | प्रत्यक्ष जगातील डेटा सायन्स प्रकल्प. | [धडा](6-Data-Science-In-Wild/20-Real-World-Examples/README.md) | [नित्या](https://twitter.com/nitya) |
 
-## GitHub Codespaces
+## GitHub कोडस्पेसेस
 
-या नमुन्यावर Codespace मध्ये उघडण्यासाठी खालील चरणांचे अनुसरण करा:
-1. "कोड" ड्रॉप-डाउन मेनूवर क्लिक करा आणि "Open with Codespaces" पर्याय निवडा.
-2. पॅनेलच्या तळाशी + New codespace निवडा.
-अधिक माहितीकरिता, [GitHub दस्तऐवज](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) पहा.
+या नमुन्याला कोडस्पेसमध्ये उघडण्यासाठी खालील टप्पे पाळा:
+1. Code ड्रॉपडाउन मेनूत क्लिक करा आणि Open with Codespaces पर्याय निवडा.
+2. खालील पॅनवर + New codespace निवडा.
+अधिक माहितीसाठी [GitHub दस्तऐवज](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace) तपासा.
 
-## VSCode Remote - Containers
-आपल्या स्थानिक संगणकाचा वापर करून आणि VSCode मध्ये VS Code Remote - Containers विस्तार वापरून या रेपॉजिटरीला कंटेनरमध्ये उघडण्यासाठी खालील चरणांचे पालन करा:
+## VSCode Remote - कंटेनर्स
+तुमच्या स्थानीय संगणकावर VSCode वापरून या रिपॉजिटरीला कंटेनरमध्ये उघडण्यासाठी खालील टप्पे वापरा:
 
-1. जर तुम्ही प्रथमच विकास कंटेनर वापरत असाल, तर तुमची प्रणाली आवश्यकता पूर्ण आहे याची खात्री करा (उदा. Docker स्थापित केलेले आहे) [सुरुवात कशी करावी दस्तऐवज](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) मध्ये.
+1. जर तुम्ही प्रथमच डेव्हलपमेंट कंटेनर वापरत असाल तर, तुमची प्रणाली आवश्यक अटी पूर्ण करते की नाही हे खात्री करा (उदा. Docker इंस्टॉल असणे) [गेटिंग स्टार्टेड डॉक्युमेंटेशन](https://code.visualstudio.com/docs/devcontainers/containers#_getting-started) मध्ये.
 
-या रेपॉजिटरीसाठी, तुम्ही कंटेनरमध्ये सोर्स कोड क्लोन करण्यासाठी या कमांडचा वापर करू शकता:
+हे रिपॉजिटरी वापरण्यासाठी, तुम्ही रिपॉजिटरी एका वेगळ्या Docker व्हॉल्यूममध्ये उघडू शकता:
 
-**टीप:** Remote-Containers: **Clone Repository in Container Volume...** आदेश वापरून सोर्स कोड लोकल फाईल सिस्टमऐवजी Docker व्हॉल्यूममध्ये क्लोन करणे. डेटा टिकवण्यासाठी व्हॉल्यूम (volumes) हा प्राधान्यक्रम आहे.
+**टीप**: अंतर्गत, हे Remote-Containers: **Clone Repository in Container Volume...** कमांड वापरून स्त्रोत कोड एका डॉकर व्हॉल्यूममध्ये क्लोन करते, स्थानिक फाइलसिस्टमच्या ऐवजी. [व्हॉल्युम](https://docs.docker.com/storage/volumes/) कंटेनर डेटासाठी टिकवण्यासाठी प्राधान्याने वापरले जातात.
 
-किंवा स्थानिक क्लोन किंवा डाउनलोड केलेली आवृत्ती वापरा:
+किंवा स्थानिकरित्या क्लोन केलेले किंवा डाउनलोड केलेले रिपॉजिटरी उघडा:
 
-- आपल्या स्थानिक फाईल सिस्टमवर हि रेपॉजिटरी क्लोन करा.
-- F1 दाबा आणि **Remote-Containers: Open Folder in Container...** आदेश निवडा.
-- या फोल्डरची क्लोन आवृत्ती निवडा, कंटेनर सुरू होईपर्यंत थांबा, आणि प्रयत्न करा.
+- हा रिपॉजिटरी तुमच्या स्थानिक फाइलसिस्टमवर क्लोन करा.
+- F1 दाबा आणि **Remote-Containers: Open Folder in Container...** कमांड निवडा.
+- या फोल्डरच्या क्लोन केलेल्या प्रत निवडा, कंटेनर सुरू होण्यासाठी वाट पहा, आणि प्रयोग करा.
 
 ## ऑफलाइन प्रवेश
 
-तुम्ही [Docsify](https://docsify.js.org/#/) वापरून ही दस्तऐवज ऑफलाइन चालवू शकता. या रेपॉजिटरीचा fork करा, [Docsify इंस्टॉल करा](https://docsify.js.org/#/quickstart) आपल्या स्थानिक संगणकावर, आणि नंतर या रेपॉजिटरीच्या मूळ फोल्डरमध्ये `docsify serve` असा कमांड द्या. वेबसाइट तुमच्या लोकलहोस्ट: पोर्ट 3000 वर सर्व्ह केली जाईल: `localhost:3000`.
+तुम्ही [Docsify](https://docsify.js.org/#/) वापरून ही दस्तऐवज ऑफलाइन चालवू शकता. हा रिपॉजिटरी फोर्क करा, [Docsify इन्स्टॉल करा](https://docsify.js.org/#/quickstart) तुमच्या स्थानिक संगणकावर, नंतर या रिपॉजिटरीच्या मूळ फोल्डरमध्ये टाइप करा `docsify serve`. वेबसाइट तुमच्या लोकलहोस्टच्या पोर्ट 3000 वर कार्यान्वित होईल: `localhost:3000`.
 
-> लक्षात ठेवा, नोटबुक्स Docsify द्वारे रेंडर होणार नाहीत, त्यामुळे तुम्हाला नोटबुक चालवायची असल्यास, ते वेगळे VS Code मध्ये Python कर्नल चालवून करा.
+> लक्षात ठेवा, नोटबुक्स Docsify द्वारे रेंडर होणार नाहीत, त्यामुळे जेव्हा तुम्हाला नोटबुक चालवायचा असेल, तेव्हा ते स्वतंत्रपणे VS Code मध्ये Python कर्नेल चालवून करा.
 
 ## इतर अभ्यासक्रम
 
-आमची टीम इतर अभ्यासक्रम तयार करते! पहा:
+आमची टीम इतर अभ्यासक्रम तयार करते! पाहा:
 
 <!-- CO-OP TRANSLATOR OTHER COURSES START -->
 ### LangChain
 [![LangChain4j for Beginners](https://img.shields.io/badge/LangChain4j%20for%20Beginners-22C55E?style=for-the-badge&&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchain4j-for-beginners)
 [![LangChain.js for Beginners](https://img.shields.io/badge/LangChain.js%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://aka.ms/langchainjs-for-beginners?WT.mc_id=m365-94501-dwahlin)
-
+[![LangChain for Beginners](https://img.shields.io/badge/LangChain%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=0553D6)](https://github.com/microsoft/langchain-for-beginners?WT.mc_id=m365-94501-dwahlin)
 ---
 
-### Azure / Edge / MCP / एजंट्स
+### Azure / Edge / MCP / Agents
 [![AZD for Beginners](https://img.shields.io/badge/AZD%20for%20Beginners-0078D4?style=for-the-badge&labelColor=E5E7EB&color=0078D4)](https://github.com/microsoft/AZD-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Edge AI for Beginners](https://img.shields.io/badge/Edge%20AI%20for%20Beginners-00B8E4?style=for-the-badge&labelColor=E5E7EB&color=00B8E4)](https://github.com/microsoft/edgeai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![MCP for Beginners](https://img.shields.io/badge/MCP%20for%20Beginners-009688?style=for-the-badge&labelColor=E5E7EB&color=009688)](https://github.com/microsoft/mcp-for-beginners?WT.mc_id=academic-105485-koreyst)
@@ -208,7 +216,7 @@
 
 ---
  
-### जनरेटिव AI सिरीज
+### Generative AI Series
 [![Generative AI for Beginners](https://img.shields.io/badge/Generative%20AI%20for%20Beginners-8B5CF6?style=for-the-badge&labelColor=E5E7EB&color=8B5CF6)](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (.NET)](https://img.shields.io/badge/Generative%20AI%20(.NET)-9333EA?style=for-the-badge&labelColor=E5E7EB&color=9333EA)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 [![Generative AI (Java)](https://img.shields.io/badge/Generative%20AI%20(Java)-C084FC?style=for-the-badge&labelColor=E5E7EB&color=C084FC)](https://github.com/microsoft/generative-ai-for-beginners-java?WT.mc_id=academic-105485-koreyst)
@@ -216,7 +224,7 @@
 
 ---
  
-### कोर शिक्षण
+### Core Learning
 [![ML for Beginners](https://img.shields.io/badge/ML%20for%20Beginners-22C55E?style=for-the-badge&labelColor=E5E7EB&color=22C55E)](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 [![Data Science for Beginners](https://img.shields.io/badge/Data%20Science%20for%20Beginners-84CC16?style=for-the-badge&labelColor=E5E7EB&color=84CC16)](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 [![AI for Beginners](https://img.shields.io/badge/AI%20for%20Beginners-A3E635?style=for-the-badge&labelColor=E5E7EB&color=A3E635)](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
@@ -227,21 +235,21 @@
 
 ---
  
-### कॉपिलॉट सिरीज
+### Copilot Series
 [![Copilot for AI Paired Programming](https://img.shields.io/badge/Copilot%20for%20AI%20Paired%20Programming-FACC15?style=for-the-badge&labelColor=E5E7EB&color=FACC15)](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
 [![Copilot for C#/.NET](https://img.shields.io/badge/Copilot%20for%20C%23/.NET-FBBF24?style=for-the-badge&labelColor=E5E7EB&color=FBBF24)](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
 [![Copilot Adventure](https://img.shields.io/badge/Copilot%20Adventure-FDE68A?style=for-the-badge&labelColor=E5E7EB&color=FDE68A)](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)
 <!-- CO-OP TRANSLATOR OTHER COURSES END -->
 
-## मदत मिळवा
+## मदत घेणे
 
-**समस्या येत आहेत का?** सर्वसाधारण समस्या सोडविण्यासाठी आमचा [Troubleshooting Guide](TROUBLESHOOTING.md) तपासा.
+**समस्या येत आहेत?** सामान्य समस्यांसाठी उपायांसाठी आमचा [Troubleshooting Guide](TROUBLESHOOTING.md) तपासा.
 
-जर तुम्ही अडकले असाल किंवा AI ऍप विकसित करताना काही प्रश्न असतील तर MCP विषयी चर्चा करण्यासाठी सहअभ्यासक आणि अनुभवी विकासकांच्या समुदायात सहभागी व्हा. हे एक सहाय्यकारी समुदाय आहे जिथे प्रश्न विचारणे स्वागतार्ह आहे आणि ज्ञान मोफत सामायिक केले जाते.
+जर तुम्ही अडकले असाल किंवा AI अॅप्स तयार करण्याबाबत कोणतेही प्रश्न असतील, तर MCP बद्दल चर्चेत सहभागी होण्यासाठी इतर शिकणाऱ्या आणि अनुभवी विकासकांमध्ये सामील व्हा. ही एक समर्थक समुदाय आहे जिथे प्रश्न विचारले जातात आणि ज्ञान मोकळेपणाने वाटले जाते.
 
 [![Microsoft Foundry Discord](https://dcbadge.limes.pink/api/server/nTYy5BXMWG)](https://discord.gg/nTYy5BXMWG)
 
-तुमच्याकडे उत्पादनाबद्दल अभिप्राय किंवा बांधकाम करताना त्रुटी असतील तर येथे भेट द्या:
+जर तुम्हाला उत्पादनाबाबत अभिप्राय किंवा चूक आढळली तर येथे भेट द्या:
 
 [![Microsoft Foundry Developer Forum](https://img.shields.io/badge/GitHub-Microsoft_Foundry_Developer_Forum-blue?style=for-the-badge&logo=github&color=000000&logoColor=fff)](https://aka.ms/foundry/forum)
 
@@ -249,5 +257,5 @@
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
 **अस्वीकरण**:
-हा दस्तऐवज AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) वापरून अनुवादित केला आहे. आपण अचूकतेसाठी प्रयत्न करत असलो तरी, कृपया लक्षात घ्या की ऑटोमेटेड अनुवादांमध्ये त्रुटी किंवा अचूकतेच्या समस्या असू शकतात. मूळ दस्तऐवज त्याच्या स्थानिक भाषेत अधिकृत स्रोत मानला जावा. महत्त्वाच्या माहितीसाठी व्यावसायिक मानवी अनुवाद शिफारसीय आहे. या अनुवादामुळे उद्भवलेल्या कोणत्याही गैरसमजुतीं किंवा चुकीच्या समजुतीसाठी आम्ही जबाबदार नाही.
+हा दस्तऐवज AI अनुवाद सेवा [Co-op Translator](https://github.com/Azure/co-op-translator) वापरून अनुवादित केला आहे. आम्ही अचूकतेसाठी प्रयत्नशील असलो तरी, कृपया लक्षात घ्या की स्वयंचलित अनुवादांमध्ये चुका किंवा अचूकतेचा अभाव असू शकतो. मूळ दस्तऐवज त्याच्या मूळ भाषेत अधिकृत स्रोत मानला जातो. महत्त्वाच्या माहितीसाठी व्यावसायिक मानवी अनुवाद करण्याची शिफारस केली जाते. या अनुवादाच्या वापरामुळे होणाऱ्या कोणत्याही गैरसमजुती किंवा चुकीच्या अर्थ लावणीबाबत आम्ही जबाबदार नाही.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->
